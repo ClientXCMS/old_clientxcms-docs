@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
-  tagline: 'Bienvenue sur l\'espace documentation de CLIENTXCMS',
+  title: 'ClientXCMS Docs',
+  tagline: 'Bienvenue sur notre espace de documentation dédié à CLIENTXCMS',
   url: 'https://docs.clientxcms.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'clientxcms', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'clienetxcms-docs', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/ClientXCMS/docs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/ClientXCMS/clientxcms-docs/edit/master/docs',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/ClientXCMS/docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ClientXCMS/clientxcms-docs/edit/master/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -62,10 +61,10 @@ const config = {
             position: 'right',
           },
 
-          {
+          /*{
             type: 'localeDropdown',
             position: 'right',
-          },
+          },*/
         ],
       },
       footer: {

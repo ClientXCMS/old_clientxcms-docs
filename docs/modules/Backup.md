@@ -7,7 +7,7 @@ sidebar_position: 10
 
 Une intégration avec **ClientXCMS** facile qui offre une gestion des sauvegardes de la base de données pour ne perdre aucunes données.
 Une tâche CRON s'exécute toutes les 12 heures (ou manuellement) pour sauvegarder l'entièreté des tables de la base de données.
-Pour y accédez : `Espace Administration` : `Sauvegardes`
+Pour y accéder : `Espace Administration` > `Sauvegardes`
 
 ![img](https://media.discordapp.net/attachments/829844680539111486/957442535767289876/unknown.png?width=1440&height=390)
 ## Téléchargement d'une sauvegarde
