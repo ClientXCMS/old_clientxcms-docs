@@ -24,7 +24,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/ClientXCMS/clientxcms-docs/edit/master/docs',
+          editUrl: 'https://github.com/ClientXCMS/clientxcms-docs/edit/master',
+
         },
         blog: {
           showReadingTime: true,
@@ -67,6 +68,11 @@ const config = {
           },*/
         ],
       },
+
+      /*announcementBar: {
+        id: 'announcementBar-1', // Increment on change
+        content: `content`,
+      },*/
       footer: {
         style: 'dark',
         links: [

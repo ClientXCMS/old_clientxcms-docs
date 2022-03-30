@@ -80,7 +80,7 @@ Il est fortement déconseillé de modifier le type de serveur. Cela pourrait pro
 ![img](https://media.discordapp.net/attachments/475073153509490689/957599353571250196/unknown.png)
 
 ## Serveur caché
-Cette option permet de décider si le serveur ne doit pas être utilisé par défaut pour créer les services de vos clients. Pour cacher un service, cochez la checkbox dans la colonne "#", le voyant rouge passera à vert.
+Cette option permet de décider si le serveur ne doit pas être utilisé par défaut pour créer les services de vos clients. Pour cacher un serveur, cochez la checkbox dans la colonne "#", le voyant rouge passera à vert.
 
 **Rouge** : Non caché, les services peuvent être créés dessus.
 

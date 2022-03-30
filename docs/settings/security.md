@@ -51,4 +51,4 @@ Après vous êtes inscrit ou connecter à votre [dashboard Hcaptcha](https://das
 Une fois votre site enregistré, les clefs API apparaîtront. Vous sélectionnerez "Configurer la protection Hcaptcha" puis pour terminer remplir les champs dans vos paramètres
 ![img](https://media.discordapp.net/attachments/475073153509490689/957059536232022068/unknown.png)
 ### None
-Vous pouvez désactiver tout Captcha en sélectionner "None" dans les champs "Validation via"
+Vous pouvez désactiver tout Captcha en sélectionnant Non" dans les champs validation via
