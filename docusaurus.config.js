@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/clientxcms/docs',
+                href: 'https://github.com/ClientXCMS/clientxcms-docs',
               },
             ],
           },
