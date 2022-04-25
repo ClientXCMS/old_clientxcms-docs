@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Serveurs
 
-Chaque produit/services de vos clients est relié un serveur ClientXCMS qui permet de faire la jointure entre votre ClientXCMS et votre Plesk (Ou autres).
+Chaque produit/services de vos clients est relié un serveur ClientXCMS qui permet de faire la jointure entre votre ClientXCMS et votre Plesk (Ou autres). Pour y accéder `Panel d'administration` > `Système` > `Serveurs` (/admin/servers)
 ![img](https://media.discordapp.net/attachments/475073153509490689/957595619369824286/unknown.png)
 ## Création
 ### Détails du serveur
@@ -82,9 +82,9 @@ Il est fortement déconseillé de modifier le type de serveur. Cela pourrait pro
 ## Serveur caché
 Cette option permet de décider si le serveur ne doit pas être utilisé par défaut pour créer les services de vos clients. Pour cacher un serveur, cochez la checkbox dans la colonne "#", le voyant rouge passera à vert.
 
-**Rouge** : Non caché, les services peuvent être créés dessus.
+**Vert** : Non caché, les services peuvent être créés dessus.
 
-**Vert** : Caché, les services peuvent être créés dessus (Il peut quand même être utilisé quand un service déjà existant est dessus).
+**Rouge** : Caché, les services peuvent être créés dessus (Il peut quand même être utilisé quand un service déjà existant est dessus).
 
 ## Test de connexion
 Pour vérifier que ClientXCMS puisse bien se connecter à l'API de votre serveur distant (Plesk par exemple). Un bouton est disponible pour tester la connexion et vous donne un retour.

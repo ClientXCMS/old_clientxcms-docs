@@ -1,8 +1,8 @@
 ---
-sidebar_position: 7
+sidebar_position: 2
 ---
 
-# Virtualizor
+# Wisp
 
 
 ## Création du serveur

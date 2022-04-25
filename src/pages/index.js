@@ -20,6 +20,11 @@ function HomepageHeader() {
             Configurez vos offres - 5min ⏱️
           </Link>
         </div>
+          <div className={clsx(styles.alert)}>
+            * L'équipe de ClientXCMS tient à vous mettre en garde que cette documentation est toujours en cours d'écriture;
+            <br></br> 
+            donc si vous remarquez des problèmes n'hésités pas nous en faire part.
+          </div>
       </div>
     </header>
   );

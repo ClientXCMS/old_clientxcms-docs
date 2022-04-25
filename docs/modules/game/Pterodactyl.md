@@ -1,19 +1,22 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # Pterodactyl
 Pterodactyl est un panel très répandu pour gérer des serveurs de jeux très rapidement et simplement. Ce module permet de créer les services de vos clients avec les performances choisis.
 Il permet de proposer tous les types d'œuf Pterodactyl possible à la vente.
-:::warning
+:::warning Attention
 Les versions 0.7 de Pterodactyl sont dépréciées et donc plus supportés sur ce module.
 :::
-:::info
-Pour utiliser les fonctionnalités suivantes, il faut que le module Pterodactyl soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](./)
+:::info Modules
+Pour utiliser les fonctionnalités suivantes, il faut que le module Pterodactyl soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../)
 :::
 ## Authentification
-Créer un serveur ClientXCMS en Sélectionnant le type de serveur en "Pterodactyl". 
+Créer un serveur ClientXCMS dans `Espace d'administration ` > `Système` > `Serveurs` en sélectionnant le type de serveur en "Pterodactyl". 
+
 ![img](https://media.discordapp.net/attachments/475073153509490689/957611067779993650/unknown.png)
+
+**Adresse IP** : Sous domaine ou Adresse IP du Pterodactyl
 
 **Client API** : Clé client
 

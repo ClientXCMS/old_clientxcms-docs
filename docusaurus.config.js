@@ -5,12 +5,13 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+const config = 
+{
   title: 'ClientXCMS Docs',
   tagline: 'Bienvenue sur notre espace de documentation dédié à CLIENTXCMS',
   url: 'https://docs.clientxcms.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'clientxcms', // Usually your GitHub org/user name.
@@ -40,8 +41,10 @@ const config = {
   ],
 
   themeConfig:
+  
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'CMS,CLIENTX,Clientx,docs,doc,blog'}],
       navbar: {
         title: 'CLIENTXCMS Docs',
         logo: {
@@ -123,6 +126,15 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    i18n: {
+      defaultLocale: 'fr',
+      locales: ['fr'],
+      localeConfigs: {
+        fr: {
+          htmlLang: 'fr-FR',
+        },
+      },
+    },
 };
 
 module.exports = config;

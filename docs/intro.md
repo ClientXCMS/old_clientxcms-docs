@@ -12,7 +12,7 @@ Nous avons nativement développés les modules de création de services ou de mo
 #### Certains de nos principaux services pris en charge incluent :
 - [Plesk](https://clientxcms.com/app/Plesk)
 - [cPanel](https://clientxcms.com/app/Cpanel)
-- [Virtualizor](https://clientxcms.com/app/Virtualizor) - [Virtualizor pour revendeurs](https://clientxcms.com/app/VirtualizorCloud)
+- [Virtualizor](https://clientxcms.com/app/Virtualizor) - [Virtualizor pour revendeurs](https://clientxcms.com/app/Virtualizorcloud)
 - [Pterodactyl](https://clientxcms.com/app/Pterodactyl)
 - [Wisp](https://clientxcms.com/app/Wisp)
 - [Proxmox](https://clientxcms.com/app/Proxmox)

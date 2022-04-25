@@ -164,6 +164,7 @@ return [
 ### Détection du thème
 Après ceci votre thème sera détecté par le système et sera affiché dans la page `Espace Administration` > `Themes`
 ![img](https://media.discordapp.net/attachments/475073153509490689/957781759263658045/unknown.png)
+
 Il vous suffira de le sélectionner et de sauvegarder.
 
 ### Layout
@@ -172,6 +173,7 @@ Il vous suffira de le sélectionner et de sauvegarder.
 ### Fichier
 ### Fonction et filtres
 ### Récupérer l'utilisateur connecté
+
 ### Page 404
 
 Vous pouvez personnaliser la page 404 de votre thème en créant un fichier `/Themes/Fake/e404.twig` avec le contenu que vous voulez.
