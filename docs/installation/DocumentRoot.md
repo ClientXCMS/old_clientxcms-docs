@@ -5,7 +5,7 @@ sidebar_position: 3
 
 Veuillez vous assurer, comme dans la configuration ci-dessous, que votre serveur Web dirige toutes les requêtes vers le fichier `public/index.php` de votre ClientXCMS. Vous ne devriez jamais essayer de déplacer le fichier index.php à la racine de votre projet, car cela exposera de nombreux fichiers de configuration sensibles à l'Internet
 
-Dans les exemples de cette page nous prendrons FakeHosting, un hébergeur factice ayant comme nom de domaine (factice) fakehosting.com
+Dans les exemples de cette page nous prendrons FakeHosting, un hébergeur factice ayant comme nom de domaine (factice) example.com
 ## Changer depuis plesk
 La documentation officielle de plesk fournit un article complet sur la [Modification de la racine du serveur web dans plesk](https://docs.plesk.com/fr-FR/onyx/administrator-guide/h%C3%A9bergement-web/structure-des-r%C3%A9pertoires-de-sites-web/d%C3%A9finir-une-racine-du-document-personnalis%C3%A9e.77500/)
 ![image](https://docs.plesk.com/fr-FR/onyx/administrator-guide/images/77501.webp)
@@ -15,7 +15,7 @@ En cas d'installation sur domaine principal:
 `httpdocs/public`
 
 En cas d'installation sur un sous domaine : 
-```manager.fakehosting.com/public```
+```manager.example.com/public```
 
 Adaptez-le avec vos propres dossiers déjà existants.
 
@@ -40,18 +40,18 @@ Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
 cd /etc/apache2/sites-available/
 ```
 ```bash
-nano manager.fakehosting.com.conf
+nano manager.example.com.conf
 ```
 #### Exemple de fichier de configuration
 ```bash
 
 <VirtualHost *:80>
-    ServerAdmin admin@fakehosting.com
-    ServerName manager.fakehosting.com
-    ServerAlias www.manager.fakehosting.com
-    DocumentRoot /var/www/manager.fakehosting.com/public
+    ServerAdmin admin@example.com
+    ServerName manager.example.com
+    ServerAlias www.manager.example.com
+    DocumentRoot /var/www/manager.example.com/public
      
-    <Directory /var/www/manager.fakehosting.com/public/>
+    <Directory /var/www/manager.example.com/public/>
             Options Indexes FollowSymLinks MultiViews
             AllowOverride All
             Order allow,deny
@@ -74,15 +74,15 @@ Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
 cd /etc/nginx/conf.d/
 ```
 ```bash
-nano manager.fakehosting.com.conf
+nano manager.example.com.conf
 ```
 #### Exemple
 ```bash
 server {
     listen 80;
     listen [::]:80;
-    server_name manager.fakehosting.com;
-    root /var/wwww/manager.fakehosting.com/public;
+    server_name manager.example.com;
+    root /var/wwww/manager.example.com/public;
  
     index index.php;
  
