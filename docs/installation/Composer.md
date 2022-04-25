@@ -64,6 +64,9 @@ Exécutez cette commande
 ```twig
 composer install --optimize-autoloader --no-dev
 ``` 
+:::caution attention
+Des messages `warning` devraient êtres affichés, pas d'inquiétude, cela n'impacte pas le CMS
+:::
 ou adaptez-la pour convenir à votre situation.
 
 Des messages "warning" devraient êtres affichés, pas d'inquiétude, cela n'impacte pas le CMS.
