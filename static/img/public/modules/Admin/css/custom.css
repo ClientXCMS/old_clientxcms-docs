@@ -1,0 +1,19 @@
+.supportwebhook_svg {
+    background: url(/modules/Admin/svg/supportwebhook.svg);
+    width: 16px;
+    height: 16px;
+}
+
+.reportnav .nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reportnav .active {
+    border-left-color: #007bff;
+}
+
+.stafflist {
+    overflow-y: scroll;
+    max-height: 300px;
+}
