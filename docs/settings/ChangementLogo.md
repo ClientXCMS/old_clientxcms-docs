@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# logo et du Favicon
+# Logo et du Favicon
 
 ## Ajouter votre logo sur ClientX
 
