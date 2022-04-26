@@ -7,4 +7,6 @@ sidebar_position: 8
 Vous pouvez voir les informations de votre licence depuis la page `Espace Administration` > `Licence`
 ![img](https://media.discordapp.net/attachments/475073153509490689/957402528071438336/unknown.png)
  ## Upgrade la licence
-Vous pouvez augmenter la limitation de votre licence à l'offre supérieure. Il suffit de payer la différence entre les deux offres.
+Vous pouvez augmenter la limitation de votre licence à l'offre supérieure. Il suffit de payer la différence entre les deux offres. 
+
+Pour cela rejoingnez notre [discord](https://clientxcms.com/discord).
