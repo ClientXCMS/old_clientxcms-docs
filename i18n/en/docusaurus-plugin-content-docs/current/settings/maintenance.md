@@ -3,24 +3,24 @@ sidebar_position: 4
 ---
 
 # Maintenance
-**ClientXCMS** introduit un système permettant de mettre l'espace client en maintenance : bloquant l'accès aux utilisateurs non autorisés.
+**ClientXCMS** introduces a system that allows you to put the client space in maintenance: blocking access to unauthorized users.
 
-**Information** : Les services fonctionneront toujours normalement, les utilisateurs ne pourront plus se connecter à leur compte clie
+**Information**: Services will still function normally, users will no longer be able to log in to their client account.
 ## Activation
-Pour activer la maintenance, cochez la checkbox 'Enable maintenance', les détails de la maintenance apparaitront. Puis, sauvegardez vos modifications en appuyant sur "Sauvegarder"
+To activate maintenance, check the 'Enable maintenance' checkbox, the maintenance details will appear. Then save your changes by pressing "Save".
 ## Configuration
-**Message**(texte) : Message qui sera affiché aux utilisateurs non autorisés. Valeur par défaut : System in maintenance.
+**Message**(text): Message that will be displayed to unauthorized users. Default value: System in maintenance.
 
-**Début**(date/heure) : Date de début de la maintenance, Après cette date touts les utilisateurs seront filtrés.
+**Start**(date/time) : Date of start of maintenance, after this date all users will be filtered.
 
-**Fin**(date/heure) : Date de fin de la maintenance, Après cette date touts les utilisateurs pourront réutiliser l'espace client.
+**End**(date/time) : End date of the maintenance, after this date all users will be able to use the customer area again.
 
-**URL**(URL) : URL permettant de passer à travers la maintenance et utiliser l'espace client classiquement
-L'URL doit rester secrète aux yeux de vos clients. Il est fortement recommandé de modifié la valeur.
-Valeur par default : /weareinmantenance
+**URL**(URL) : URL allowing to pass through the maintenance and use the customer area in a classical way
+The URL must remain secret to your customers. It is strongly recommended to modify the value.
+Default value : /weareinmantenance
 ![img](https://media.discordapp.net/attachments/475073153509490689/957092998091526184/unknown.png)
-## Désactivation
-Pour désactiver le mode maintenance, décochez la checkbox 'Enable maintenance', les détails de la maintenance disparaitront. Puis, sauvegardez vos modifications en appuyant sur "Sauvegarder".
-## Modifier la vue de maintenance
-Pour modifier la page de maintenance selon le thème, rendez-vous ici : `/Themes/NomThemes/403.twig`
-Si ce fichier n'existe pas il faut modifier le fichier suivant : `/Templates/maintenance.twig`
+## Deactivation
+To deactivate the maintenance mode, uncheck the 'Enable maintenance' checkbox, the maintenance details will disappear. Then save your changes by pressing "Save".
+## Modify the maintenance view
+To modify the maintenance page according to the theme, go here: `/Themes/NomThemes/403.twig`
+If this file doesn't exist you have to modify the following file: `/Templates/maintenance.twig`.

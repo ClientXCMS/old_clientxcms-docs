@@ -2,53 +2,53 @@
 sidebar_position: 2
 ---
 
-# Groupes
-Pour une meilleure organisation un système de groupe de produits est disponible pour les réunir dans un même groupe de produit.
+# Groups
+For a better organization a product group system is available to gather products in the same product group.
 
-Pour y accéder : `Espace Administration` > `Boutique` > `Groupes`
+To access it: `Administration Area` > `Shop` > `Groups`.
 
-## Coté Client
+## Customer side
 
-La boutique est disponible à partir de l'URL : `/store`
+The store is available from the URL: `/store`
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957673056321568848/unknown.png)
 
-## Réorganisation des groupes
-Vous pouvez réorganiser l'offre d'affichage des groupes dans le menu. Faite glisser le groupe à la position que vous voulez. Puis quand vous avez terminé, sauvegarder les modifications en cliquant sur le bouton Sauvegarder.
+## Reorganization of groups
+You can rearrange the display of groups in the menu. Drag the group to the position you want. Then when you are done, save the changes by clicking the Save button.
 ![img](https://media.discordapp.net/attachments/475073153509490689/957624428617936936/unknown.png)
 
-## Création
+## Creation
 ![img](https://media.discordapp.net/attachments/475073153509490689/957628485495566396/unknown.png)
 
-**Nom du groupe**(texte) : Nom qui sera affiché dans la page groupe.
+**Group name**(text) : Name that will be displayed in the group page.
 
-**URL**(slug) : URL qui va permettre d'accéder à la page.
+**URL**(slug) : URL that will allow to access the page.
 
-**Nombre de colonnes**(nombre) : Nombre de colonnes que le groupe doit prendre dans la page boutique. Valeur par défaut : 4
+**Number of columns**(number) : Number of columns that the group must take in the store page. Default value : 4
 
-**Gros titre**(texte) : Texte qui sera affiché dans la page groupe pour vendre vos produits.
+**Headline**(text) : Text that will be displayed in the group page to sell your products.
 
-**Caché**(checkbox) : Permet de cacher le groupe ou non. [se référer ici pour plus d'informations](./group#groupe-caché)
+**Hidden**(checkbox): Allows you to hide the group or not. [Refer here for more information](./group#group-hidden)
 
-## Edition
+## Edit
 
-Pour éditer un groupe, appuyez sur le bouton Bleu.
-Modifiez les informations comme vous le souhaitez puis sauvegarder.
+To edit a group, press the Blue button.
+Change the information as you wish and save.
 ![img](https://media.discordapp.net/attachments/475073153509490689/957669451283722320/unknown.png)
 
-### Réorganisation des produits
-Vous pouvez réorganiser l'offre d'affichage des produits dans votre page groupe. Faite glisser le produit à la position que vous voulez. Puis quand vous avez terminé, sauvegarder les modifications en cliquant sur le bouton Sauvegarder.
+## Reorganization of products
+You can reorganize the display of products in your group page. Drag the product to the position you want. Then when you are done, save the changes by clicking on the Save button.
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957627367365419068/unknown.png)
-## Groupe caché
-Cette option permet de décider si le groupe ne doit pas être disponible à l'achat. Il affichera plus les produits ni le groupe dans la boutique en un click. Pour cacher un groupe et ses produits, cochez la checkbox à côté du bouton d'édition, le voyant rouge passera à vert.
+## Hidden group
+This option allows you to decide if the group should not be available for purchase. It will display neither the products nor the group in the store in one click. To hide a group and its products, check the checkbox next to the edit button, the red light will change to green.
 
-**Rouge** : Non caché, le groupe est affiché.
+**Red** : Not hidden, the group is displayed.
 
-**Vert** : Caché, le groupe est pas affiché.
+**Green** : Hidden, the group is not displayed.
 
-## Suppression
-Pour supprimer un groupe, il faut que le groupe soit vide de tout produit. 
+## Delete
+To delete a group, the group must be empty of any product. 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957626621760782396/unknown.png)
 
-Si la condition est remplie, un bouton sera disponible "Supprimer ce groupe". Une confirmation vous serra demandé après ceci, il supprime le groupe.
+If the condition is met, a button will be available "Delete this group". You will be asked for a confirmation after this, it will delete the group.

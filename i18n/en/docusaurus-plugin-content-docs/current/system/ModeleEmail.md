@@ -2,9 +2,9 @@
 sidebar_position: 6
 ---
 
-# Modèles d'e-mail
+# Email templates
 
-**ClientXCMS** permet de modifier le contenu des messages des e-mail comme bon vous semble. Pour le faire, allez dans `Espace Administration` > `Modèles d'emails` dans le menu de la navigation.
-Vous retrouverez tous les modèles disponibles et donc modifiable.
+**ClientXCMS** allows you to modify the content of email messages as you see fit. To do so, go to `Administration Area` > `Email Templates` in the navigation menu.
+You will find all the templates available and therefore modifiable.
 ![img](https://media.discordapp.net/attachments/475073153509490689/957083543442427934/unknown.png)
 

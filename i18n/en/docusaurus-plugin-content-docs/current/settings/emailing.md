@@ -3,70 +3,70 @@ sidebar_position: 3
 ---
 
 # E-Mail
-**ClientXCMS** met en place des paramètres pour envoyer les e-mails de manière sécurisés à vos clients.
+**ClientXCMS** sets up parameters to send emails securely to your customers.
 
 ## Configuration
-**Adresse E-mail utilisée pour envoyer les e-mails**(email) : Adresse qui sera affiché en dessus des informations de l'envoie. Valeur par défaut : contact@clientxcms.com
+**E-mail address used to send e-mails**(email) : Address that will be displayed above the sending information. Default value: contact@clientxcms.com
 
-**Domaine**(domaine) : Domaine qui sera utilisé pour créer les liens dans les emails. Valeur par défaut : Domaine d'installation
+**Domain**(domain) : Domain that will be used to create the links in the emails. Default value: Installation domain
 
-**Salutation**(texte) : Message de salutation sur chaque e-mail.
-Valeur par default : Bonjour `{{ current_user().name }},`
+**Greeting**(text): Greeting message on each email.
+Default value: Hello `{{ current_user().name }},`.
 
-**Greeting**(texte) : Message cordial sous chaque email.
-Valeur par default : Cordialement `{{ config('app.name'}}` 
+**Greeting**(text): Greeting message under each email.
+Default value: Kind regards `{{ config('app.name'}}` 
 
-Pour le Greeting et les Salutations il est possible d'utiliser les informations de l'utilisateur connecté.
+For Greeting and Salutations it is possible to use the information of the connected user.
 ```
-{{ current_user().name }} Prénom + Nom de famille de l'utilisateur
+{{ current_user().name }} First name + Last name of the user
 
-{{ current_user().firstname }} Prénom de l'utilisateur
+{{ current_user().firstname }} User's first name
 
-{{ current_user().lastname }} Nom de famille de l'utilisateur
+{{ current_user().lastname }} User's last name
 ```
-[Plus d'informations ici](../developpers/variables)
+[More information here](../developpers/variables)
 
-## Gestion d'envoi d'email
-Vous pouvez gérer l'envoie de vos emails depuis votre `Espace Administration` > `Envoi d'email` disponible depuis le menu de navigation.
+## Email sending management
+You can manage the sending of your emails from your `Administration Area` > `Email Sending` available from the navigation menu.
 ![img](https://media.discordapp.net/attachments/475073153509490689/957065809396641883/unknown.png)
-Vous pouvez voir la date de l'envoi de l'e-mail, son destinataire ou son sujet. Le premier boutons permet de renvoyer manuellement l'e-mail s'il n'est pas encore envoyé.
-Le second bouton permet de visionner dans un nouvel onglet le contenu de l'email comme envoyé dans la boite de messagerie.
+You can see the date the email was sent, its recipient or its subject. The first button allows you to manually resend the e-mail if it has not been sent yet.
+The second button allows you to view in a new tab the content of the email as sent in the mailbox.
 
-### Envoi d'email à un client
-Vous pouvez directement envoyer un message personnalisé à un/des client(s) en particulier
+### Sending an email to a client
+You can directly send a personalized message to a specific customer(s)
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957067741293072384/unknown.png)
-Vous pouvez utiliser des variables avec les informations de l'utilisateur. [Plus d'informations ici](../developpers/variables)
+You can use variables with user information. [More information here](../developers/variables)
 
-### Envoi d'email de masses
-Vous pouvez envoyer des emails personnalisés pour chaque utilisateur inscrit. Pour ceci, Sélectionnez "Envoyez à tous les clients". ClientXCMS s'occupera d'envoyer un email à chaque client.
+### Send mass emails
+You can send personalized emails for each registered user. To do this, select "Send to all customers". ClientXCMS will take care of sending an email to each customer.
 
-### Envoie d'email en tâche cron
-En cas d'échec d'envoi de l'email, l'email est sauvegardé en base de données pour l'envoyé plus tard.
+### Send email as a cron job
+In case of failure to send the email, the email is saved in the database to be sent later.
 
 ### Via sendmail
-Par défaut, ClientXCMS envoie par sendmail. Il est recommandé d'utiliser des serveurs SMTP pour un envoi d'e-mail plus sécurisé et éviter que les e-mails soit directement mis dans les spams des messageries.
-### Via serveurs SMTP
-**Mot de passe SMTP**(mot de passe) : Mot de passe du serveur SMTP
+By default, ClientXCMS sends via sendmail. It is recommended to use SMTP servers for a more secure email sending and to avoid that emails are directly put in the spam folder of the email service.
+### Via SMTP servers
+**SMTP Password**(password): Password of the SMTP server
 
-**Nom d'utilisateur SMTP**(texte) : Nom d'utilisateur du serveur SMTP
+**SMTP username**(text): SMTP server username
 
-**Nom d'hôte SMTP**(hostname) : Nom d'hôte du serveur SMTP
+**SMTP hostname**(hostname): SMTP server hostname
 
-**Port SMTP**(texte) : Port du serveur SMTP (Valeur par défaut : 1025)
+**SMTP port**(text): SMTP server port (default: 1025)
 
-**Cryptage**(Select) : Cryptage d'envoi du serveur SMTP (Valeur par défaut : TLS)
+**Encryption**(Select): SMTP server sending encryption (default: TLS)
 ![img](https://media.discordapp.net/attachments/475073153509490689/957091158134235236/unknown.png)
-Après ceci vous pouvez tester la connexion en envoyant un E-mail de test.
-### Email de test
+After this you can test the connection by sending a test email.
+### Test email
 
-Vous pouvez tester que vos emails partent correctement en appuyant sur le bouton gris "Test connection". Il enverra un e-mail de test à l'adresse email du compte administrateur connecté.
-Il vous alerta si l'email est bien partie ou s'il y a des problèmes à l'envoie. 
+You can test that your emails are sending correctly by pressing the grey "Test connection" button. It will send a test email to the email address of the connected administrator account.
+It will alert you if the email went through or if there are any problems sending it. 
 
-## Personnalisation
+## Customization
 
-Vous pouvez personnaliser vos e-mails en ajoutant des thèmes d'e-mail disponible à l'achat ou modifier les modèles [ici](../system/ModeleEmail)
+You can customize your emails by adding email themes available for purchase or modify the templates [here](../system/ModeleEmail)
 ![img](https://media.discordapp.net/attachments/680169678420836385/939945663339315300/truc_xhaite.png)
 
-Après votre achat, vous pouvez créer un fichier `/Emails/custom.html.twig` avec le contenu de l'archive.
-Vous pourrez après tester ce que les changements visuels des e-mails ont eux lui.
+After your purchase, you can create a file `/Emails/custom.html.twig` with the content of the archive.
+You can then test what the visual changes in the e-mails have done to it.

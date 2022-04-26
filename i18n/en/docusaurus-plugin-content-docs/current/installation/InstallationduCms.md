@@ -2,28 +2,28 @@
 sidebar_position: 4
 ---
 
-# Installer CLIENTXCMS
+# Install CLIENTXCMS
 
-### Téléchargement CLIENTXCMS
+### Download CLIENTXCMS
 
-Pour télécharger CLIENTXCMS : 
-1. Connectez-vous sur votre espace client
-2. Sur votre tableau de bord, cliquez sur "Téléchargement"
-3. Choisisiez le téléchargement commençant par "CLIENTXCMS". Ce sera la dernière version de sortie
+To download CLIENTXCMS : 
+1. Log in to your customer area
+2. On your dashboard, click on "Download".
+3. Choose the download starting with "CLIENTXCMS". This will be the latest release
 
-### Téléchargement de version antérieur
+### Downloading a previous version
 
-Pour télécharger une version antérieure de CLIENTXCMS, ouvrez une demande pour télécharger la version demandées.
+To download a previous version of CLIENTXCMS, open a request to download the requested version.
 
-### Création de base de données
-CLIENTXCMS utilise MySQL® pour sauvegarder les données. Vous pouvez en créer une lors de installation ou après. 
-[Plus d'informations](https://clientxcms.com/docs/fr/database)
+### Database creation
+CLIENTXCMS uses MySQL® to store data. You can create one during installation or after. 
+[More information](https://clientxcms.com/docs/fr/database)
 
-- [Création de base de données avec cPanel ](https://docs.cpanel.net/cpanel/databases/mysql-database-wizard/)
-- [Création de base de données avec Plesk](https://docs.plesk.com/en-US/17.0/customer-guide/advanced-website-databases.69535/)
+- Creating a database with cPanel ](https://docs.cpanel.net/cpanel/databases/mysql-database-wizard/)
+- Creating a database with Plesk](https://docs.plesk.com/en-US/17.0/customer-guide/advanced-website-databases.69535/)
 
-### Privilège de la base de données
-Les privilèges suivants sont requis :
+### Database Privilege
+The following privileges are required:
 
 ![image](https://media.discordapp.net/attachments/762642627286794260/963035522308137000/unknown.png)
 
@@ -48,6 +48,6 @@ sudo chown -R www-data:www-data Votredossier
   ```
 
 - Ouvrez votre navigateur et rendez-vous sur [https://domain.fr](https://domain.fr) pour lancer l'installation.
-- Entrez les informations demander et entrez votre clé de licence.
-Après ceci, vous serrez automatiquement connecté sur le panel d'administration.
+- Enter the information requested and enter your license key.
+After this, you will be automatically logged into the administration panel.
  

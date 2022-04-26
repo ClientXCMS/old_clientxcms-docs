@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# Choisir son hébergeur
-Il peut être dûr de choisir son hébergeur, c'est pourquoi ClientXCMS a choisi de vous aider à le choisir en se basant sur certaines recommandations et surtout sur leur compatibilité avec le CMS.
-**Vous pouvez choisir n'importe quel hébergeur même s'il n'est pas dans cette liste**, il suffit qu'ils respecte les [prérequis](./requirements.md).
-Ces hébergeurs certifient qu'il est possible d'installer ClientXCMS sur leurs Hébergements Web.
+# Choosing your host
+It can be hard to choose a host, that's why ClientXCMS has chosen to help you choose one based on some recommendations and especially on their compatibility with the CMS.
+**You can choose any host even if it is not in this list**, it is enough that they respect the [prerequisites](./requirements.md).
+These hosts certify that it is possible to install ClientXCMS on their Web Hosting.
 
-### Liste des hébergeurs compatibles certifiée
+### List of certified compatible hosts
 
 - [HolyCloud](https://holycloud.fr)*
 - [UniHeberg](https://uniheberg.fr)
@@ -17,18 +17,18 @@ Ces hébergeurs certifient qu'il est possible d'installer ClientXCMS sur leurs H
 - [GUIHeberg](https://my.guiheberg.eu/)
 - [PulseHeberg](https://pulseheberg.com)*
 
-* **Hébergeur de référence**
+* **Reference host**
 
-### Etre ajouter à cette liste d'hébergeur compatible
+### Be added to this list of compatible hosters
 
-Pour être ajouté à cette liste il faut remplir certaines conditions :
+To be added to this list you need to meet certain conditions:
 
-- Utilisation ClientXCMS pour votre hébergeur
-- Avoir le module Plesk/cPanel d'installé
-- Avoir 10 clients Web
-- Etre compatibles avec les [prérequis](./requirements.md)
+- Use ClientXCMS for your host
+- Have the Plesk/cPanel module installed
+- Have 10 web clients
+- Be compatible with the [prerequisites](./requirements.md)
 
-Si votre société remplie ces conditions, vous pouvez nous demander de la rajouter via notre formulaire de [contact](mailto:contact@clientxcms.com)
+If your company meets these requirements, you can ask us to add it via our [contact] form (mailto:contact@clientxcms.com)
 
-### Hébergeur non recommandé
+### Hosting company not recommended
 - Ionos

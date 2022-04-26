@@ -1,48 +1,48 @@
 ---
 sidebar_position: 3
 ---
-# Changer la racine du document
+# Changing the document root
 
-Veuillez vous assurer, comme dans la configuration ci-dessous, que votre serveur Web dirige toutes les requêtes vers le fichier `public/index.php` de votre ClientXCMS. Vous ne devriez jamais essayer de déplacer le fichier index.php à la racine de votre projet, car cela exposera de nombreux fichiers de configuration sensibles à l'Internet
+Please ensure, as in the configuration below, that your web server directs all requests to the `public/index.php` file in your ClientXCMS. You should never try to move the index.php file to the root of your project, as this will expose many sensitive configuration files to the Internet
 
-Dans les exemples de cette page nous prendrons FakeHosting, un hébergeur factice ayant comme nom de domaine (factice) example.com
-## Changer depuis plesk
-La documentation officielle de plesk fournit un article complet sur la [Modification de la racine du serveur web dans plesk](https://docs.plesk.com/fr-FR/onyx/administrator-guide/h%C3%A9bergement-web/structure-des-r%C3%A9pertoires-de-sites-web/d%C3%A9finir-une-racine-du-document-personnalis%C3%A9e.77500/)
+In the examples on this page we will take FakeHosting, a dummy host with the (dummy) domain name example.com
+## Change from plesk
+The official plesk documentation provides a complete article on [Changing the web server root in plesk](https://docs.plesk.com/fr-FR/onyx/administrator-guide/h%C3%A9bergement-web/structure-des-r%C3%A9pertoires-de-sites-web/d%C3%A9finir-une-racine-du-document-personnalis%C3%A9e.77500/)
 ![image](https://docs.plesk.com/fr-FR/onyx/administrator-guide/images/77501.webp)
 
-### Exemple
-En cas d'installation sur domaine principal:
+### Example
+In case of installation on main domain:
 `httpdocs/public`
 
-En cas d'installation sur un sous domaine : 
-```manager.example.com/public```
+In case of installation on a subdomain : 
+``manager.example.com/public``
 
-Adaptez-le avec vos propres dossiers déjà existants.
+Adapt it with your own existing folders.
 
-## Depuis cPanel
+## From cPanel
 
-Après s'être connecté sur l'interface cPanel, dans la page domaines (ou sous-domaines), dans la colonne **racines du document**
-Modifier la a l'aide de l'icone de stylo.
+After logging into the cPanel interface, in the domains (or subdomains) page, in the **document roots** column
+Modify it with the pen icon.
 ![image](https://media.discordapp.net/attachments/926274245225504779/954686279830888458/cpanel.png)
 
-### Exemple
-En cas d'installation sur domaine principal:
+### Example
+In case of installation on main domain:
 `public_html/public`
 
-En cas d'installation sur un sous domaine :
-```public_html/manager/public```
-Adaptez-le avec vos propres dossiers déjà existants.
+In case of installation on a subdomain :
+``public_html/manager/public``
+Adapt it with your own existing folders.
 
-## Depuis un serveur web
+## From a web server
 ### Apache
-Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
-```bash
+SSH into your virtual machine and run these commands
+bash
 cd /etc/apache2/sites-available/
 ```
-```bash
+``bash
 nano manager.example.com.conf
 ```
-#### Exemple de fichier de configuration
+#### Example configuration file
 ```bash
 
 <VirtualHost *:80>
@@ -65,24 +65,24 @@ nano manager.example.com.conf
 </VirtualHost>
 ```
 
-Enfin, relancez votre serveur apache pour que vos modifications soient prises en compte.
+Finally, restart your apache server so that your changes take effect.
 
-```sudo service apache2 restart```
+```sudo service apache2 restart``
 ### Nginx 
-Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
-```bash
+SSH into your virtual machine and run these commands
+``bash
 cd /etc/nginx/conf.d/
 ```
-```bash
+``bash
 nano manager.example.com.conf
 ```
-#### Exemple
+#### Example
 ```bash
 server {
     listen 80;
     listen [::]:80;
     server_name manager.example.com;
-    root /var/wwww/manager.example.com/public;
+    root /var/www/manager.example.com/public;
  
     index index.php;
  
@@ -93,7 +93,7 @@ server {
     }
  
     location = /favicon.ico { access_log off; log_not_found off; }
-    location = /robots.txt  { access_log off; log_not_found off; }
+    location = /robots.txt { access_log off; log_not_found off; }
  
     error_page 404 /index.php;
  
@@ -103,12 +103,12 @@ server {
         include fastcgi_params;
     }
  
-    location ~ /\.(?!well-known).* {
+    location ~ /(?!well-known).* {
         deny all;
     }
 }
 ```
 
-Enfin, relancez votre serveur nginx pour que vos modifications soient prises en compte.
+Finally, restart your nginx server so that your changes take effect.
 
 ```sudo service nginx restart```

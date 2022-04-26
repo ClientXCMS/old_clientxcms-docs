@@ -2,26 +2,26 @@
 sidebar_position: 8
 ---
 
-# Logo et Favicon
+# Logo and Favicon
 
-## Ajouter votre logo sur ClientX
+## Add your logo on ClientX
 
-Vous pouvez ajouter le logo de votre hébergeur sur votre `CMS`.
+You can add your host's logo on your `CMS`.
 
-Pour cela il vous suffit d'aller dans `L'administration > Système > Paramètres > Général`.
+To do this you just need to go to `Administration > System > Settings > General`.
 
-Et vous pouvez directement glisser votre logo dans l'emplacement prévu a cet effet.
+And you can directly drag and drop your logo into the logo slot.
 
 ![img](https://cdn.discordapp.com/attachments/939840146507989003/968534237928128512/unknown.png)
 
 
-## Changement du Favicon
+## Changing the Favicon
 
-Vous pouvez changer le Favicon de votre hébergeur sur votre `CMS`.
+You can change the Favicon of your host on your `CMS`.
 
-Pour cela il vous suffit d'aller dans `L'administration > Système > Paramètres > SEO`.
+To do this you just go to `Administration > System > Settings > SEO`.
 
-Et vous pouvez directement glisser votre Favicon dans l'emplacement prévu a cet effet.
+And you can directly drag and drop your Favicon into the slot provided for this purpose.
 
 
 ![img](https://cdn.discordapp.com/attachments/939840146507989003/968534371260854302/unknown.png)

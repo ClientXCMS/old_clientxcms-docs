@@ -2,37 +2,34 @@
 sidebar_position: 15
 ---
 
-# Discord WebHooks
+# Discord Webhooks
 
-## Achats
+## Purchasing
 
 ```
-:pushpin:Nouvelle commande n• %id%
-:moneybag:**prix : ** %price%
-:credit_card: ** plateforme : ** %paymentType%
+:pushpin:New order n- %id%
+:moneybag:**price: ** %price%
+:credit_card: ** platform : ** %paymentType%
 :bust_in_silhouette:**client : ** %user%
-:link:**lien :** %url%
-:envelope:**commentaire : ** %comment% 
+:link:**link:** %url%
+:envelope:**comment: ** %comment% 
 ```
 
 ## Ticket
 
 ```
-:pushpin:Un nouveau ticket vient dêtre créer ! 
+:pushpin:A new ticket has been created! 
 
-:department_store: **Département** : Service Technique
-:speech_balloon:**Sujet** : Test
-:vertical_traffic_light:**Priorité**: High
-:arrow_right:Cliquez ici pour y répondre : 
+:department_store: **Department**: Technical Service
+:speech_balloon:**Subject**: Test
+:vertical_traffic_light:**Priority**: High
+:arrow_right:Click here to reply : 
 ```
 
 
+### Result:
 
 
-
-### Résultat:
-
-
--nouvelle commande
+-new order
 
 ![img](https://cdn.discordapp.com/attachments/939840146507989003/967123920392171670/IMG_9854.jpg)

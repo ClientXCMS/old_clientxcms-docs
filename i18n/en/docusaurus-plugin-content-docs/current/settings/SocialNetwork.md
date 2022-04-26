@@ -2,17 +2,17 @@
 sidebar_position: 7
 ---
 
-# Réseaux sociaux
+# Social networks
 
-Vous pouvez ajouter votre serveur **Discord** et fils d'actualité **Twitter** directement dans la page d'accueil de votre Espace client
+You can add your **Discord** server and **Twitter** news feeds directly in the home page of your Customer Area
 
 ## Discord
-Récupérez l'id de votre serveur Discord depuis discord > `Paramètres` > `Paramètre du serveur ` > `Widget` > `Server Id` puis rentrez là dans le champ adapté.
-Vérifiez bien vous avez cocher l'option `Enabled Embed Discord` disponible sur la même page pour que l'embed se charge correctement et ne reste pas bloqué indéfiniment.
+Get your Discord server id from discord > `Settings` > `Server Settings` > `Widget` > `Server Id` then enter it in the appropriate field.
+Make sure you have checked the `Enabled Embed Discord` option available on the same page so that the embed loads correctly and doesn't get stuck indefinitely.
 ## Twitter
-Vous pouvez directement votre **@** 
-Exemple : @ClientXCMS
-## Embed page d'accueil
+You can directly your **@** 
+Example: @ClientXCMS @ClientXCMS
+## Embed home page
 ![img](https://media.discordapp.net/attachments/475073153509490689/957096635463258112/unknown.png)
-## Autres réseaux 
-Vous pouvez utiliser le module "Menu" qui permet de créer des liens dans le menu et y rajouter des liens vers vos autres réseaux sociaux.
+## Other networks 
+You can use the "Menu" module which allows you to create links in the menu and add links to your other social networks.

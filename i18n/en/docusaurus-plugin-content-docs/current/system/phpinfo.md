@@ -4,5 +4,5 @@ sidebar_position: 10
 
 # PHPInfo
 
-**ClientXCMS** permet d'avoir un dump de votre configuration PHP depuis l'espace client.
-Pour y aller : `Espace Administration` > `PHPInfo`
+**ClientXCMS** allows you to have a dump of your PHP configuration from the client area.
+To go there: `Administration Area` > `PHPInfo`.

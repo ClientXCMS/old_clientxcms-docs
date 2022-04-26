@@ -2,61 +2,61 @@
 sidebar_position: 4
 ---
 
-# Serveurs
+# Servers
 
-Chaque produit/services de vos clients est relié un serveur ClientXCMS qui permet de faire la jointure entre votre ClientXCMS et votre Plesk (Ou autres). Pour y accéder `Panel d'administration` > `Système` > `Serveurs` (/admin/servers)
+Each of your customers' products/services is linked to a ClientXCMS server that allows you to connect your ClientXCMS to your Plesk (or other). To access it `Administration Panel` > `System` > `Servers` (/admin/servers)
 ![img](https://media.discordapp.net/attachments/475073153509490689/957595619369824286/unknown.png)
-## Création
-### Détails du serveur
+## Creation
+### Server details
 ![img](https://media.discordapp.net/attachments/475073153509490689/957604236793872465/unknown.png)
 
-**Nom du serveur**(texte) : Nom qui sera affiché à titre d'information.
+**Server Name**(text): Name that will be displayed for your information.
 
-**Adresse IP**(ip/hostname) : Adresse IP ou nom d'hôte qui sera utilisé pour se connecter à votre serveur.
+**IP Address**(ip/hostname): IP address or hostname that will be used to connect to your server.
 
-**Coût mensuel**(nombre) : Coût de votre serveur mensuel à titre d'information. Ne (sera) jamais affiché à vos clients.
+**Monthly cost**(number) : Monthly cost of your server for information purposes. Will never be displayed to your customers.
 
-**No. Maximum de compte**(nombre) : Nombre maximum de compte à titre d'information. Ne (sera) jamais affiché à vos clients.
+**Maximum number of accounts**(number) : Maximum number of accounts for your information. Will never be displayed to your customers.
 
-**Localisation**(texte) : Localisation de votre serveur à titre d'information. Sera affiché à vos clients.
+**Location**(text) : Location of your server for information. Will be displayed to your customers.
 
-**Type de serveur**(select) : Type de serveur. Sera utilisé pour tester la connexion et se connecter à votre serveur.
+**Server type**(select) : Server type. Will be used to test the connection and connect to your server.
 
-**Caché**(checkbox) : Permet de cacher le serveur ou non. [se référer ici pour plus d'informations](servers#test-de-connexion)
+**Hidden**(checkbox) : Allows you to hide the server or not. [refer here for more information](servers#test-of-connection)
 
-### Serveurs de nom
+### Name servers
 ![img](https://media.discordapp.net/attachments/475073153509490689/957604370189533185/unknown.png)
 :::info
-Les champs suivants sont utilisés pour les serveurs de revente d'hébergement Web (Plesk, cPanel). Ils peuvent être laissés vide si cela n'est pas utile.
+The following fields are used for web hosting reseller servers (Plesk, cPanel). They can be left blank if not needed.
 :::
 
-**Premier serveur de nom**(ip/hostname) : Premier serveur de nom
+**First name server**(ip/hostname) : First name server
 
-**Second serveur de nom**(ip/hostname) : Second serveur de nom
+**Second name server**(ip/hostname) : Second name server
 
-**Troisième serveur de nom**(ip/hostname) : Troisième serveur de nom
+**Third name server**(ip/hostname) : Third name server
 
-**Quatrième serveur de nom**(ip/hostname) : Quatrième serveur de nom
+**Fourth name server**(ip/hostname) : Fourth name server
 
-**Cinquième serveur de nom**(ip/hostname) : Cinquième serveur de nom
+**Fifth name server**(ip/hostname) : Fifth name server
 
-Ces champs seront affichés dans le panel de gestion avancé de vos clients.
-Vous pouvez laisser vider ils ne seront pas affichés.
-### Authentification
+These fields will be displayed in the advanced management panel of your clients.
+You can leave them empty, they will not be displayed.
+### Authentication
 ![img](https://media.discordapp.net/attachments/475073153509490689/957604546371272744/unknown.png)
 
 :::info
-Les champs suivants sont spécifiques à chaque type de serveur. Veuillez-vous référez à la page du module pour plus d'information.
+The following fields are specific to each server type. Please refer to the module page for more information.
 :::
-**Sécurité**(select) : Activez le si vous votre serveur est protégé par un certificat HTTPS
+**Security**(select) : Enable it if your server is protected by an HTTPS certificate
 
-### Port personnalisé
+### Custom port
 ![img](https://media.discordapp.net/attachments/475073153509490689/957605207053840394/unknown.png)
 :::info
-Certain module ne supporte pas cette fonctionnalité
+Some modules don't support this feature
 :::
-Vous pouvez personnaliser le port utilisé
-Valeur par défaut : 
+You can customize the port used
+Default value : 
 
 Module         | Port           |
 |------------  | ------------   |
@@ -68,28 +68,30 @@ Module         | Port           |
 | Virtualizor  | 4083           |
 | VirtualizorCloud | 4085      |
 
-## Suppression
-Vous pouvez supprimer un serveur en cliquant sur le bouton rouge dans la colonne "Actions". Une confirmation vous sera demandé, après ceci il supprimera le serveur et toutes les données attachées à celui-là.
-## Edition
-Pour éditer un serveur, appuyez sur le bouton Bleu dans la colonne "Actions".
-Modifiez les informations comme vous le souhaitez puis [Tester la connexion](servers#test-de-connexion) pour être sûr de pas avoir désynchronisé quelque chose.
+## Deleting
+You can delete a server by clicking on the red button in the "Actions" column. You will be asked for confirmation, after this it will delete the server and all data attached to it.
+## Edit
+To edit a server, press the blue button in the "Actions" column.
+Change the information as you wish and then [Test connection](servers#test-of-connection) to be sure you haven't desynchronized anything.
 :::danger
-Il est fortement déconseillé de modifier le type de serveur. Cela pourrait provoquer des graves répercussions s'il y a des produits/services déjà configurés sur le serveur.
-[Vous pouvez créer un autre serveur pour éviter tout problème.](servers#création)
+It is not recommended to change the server type. This could cause serious repercussions if there are products/services already configured on the server.
+[You can create another server to avoid any problem](servers#creation)
 :::
 ![img](https://media.discordapp.net/attachments/475073153509490689/957599353571250196/unknown.png)
 
-## Serveur caché
-Cette option permet de décider si le serveur ne doit pas être utilisé par défaut pour créer les services de vos clients. Pour cacher un serveur, cochez la checkbox dans la colonne "#", le voyant rouge passera à vert.
+## Hidden server
+This option allows you to decide if the server should not be used by default to create services for your clients. To hide a server, check the checkbox in the "#" column, the red light will change to green.
 
-**Vert** : Non caché, les services peuvent être créés dessus.
+**Green** : Not hidden, services can be created on it.
 
-**Rouge** : Caché, les services peuvent être créés dessus (Il peut quand même être utilisé quand un service déjà existant est dessus).
+**Red** : Hidden, services can be created on it (It can still be used when an existing service is on it).
 
-## Test de connexion
-Pour vérifier que ClientXCMS puisse bien se connecter à l'API de votre serveur distant (Plesk par exemple). Un bouton est disponible pour tester la connexion et vous donne un retour.
+## Connection test
+To check that ClientXCMS can connect to the API of your remote server (Plesk for example). A button is available to test the connection and give you feedback.
 
-En cas de succès, il vous sera affiché **Success** en retour avec un statut de **200**. Sinon en cas d'échec, il vous répondra ce qu'il pose problème avec un statut de **500**.
+In case of success, you will receive **Success** with a status of **200**. Otherwise in case of failure, it will tell you what the problem is with a status of **500**.
 
-Après ce test, vous pouvez créer/sauvegarder votre serveur ClientXCMS avec tranquillité, il est bien connecté.
+After this test, you can create/save your ClientXCMS server with peace of mind, it is well connected.
+
+Translated with www.DeepL.com/Translator (free version)
 ![img](https://media.discordapp.net/attachments/475073153509490689/957598827563606047/unknown.png)

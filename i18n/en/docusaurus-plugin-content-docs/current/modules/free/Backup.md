@@ -2,20 +2,20 @@
 sidebar_position: 1
 ---
 
-# Sauvegarde
-**ClientXCMS** permet de sauvegarder votre base de données. Vous pouvez gérer vos différentes sauvegardes de votre base de données.
+# Backup
+**ClientXCMS** allows you to backup your database. You can manage your different backups of your database.
 
-Une intégration avec **ClientXCMS** facile qui offre une gestion des sauvegardes de la base de données pour ne perdre aucunes données.
-Une tâche CRON s'exécute toutes les 12 heures (ou manuellement) pour sauvegarder l'entièreté des tables de la base de données.
-Pour y accéder : `Espace Administration` > `Sauvegardes`
+An easy integration with **ClientXCMS** that offers a database backup management so that no data is lost.
+A CRON task runs every 12 hours (or manually) to back up the entire database tables.
+To access it: `Administration Area` > `Backup`.
 
 ![img](https://media.discordapp.net/attachments/829844680539111486/957442535767289876/unknown.png?width=1440&height=390)
-## Téléchargement d'une sauvegarde
-Vous pouvez télécharger une sauvegarde de votre base de données sur votre ordinateur pour la garder en mémoire. Il vous suffit de cliquer sur le bouton bleu dans la colonne "Actions" et il vous fera télécharger le fichier au format **.sql**.
+## Downloading a backup
+You can download a backup of your database to your computer to keep it in memory. Just click on the blue button in the "Actions" column and it will download the file in **.sql** format.
 
-## Suppression d'une sauvegarde
-Vous pouvez supprimer une sauvegarde pour des raisons de place ou même parce qu'elle est trop vielle. Pour cela, il vous suffit de cliquer sur le bouton rouge dans la colonne "Actions", une validation vous sera demandé pour vérifier que vous êtes sûr de vouloir supprimer une sauvegarde. Après la confirmation, la sauvegarde sera supprimée du serveur.
-## Création manuellement
-Vous pouvez créer une sauvegarde de l'instant présent de votre base de données. Il vous suffit de cliquer sur bouton en haut à droite "Créer manuellement". Après ceci la sauvegarde sera visible dans le tableau principal.
-## Stockage
-Les sauvegardes sont stockées dans le dossier `/Backups` à la racine de votre serveur.
+## Deleting a backup
+You can delete a backup for reasons of space or even because it is too old. To do so, you just have to click on the red button in the "Actions" column, a validation will be asked to verify that you are sure you want to delete a backup. After confirmation, the backup will be deleted from the server.
+## Creating manually
+You can create a backup of your database right now. Just click on the button in the upper right corner "Create manually". After this the backup will be visible in the main table.
+## Storage
+Backups are stored in the `/Backups` folder in the root of your server.

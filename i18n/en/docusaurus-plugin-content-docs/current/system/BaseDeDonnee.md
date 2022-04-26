@@ -2,13 +2,13 @@
 sidebar_position: 6
 ---
 
-# Base de données
+# Database
 
 ## Introduction 
-Pour stocker les données de vos clients et celles nécessaires au bon fonctionnement du CMS, CLIENTX utilise le système relationnel MySQL. Une base de données est obligatoire (vierge ou non) pour contenir les tables nécessaires au bon fonctionnement du CMS. Le système PDO (PHP Data Objets) est utilisé pour intéragir avec la base. Il faut donc que l'extension MySQL ainsi que PDO soient installés sur votre hébergement WEB.
+CLIENTX uses the MySQL relational system to store your customer data and the data needed for the CMS to function properly. A database is mandatory (blank or not) to contain the tables necessary for the proper functioning of the CMS. The PDO (PHP Data Objects) system is used to interact with the database. It is therefore necessary that the MySQL extension and PDO are installed on your web hosting.
 
-## Connexion
-Les informations de connection à la base sont demandées dans le ```.env```. Ce fichier ne doit pas être versionné. Voici un exemple
+## Connection
+The connection information to the database is requested in the ``.env``. This file must not be versioned. Here is an example:
 ```
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -17,40 +17,40 @@ DB_USER=root
 DB_PASS=root
 DB_CHARSET=utf8
 ```
-# Caractères Spéciaux
-En cas de caractères spéciaux dans le mot de passe ou nom d'utilisateur pour l'accès à la base de données. Vous pouvez ajouter des doubles quotes `""` à votre chaine de caractères.
-## Tester la connection
+# Special Characters
+In case of special characters in the password or username for accessing the database. You can add double quotes `""` to your string.
+## Test the connection
 
-Pour vérifier que la connexion entre CLIENTXCMS et MySQL est bien opérationnelle, ouvrez une page de CLIENTXCMS :
-En cas d'échec, la page vous renvoie le message d'érreur :
-`Erreur de connexion à la base de données`.
+To verify that the connection between CLIENTXCMS and MySQL is working, open a CLIENTXCMS page:
+If it fails, the page returns the error message:
+`Database connection error`.
 
-Pour plus de détails, modifiez dans le ```.env``` l'environment la clé `APP_ENV` à `dev`.
-Attention, les identifiants peuvent apparaitre sur la page. Mais ça peut vous aider à résoudre le problème.
+For more details, change the environment key `APP_ENV` to `dev` in the ``.env``.
+Be careful, the identifiers may appear on the page. But this may help you to solve the problem.
 
 ## Migration
 
-Pour gérer les migrations de la base de données (pour le développement ou la mise en production). ClientXCMS utilise [phinx.org](https://phinx.org/). Vous pouvez vous référer à leur documentation pour approfondir son fonctionnement.
+To manage database migrations (for development or production). ClientXCMS uses [phinx.org](https://phinx.org/). You can refer to their documentation to learn more about how it works.
 
-Une interface visuelle est disponible sur  `Espace d'administration` > `Base de données` 
-### Commandes importantes 
+A visual interface is available at `Administration Area` > `Database`. 
+### Important commands 
 - Migrate <br/>
 
-    Cette commande permet de migrer les migrations manquantes.
+    This command allows you to migrate the missing migrations.
     ```
     ./vendor/bin/phinx migrate
     ```
 
 - Create <br/>
 
-    Cette commande est importante en développement, elle permet de créer une migration.
+    This command is important in development, it allows to create a migration.
     ```
-    ./vendor/bin/phinx create PremièreMigration
+    ./vendor/bin/phinx create FirstMigration
     ```
 
 - Seed <br/>
 
-    Cette commande permet de remplir votre base avec des données pré-définies ou générer dynamiquement via la librairie [faker](https://github.com/fzaninotto/Faker)
+    This command allows you to fill your database with pre-defined data or generate dynamically via the library [faker](https://github.com/fzaninotto/Faker)
     ```
     ./vendor/bin/phinx seed:run
     ```

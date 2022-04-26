@@ -45,38 +45,38 @@ Effectuer cette commande pour installaler Composer sur l'entièreter de votre ma
 sudo apt-get install composer
 ```
 
-Pour plus d'informations à propos de composer : https://getcomposer.org/
+For more information about composer: https://getcomposer.org/
 
-## Installer les dépendances en cli
+## Install dependencies in cli
 
-Assurez-vous d'avoir bien Composer d'installé sur votre machine, executez la commande: 
-```twig
-composer
+Make sure you have Composer installed on your machine, run the command: 
+``twig
+compose
 ```
-ou
-```twig
+or
+twig
 ./composer.phar
 ```
- Si il ne trouve pas la commande, installez Composer en vous aidant de la partie [Installation de composer](#installation-de-composer-sur-un-vps--dédier)
+ If it doesn't find the command, install Composer with the help of the [Installing Composer] part (#installing-composer-on-a-vps-address)
 
-Rendez-vous dans votre dossier où se trouve CLIENTXCMS. 
-Exécutez cette commande 
+Go to your folder where CLIENTXCMS is located. 
+Run this command 
 ```twig
 composer install --optimize-autoloader --no-dev
 ``` 
-:::caution attention
-Des messages `warning` devraient êtres affichés, pas d'inquiétude, cela n'impacte pas le CMS
+:::caution
+Some `warning` messages should be displayed, don't worry, it doesn't impact the CMS
 :::
-ou adaptez-la pour convenir à votre situation.
+or adapt it to suit your situation.
 
-Des messages "warning" devraient êtres affichés, pas d'inquiétude, cela n'impacte pas le CMS.
+Warning" messages should be displayed, don't worry, it doesn't impact the CMS.
 
-## Installation de Composer chez Ionos
+## Installing Composer at Ionos
 
-Si vous êtes chez Ionos, l'installation est plus compliquée. 
+If you are on Ionos, the installation is more complicated. 
 
-Nous vous conseillons de suivre ce [tutoriel](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) qui vous l'expliquera.
+We advise you to follow this [tutorial](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) which will explain it to you.
 
-N'oubliez pas d'adapter la commande à votre version de php : si vous utilisez php 7.4 remplacez ```/usr/bin/php7.1-cli``` par ```/usr/bin/php7.4-cli``` et cela dans chaque commande.
+Don't forget to adapt the command to your php version: if you are using php 7.4 replace ``/usr/bin/php7.1-cli`` by ``/usr/bin/php7.4-cli`` and this in each command.
 
-Avant chaque commande **composer** ajoutez ```/usr/bin/php7.4-cli``` suivi d'un espace devant chaque commande (*adaptez la version de php*)
+Before each **compose** command add ``/usr/bin/php7.4-cli`` followed by a space in front of each command (*adapt version of php*)

@@ -2,53 +2,53 @@
 sidebar_position: 1
 ---
 
-# Sécurité
-**ClientXCMS** met en place des paramètres pour améliorer la sécurité de votre espace client pour votre propre sécurité et celle de vos usagés.
+# Security
+**ClientXCMS** implements settings to improve the security of your client area for your own security and that of your users.
 
 ## Authentication & Limitation
-**E-Mails bannis ou domaines à l'inscription**(texte) : Séparé par des virgules, permet de refuser l'inscription à certain utilisateur/groupes d'utilisateurs. N'affecte que les nouvelles inscriptions, les comptes déjà existants ne sont bannis.
+**Banned emails or domains on registration**(text): Separated by commas, allows you to deny registration to certain users/user groups. Only affects new registrations, existing accounts are only banned.
 
-Exemple : `fake@clientxcms.com, protonmail.com`
+Example: `fake@clientxcms.com, protonmail.com`
 
-**Nb. de tentative**(nombre) : Lorsqu'un utilisateur essaie de se connecter un certain nombre de fois avec échec, le ClientXCMS bloque toutes les connexions de l'utilisateur pendant X minutes. Utilisez la valeur 0 (Zero) pour désactiver cette fonctionnalité. Valeur par défaut : 3
+**No. of Attempts**(number): When a user tries to log in a certain number of times and fails, the ClientXCMS blocks all connections from the user for X minutes. Use the value 0 (Zero) to disable this feature. Default value: 3
 
-**Minutes limitant la connexion**(minutes) : Temps que l'utilisateur doit attendre pour se faire débloquer. Valeur par défaut : 30
+**Connection Limiting Minutes**(minutes): The amount of time the user must wait to be unblocked. Default: 30
 
-**Lien vers les conditions générales d'utilisation**(lien) : Lien vers les CGU de votre société, chaque utilisateur devra certifier qu'il a pris connaissance de ce document en validant une checkbox à l'inscription.
+**Link to the general terms of use**(link): Link to the TOS of your company, each user will have to certify that he/she has read this document by validating a checkbox at registration.
 
-**Demande la confirmation de compte utilisateur**(boolean) : Permet d'envoyer un e-mail de confirmation lors d'une inscription pour valider l'adresse e-mail de l'utilisateur. Valeur par défaut : activé
+**Request user account confirmation**(boolean): Allows you to send a confirmation email when registering to validate the user's email address. Default value: enabled
 
-**Autorise l'inscription aux utilisateurs**(boolean) : Permet d'autoriser l'inscription de vos clients. Si cette option est désactivée, Vous devriez créer le compte utilisateurs depuis l'espace de gestion des utilisateurs. Valeur par défaut : activé
+**Allow users to register**(boolean): Allow your customers to register. If this option is disabled, you should create the user account from the user management area. Default value : enabled
 
-**Autorise la réinitialisation de mot de passe aux utilisateurs**(boolean) : Permet d'autoriser le processus de réinitialisation des mots de passes utilisateurs. Valeur par défaut : activé
+**Allow password reset to users**(boolean): Allow the process of resetting user passwords. Default value: enabled
 ## Recaptcha
-Il est important de vous protéger des potentiels Spams/compte indésirable créer par des robots.
-### Configurer ReCaptcha
-Après vous êtes inscrit ou connecter à votre [console google](https://www.google.com/recaptcha/admin/), vous devez [créez un site](https://www.google.com/recaptcha/admin/create).
+It is important to protect yourself from potential spam/unwanted accounts created by bots.
+### Configure ReCaptcha
+After registering or logging into your [google console](https://www.google.com/recaptcha/admin/), you need to [create a site](https://www.google.com/recaptcha/admin/create).
 
-**Libellé** Nom de votre site internet 
+**Title** Name of your website 
 
-**Type de reCAPTCHA**: ReCAPTCHA version 2 > Case à cocher "Je ne suis pas un robot"
+**ReCAPTCHA type**: ReCAPTCHA version 2 > "I am not a robot" checkbox
 
-**Domaines**: Domaine de votre CLIENTXCMS (sous domaine inclus)
+**Domains**: Domain of your CLIENTXCMS (including subdomain)
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957054073738248212/registered.png)
 
-Une fois votre site enregistré, les clefs API apparaîtront. Vous sélectionnerez "Configurer la protection Google reCaptcha" puis pour terminer remplir les champs dans vos paramètres
+Once your site is registered, the API keys will appear. You will select "Configure Google reCaptcha protection" then to finish fill in the fields in your settings
 ![img](https://media.discordapp.net/attachments/475073153509490689/957054632042070016/unknown.png)
-### Configurer HCaptcha
-Après vous êtes inscrit ou connecter à votre [dashboard Hcaptcha](https://dashboard.hcaptcha.com/overview), vous devez [nouveau site](https://dashboard.hcaptcha.com/sites/new).
+### Configure HCaptcha
+After registering or logging into your [Hcaptcha dashboard](https://dashboard.hcaptcha.com/overview), you must [new site](https://dashboard.hcaptcha.com/sites/new).
 
-**Nom** Nom de votre site internet
+**Name** Name of your website
 
-**Difficulté**:Modérer
+**Difficulty**:Moderate
 
-**Domaines**: Domaine de votre CLIENTXCMS (sous domaine inclus)
+**Domains**: Domain of your CLIENTXCMS (including subdomain)
 
-**Filtre**: Business and industry
+**Filter**: Business and industry
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957056521865404446/registering.png)
-Une fois votre site enregistré, les clefs API apparaîtront. Vous sélectionnerez "Configurer la protection Hcaptcha" puis pour terminer remplir les champs dans vos paramètres
+Once your site is registered, the API keys will appear. You will select "Configure Hcaptcha protection" then to finish fill in the fields in your settings
 ![img](https://media.discordapp.net/attachments/475073153509490689/957059536232022068/unknown.png)
 ### None
-Vous pouvez désactiver tout Captcha en sélectionnant Non" dans les champs validation via
+You can disable all Captcha by selecting "No" in the validation fields via ......

@@ -4,20 +4,21 @@ sidebar_position: 1
 
 # Introduction
 
-ClientXCMS est un projet open-source qui permet de gérer les services, factures, clients, devis, ou demande de vos clients. Il permet de créer des sociétés d'hébergement très rapidement à moindre frais.
-## Service supportés
+ClientXCMS is an open-source project that allows you to manage services, invoices, customers, quotes, or requests from your customers. It allows you to create hosting companies very quickly at low cost.
+## Supported services
 
-Nous avons nativement développés les modules de création de services ou de moyens de paiement reconnues.
+We have natively developed the modules of creation of services or means of payment recognized.
 
-#### Certains de nos principaux services pris en charge incluent :
+#### Some of our main supported services include:
+
 - [Plesk](https://clientxcms.com/app/Plesk)
 - [cPanel](https://clientxcms.com/app/Cpanel)
-- [Virtualizor](https://clientxcms.com/app/Virtualizor) - [Virtualizor pour revendeurs](https://clientxcms.com/app/Virtualizorcloud)
+- [Virtualizor](https://clientxcms.com/app/Virtualizor) - [Virtualizor for Resellers](https://clientxcms.com/app/Virtualizorcloud)
 - [Pterodactyl](https://clientxcms.com/app/Pterodactyl)
 - [Wisp](https://clientxcms.com/app/Wisp)
 - [Proxmox](https://clientxcms.com/app/Proxmox)
 
-#### Certains de nos principaux passerelles de paiements pris en charge incluent :
+#### Some of our major supported payment gateways include:
 
 - [PayPal](https://clientxcms.com/app/Paypal)
 - [Stripe](https://clientxcms.com/app/Stripe)

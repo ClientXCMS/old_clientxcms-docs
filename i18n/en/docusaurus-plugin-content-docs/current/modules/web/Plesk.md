@@ -4,61 +4,61 @@ sidebar_position: 2
 
 # Plesk
 
-Le module Plesk permet de fournir des offres Plesk à vos clients. Le module supporte les revendeurs web et hébergement simple. Il fonctionne avec les plans Plesk qui facilite grandement sa configuration puisqu'il suffit de lié un produit à un plan Plesk.
-:::success A savoir
-Ce module est compatible avec les versions 11, 11.5, 12, 12.5 , Onyx, et Obsidian de Plesk.
+The Plesk module allows you to provide Plesk offers to your customers. The module supports web resellers and simple hosting. It works with Plesk plans which makes it very easy to configure since you just need to link a product to a Plesk plan.
+:::success To know
+This module is compatible with versions 11, 11.5, 12, 12.5, Onyx, and Obsidian of Plesk.
 :::
 :::info
-Pour utiliser les fonctionnalités du module, il faut que l'extension PHP **XML** soit activeé sur votre hébergement. Pour l'installer : 
+To use the features of the module, the PHP **XML** extension must be active on your hosting. To install it : 
 ```bash
 apt install php-xml
 ```
 :::
 :::info Modules
-Pour utiliser les fonctionnalités suivantes, il faut que le module Plesk soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../)
+To use the following features, you need to have the Plesk module enabled on your ClientXCMS. [click here to activate it](../)
 :::
-### Fonctionnalités supportées 
-- Automatisez la création et l'approvisionnement des comptes
-- Gestion des hébergements depuis l'espace client
-- Connexion automatique au Plesk
-- Réinitialiser les mots de passe et gérer les comptes
-- Automatisez les suspensions et les résiliations
+### Supported features 
+- Automate account creation and provisioning
+- Hosting management from the customer area
+- Automatic connection to Plesk
+- Reset passwords and manage accounts
+- Automate suspensions and terminations
 
-## Création du serveur
+## Server creation
 
-Créer un serveur ClientXCMS dans `Espace d'administration` > `Système` > `Serveurs` > `Nouveau` en sélectionnant le type de serveur en "Plesk". 
+Create a ClientXCMS server in `Administration Area` > `System` > `Servers` > `New` by selecting the server type as "Plesk". 
 
 ![img](https://media.discordapp.net/attachments/926274245225504779/962908593890406430/unknown.png)
 
-**Adresse IP** : Sous domaine ou adresse IP du Plesk
+**IP Address**: Subdomain or IP address of Plesk
 
-**Username** : Nom d'utilisateur admin
+**Username** : Admin username
 
-**Password** : Mot de passe admin
+**Password** : admin password
 
-Le port suivant doit être ouvert pour connecter ClientXCMS à votre Plesk : 8443
+The following port must be open to connect ClientXCMS to your Plesk: 8443
 
-Vous pouvez tester la connexion au serveur et vérifier que le serveur renvoie *"Success"* en réponse.
+You can test the connection to the server and verify that the server returns *"Success "* in response.
 
-## Configuration de l'offre
-En premier lieu, [créez votre produit](../../store/product#création) en sélectionnant **Plesk Hosting** pour les hébergements Web ou **Plesk Reselling** pour livrer des revendeurs Web.
+## Configuring the offer
+First, [create your product](../../store/product#creation) by selecting **Plesk Hosting** for web hosting or **Plesk Reselling** to deliver web resellers.
 ![img](https://media.discordapp.net/attachments/926274245225504779/962910219158028318/unknown.png)
-Après appuyez sur le bouton "Suivant" il vous redirigera vers la page de configuration de l'offre. Si le champs est vide, assurez vous que votre serveur ne soit pas caché, dans ce cas il ne sera pris en compte dans le système pour récupérer les plans Plesk.
+After pressing the "Next" button it will redirect you to the offer configuration page. If the field is empty, make sure that your server is not hidden, in this case it will not be taken into account in the system to retrieve the Plesk plans.
 
 ![img](https://media.discordapp.net/attachments/926274245225504779/962911997190610984/unknown.png)
 
-Dans cette page vous pourrez sélectionner le plan qui faudra livrer à vos clients puis sauvegarder.
-## Liste des configurations
-Vous pouvez voir la liste de vos configurations Pterodactyl depuis `Espace Administration` > `Utilitaires` > `Plesk`.
+In this page you will be able to select the plan to be delivered to your customers and save.
+## List of configurations
+You can see the list of your Pterodactyl configurations from `Administration Area` > `Utilities` > `Plesk`.
 
 ![img](https://media.discordapp.net/attachments/926274245225504779/962912787334574100/unknown.png)
-Vous pouvez modifier directement la configuration d'un produit dans la colonne "Actions" en cliquant sur le bouton bleu.
+You can directly modify the configuration of a product in the "Actions" column by clicking on the blue button.
 
-## Création manuellement
+## Creation manually
 
-## Panel de gestion
-### Coté admin
+## Management panel
+### Admin side
 ![img](https://media.discordapp.net/attachments/926274245225504779/962913723046047804/unknown.png)
 
-### Coté client
+### Customer side
 ![img](https://media.discordapp.net/attachments/926274245225504779/962916921416753335/unknown.png)

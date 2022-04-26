@@ -5,52 +5,52 @@ sidebar_position: 2
 # PayPal Checkout
 ![img](https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png)
 
-Le module PayPal permet de accepter les paiements via PayPal de vos clients.
-## Mode live vs Mode Sandbox
-Le mode live de paypal permet d'accepter de vrais paiements (Utilisé en production).
-Le mode sandbox permet d'émettre des paiements de tests sans dépenser de l'argent réel (Utilisé en développement ou pour tester)
+The PayPal module allows you to accept payments via PayPal from your customers.
+## Live mode vs Sandbox mode
+The live mode of paypal allows to accept real payments (Used in production).
+The sandbox mode allows you to issue test payments without spending real money (Used in development or for testing)
 
-## Récupérer ses clés d'api
+## Get your api keys
 
-Rendez-vous sur votre [Panel Développeur PayPal](https://developer.paypal.com/developer/applications), connectez-vous puis de créer des identifiants API.
+Go to your [PayPal Developer Panel](https://developer.paypal.com/developer/applications), log in and create API credentials.
 
-Pour cela, il est nécessaire d'aller dans La catégorie **Live** (ou Sandbox pour le développement) et de Cliquer sur "**Create App**" avec le nom souhaité (*par exemple : ClientXCMS*).
+To do this, you need to go to the **Live** category (or Sandbox for development) and click on "**Create App**" with the desired name (*for example: ClientXCMS*).
 ![img](https://media.discordapp.net/attachments/926274245225504779/954709850095484969/live.png)
 ![img](https://media.discordapp.net/attachments/926274245225504779/954709927073546270/creation.png)
 
-Il vous suffira après de cliquer sur le **nom de votre application** (*ClientXCMS dans notre cas*) et vous pourrez accéder aux informations de l'application :
+Then you just have to click on the **name of your application** (*ClientXCMS in our case*) and you will be able to access the information of the application:
 - Client ID
-- Secret (Que vous devez générer si besoin*).
+- Secret (Which you must generate if necessary*).
 ![img](https://media.discordapp.net/attachments/926274245225504779/954710485851308053/informations.png)
 
 
 ## Installation
 
-Après avoir activé le module PayPal et récupérer ses clés d'api, Vous serrez rediriger vers la page de configuration des clés d'API pour synchroniser ClientXCMS à Paypal.
-Vous pouvez également cliquer sur le bouton violet situé en haut à droite dans la boite du module 
+After activating the PayPal module and retrieving its API keys, you will be redirected to the API keys configuration page to synchronize ClientXCMS to PayPal.
+You can also click on the purple button located in the top right corner of the module box 
 ![img](https://media.discordapp.net/attachments/926274245225504779/954708583726071828/unknown.png)
-- PayPal Secret : la clé secrète que Paypal donne
-- PayPal Id : l'id de l'application que Paypal donne
-- PayPal live : Enabled en live sinon Disabled
+- PayPal Secret : the secret key that Paypal gives
+- PayPal Id : the id of the application that Paypal gives
+- PayPal live : Enabled in live otherwise Disabled
 
 ![img](https://media.discordapp.net/attachments/926274245225504779/954711209582673970/unknown.png)
-Vous pourrez tester la connexion PayPal à ClientXCMS. Si la connexion est bien faite il persistera les informations
+You can test the PayPal connection to ClientXCMS. If the connection is successful it will persist the information
 
-Si vous avez des problème de connexion veuillez contacter notre support.
+If you have any problem with the connection please contact our support.
 
 ## Transaction
-Toutes les transactions PayPal avec les détails du paiement sont disponibles sur la page  `Espace Administration` > `Facturation` > `PayPal`
-Il est également possible de rechercher un paiement par l'id du paiement.
+All PayPal transactions with payment details are available on the `Administration Area` > `Invoicing` > `PayPal` page
+It is also possible to search for a payment by the payment id.
 ![img](https://media.discordapp.net/attachments/926274245225504779/954707212192858162/unknown.png?width=1440&height=285)
-### Page de paiement
+### Payment page
 ![img](https://media.discordapp.net/attachments/926274245225504779/954712993671831552/unknown.png)
 
-Le client sélectionne le type de paiement PayPal. ClientXCMS va le redirige vers le Checkout paypal pour payer puis est redirigé vers votre site pour valider la commande.
-Après ceci, la transaction sera mise comme payée et les services seront livré.
-### Taxe sur les paiements
+The client selects the PayPal payment type. ClientXCMS will redirect him to the paypal checkout to pay and then is redirected to your site to complete the order.
+After this, the transaction will be set as paid and the services will be delivered.
+### Tax on payments
 
-Vous pouvez rajouter des taxes spéficiqque pour les paiements via PayPal pour ceci, rendez-vous dans `Espace Administration` > ` Paramètres` > `Payments taxes`
+You can add special taxes for payments via PayPal for this, go to `Administration Area` > `Settings` > `Payments taxes`
 ![img](https://media.discordapp.net/attachments/926274245225504779/954713525102714880/unknown.png)
-### Transaction d'un client
-La liste des transactions Dedipass est disponible sur la page d'édition d'un utilisateur `Espace Administration` > `Utilisateur` > `Edition` > `Services/Transactions lié(e)`
+### Transaction of a customer
+The list of Dedipass transactions is available on the edit page of a user `Administration Area` > `User` > `Edit` > `Services/Linked Transactions`
 ![img](https://media.discordapp.net/attachments/926274245225504779/954712356057935943/unknown.png)

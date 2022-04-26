@@ -4,18 +4,17 @@ sidebar_position: 2
 
 # Prérequis
 
-Ils est possible d'installer ClientXCMS sur la plupart des hébergements web ainsi que sur un VPS ou un dédier linux.<br/>
-On peut aussi l'installer sur un serveur Windows mais cela n'est pas recommander du a des soucis de compatibilité avec lesquels le support technique ne pourrait pas vous aider. 
+It is possible to install ClientXCMS on most web hosting as well as on a VPS or a Linux dedicated server.<br/>
+It is also possible to install it on a Windows server but it is not recommended due to compatibility issues that technical support cannot help you with. 
 
-
-## Tableau de comptabilité PHP
-| Version de CLIENTXCMS | PHP 7.3    |        PHP 7.4 |
+## PHP accounting table
+| Version of CLIENTXCMS | PHP 7.3    |        PHP 7.4 |
 | :------------ | :-------------: | -------------: |
-|     v2.6      |     Non         |        Oui     |
+|     v2.6      |     No          |        Yes     |
 
 
 ## Prérequis
-| Prérequis     | Minium          |    Recommandé  |
+| Prerequisite  | Minium          | Recommended    |
 | :------------ | :-------------: | -------------: |
 | Version PHP   |     7.4         |        7.4     |
 | PDO           |     PDO         |        PDO     |

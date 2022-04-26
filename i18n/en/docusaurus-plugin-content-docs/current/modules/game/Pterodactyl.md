@@ -3,54 +3,54 @@ sidebar_position: 1
 ---
 
 # Pterodactyl
-Pterodactyl est un panel très répandu pour gérer des serveurs de jeux très rapidement et simplement. Ce module permet de créer les services de vos clients avec les performances choisis.
-Il permet de proposer tous les types d'œuf Pterodactyl possible à la vente.
+Pterodactyl is a very popular panel to manage game servers very quickly and easily. This module allows you to create the services of your customers with the chosen performances.
+It allows you to offer all possible types of Pterodactyl eggs for sale.
 :::warning Attention
-Les versions 0.7 de Pterodactyl sont dépréciées et donc plus supportés sur ce module.
+The 0.7 version of Pterodactyl is deprecated and therefore no longer supported on this module.
 :::
 :::info Modules
-Pour utiliser les fonctionnalités suivantes, il faut que le module Pterodactyl soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../)
+To use the following features, the Pterodactyl module must be activated on your ClientXCMS. [click here to activate it](../)
 :::
-## Authentification
-Créer un serveur ClientXCMS dans `Espace d'administration ` > `Système` > `Serveurs` en sélectionnant le type de serveur en "Pterodactyl". 
+## Authentication
+Create a ClientXCMS server in `Administration Area` > `System` > `Servers` by selecting the server type as "Pterodactyl". 
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957611067779993650/unknown.png)
 
-**Adresse IP** : Sous domaine ou Adresse IP du Pterodactyl
+**IP address** : Subdomain or IP address of the Pterodactyl
 
-**Client API** : Clé client
+**Client API** : Client key
 
-**Application API** : Clé application
-### Clé client 
+**Application API** : Application key
+### Client key 
 
-Clé d'api client disponible sur votre Pterodactyl `/account/api`
+Client API key available on your Pterodactyl `/account/api`
 ![img](https://media.discordapp.net/attachments/475073153509490689/957610044030066698/unknown.png)
 
 **Description** : CLIENTXCMSAPI
 
-**Allowed ips** : Laissez vide ou mettez l'IP de votre ClientXCMS pour plus de sécurité
+**Allowed ips**: Leave blank or put the IP of your ClientXCMS for more security
 
-Votre clé d'api client vous sera donnée qu'une seule fois, après elle sera tronquée.
-### Clé application
-Clé d'api client (Account) disponible sur votre Pterodactyl `/admin/api/new`
+Your client api key will be given to you only once, after that it will be truncated.
+### Application key
+Client api key (Account) available on your Pterodactyl `/admin/api/new`
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957611684523049000/unknown.png)
-**Permissions** : Comme dans la capture
+**Permissions** : As in the picture
 
-**Description** : CLIENTXCMSAPI
-## Liste des configurations
-Vous pouvez voir la liste de vos configurations Pterodactyl depuis `Espace Administration` > `Utilitaires` > `Pterodactyl`.
+**Description**: CLIENTXCMSAPI
+## List of configurations
+You can see the list of your Pterodactyl configurations from `Administration Area` > `Utilities` > `Pterodactyl`.
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957621406902923314/unknown.png)
-Vous pouvez modifier directement la configuration d'un produit dans la colonne "Actions" en cliquant sur le bouton bleu.
+You can directly modify the configuration of a product in the "Actions" column by clicking on the blue button.
 
-## Configuration de l'offre
+## Configuration of the offer
 
-## Création manuellement
+## Creation manually
 
-## Panel de gestion client
+## Customer management panel
 
-## Erreurs/Problèmes connus
-### Serveur caché
-### Code HTTP 200
-Échec de la création du serveur, code d'erreur reçu
+## Errors/Known problems
+### Hidden server
+### HTTP Code 200
+Server creation failed, error code received.
