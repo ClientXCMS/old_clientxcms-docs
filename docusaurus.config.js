@@ -64,6 +64,10 @@ const config =
             label: 'Retour au site',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
 
           /*{
             type: 'localeDropdown',
@@ -128,13 +132,17 @@ const config =
     }),
     i18n: {
       defaultLocale: 'fr',
-      locales: ['fr'],
+      locales: ['fr','en'],
       localeConfigs: {
         fr: {
           htmlLang: 'fr-FR',
         },
+        en: {
+          htmlLang: 'en-GB',
+        },
       },
     },
+    
 };
 
 module.exports = config;
