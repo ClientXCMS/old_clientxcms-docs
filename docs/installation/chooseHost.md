@@ -16,6 +16,7 @@ Ces hébergeurs certifient qu'il est possible d'installer ClientXCMS sur leurs H
 - [Equi Hosting](https://equi-hosting.fr)
 - [GUIHeberg](https://my.guiheberg.eu/)
 - [PulseHeberg](https://pulseheberg.com)*
+- [Cloudfive.fr](https://cloudfive.fr/)*
 
 * **Hébergeur de référence**
 

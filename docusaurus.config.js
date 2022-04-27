@@ -132,7 +132,7 @@ const config =
     }),
     i18n: {
       defaultLocale: 'fr',
-      locales: ['fr','en'],
+      locales: ['fr'],
       localeConfigs: {
         fr: {
           htmlLang: 'fr-FR',
