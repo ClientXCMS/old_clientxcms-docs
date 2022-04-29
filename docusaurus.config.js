@@ -84,15 +84,6 @@ const config =
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/introduction',
-              },
-            ],
-          },
-          {
             title: 'Communautés',
             items: [
               {
@@ -123,6 +114,13 @@ const config =
             ],
           },
         ],
+        logo: {
+          alt: 'Logo',
+          src: 'img/ClientXLight.png',
+          href: 'https://clientxcms.com/',
+          width: 160,
+          height: 51,
+        },
         copyright: `Copyright © ${new Date().getFullYear()} ClientXCMS.`,
       },
       prism: {
