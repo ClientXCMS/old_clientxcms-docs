@@ -29,16 +29,21 @@ Les historiques peuvent être lourds dans la base de données, vous pouvez suppr
 - Executez la commande `crontab -e -u www-data`
 - Ajoutez une ligne ```* * * * * php /var/www/clientxcms/Cron/index.php >> /dev/null 2>&1```
 
-Avec cette ligne, les tâches s'effectueront toutes les minutes. Mais, vous pouvez augmenter le temps entre deux executions pour soulager la charge du serveur.
+Avec cette ligne, les tâches s'effectueront toutes les minutes. Mais, vous pouvez augmenter le temps entre deux executions pour soulager la charge de votre serveur.
 
 ## Configuration sur plesk
 - Connectez-vous à votre interface plesk
 - Allez dans `Outils & Paramètres` > `Tâches planifiées` > `Ajouter une tâche`
 - Sélectionnez le type de tâche "Execute un script PHP"
-- Choisissez le fichiez `/Cron/index.php` (aucun argument requis)
+- Choisissez le fichiez `/Cron/index.php` (aucun argument n'est requis)
 - Utilisez la version de php 7.4.X (attention cela peut poser des problèmes si la version est inférieure)
 - Dans "Run", sélectionnez `Cron style` et `*/1 * * * *`
 
 ![img](https://media.discordapp.net/attachments/598633976768364544/860287152838672394/unknown.png)
 
-**Information** : certains hébergeurs peuvent désactiver les tâches récurrentes, renseignez-vous avant pour leur demander de les activer.
+:::info **remarque**
+
+Certains hébergeurs peuvent désactiver les tâches récurrentes, renseignez-vous si votre hébergeur propose cette fonctionnalité.
+S'il le propose pas demander leur de les activer. 
+
+:::
