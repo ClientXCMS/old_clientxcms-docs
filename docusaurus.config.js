@@ -64,22 +64,19 @@ const config =
             label: 'Retour au site',
             position: 'right',
           },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-
           /*{
             type: 'localeDropdown',
             position: 'right',
           },*/
         ],
+      },        
+      announcementBar: {
+        id: 'announcementBar', // Increment on change
+        content: `L'équipe de ClientXCMS tient à vous mettre en garde que cette documentation est toujours en cours d'écriture donc si vous remarquez des problèmes n'hésités pas nous en faire part.`,
+        backgroundColor: '#828eb7',
+        textColor: '#000000',
+        isCloseable: false,
       },
-
-      /*announcementBar: {
-        id: 'announcementBar-1', // Increment on change
-        content: `content`,
-      },*/
       footer: {
         style: 'dark',
         links: [
