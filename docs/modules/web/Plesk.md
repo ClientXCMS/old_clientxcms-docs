@@ -41,7 +41,7 @@ Le port suivant doit être ouvert pour connecter ClientXCMS à votre Plesk : 844
 Vous pouvez tester la connexion au serveur et vérifier que le serveur renvoie *"Success"* en réponse.
 
 ## Configuration de l'offre
-En premier lieu, [créez votre produit](../../store/product#création) en sélectionnant **Plesk Hosting** pour les hébergements Web ou **Plesk Reselling** pour livrer des revendeurs Web.
+En premier lieu, [créez votre produit](../../store/produit#création) en sélectionnant **Plesk Hosting** pour les hébergements Web ou **Plesk Reselling** pour livrer des revendeurs Web.
 ![img](https://media.discordapp.net/attachments/926274245225504779/962910219158028318/unknown.png)
 Après appuyez sur le bouton "Suivant" il vous redirigera vers la page de configuration de l'offre. Si le champs est vide, assurez vous que votre serveur ne soit pas caché, dans ce cas il ne sera pris en compte dans le système pour récupérer les plans Plesk.
 

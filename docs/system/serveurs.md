@@ -22,7 +22,7 @@ Chaque produit/services de vos clients est relié un serveur ClientXCMS qui perm
 
 **Type de serveur**(select) : Type de serveur. Sera utilisé pour tester la connexion et se connecter à votre serveur.
 
-**Caché**(checkbox) : Permet de cacher le serveur ou non. [se référer ici pour plus d'informations](servers#test-de-connexion)
+**Caché**(checkbox) : Permet de cacher le serveur ou non. [se référer ici pour plus d'informations](serveurs#test-de-connexion)
 
 ### Serveurs de nom
 ![img](https://media.discordapp.net/attachments/475073153509490689/957604370189533185/unknown.png)
@@ -72,10 +72,10 @@ Module         | Port           |
 Vous pouvez supprimer un serveur en cliquant sur le bouton rouge dans la colonne "Actions". Une confirmation vous sera demandé, après ceci il supprimera le serveur et toutes les données attachées à celui-là.
 ## Edition
 Pour éditer un serveur, appuyez sur le bouton Bleu dans la colonne "Actions".
-Modifiez les informations comme vous le souhaitez puis [Tester la connexion](servers#test-de-connexion) pour être sûr de pas avoir désynchronisé quelque chose.
+Modifiez les informations comme vous le souhaitez puis [Tester la connexion](serveurs#Test-de-connexion) pour être sûr de pas avoir désynchronisé quelque chose.
 :::danger
 Il est fortement déconseillé de modifier le type de serveur. Cela pourrait provoquer des graves répercussions s'il y a des produits/services déjà configurés sur le serveur.
-[Vous pouvez créer un autre serveur pour éviter tout problème.](servers#création)
+[Vous pouvez créer un autre serveur pour éviter tout problème.](serveurs#Création)
 :::
 ![img](https://media.discordapp.net/attachments/475073153509490689/957599353571250196/unknown.png)
 

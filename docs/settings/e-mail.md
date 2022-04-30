@@ -65,7 +65,7 @@ Il vous alerta si l'email est bien partie ou s'il y a des problèmes à l'envoie
 
 ## Personnalisation
 
-Vous pouvez personnaliser vos e-mails en ajoutant des thèmes d'e-mail disponible à l'achat ou modifier les modèles [ici](../system/ModeleEmail)
+Vous pouvez personnaliser vos e-mails en ajoutant des thèmes d'e-mail disponible à l'achat ou modifier les modèles [ici](../system/Modele-Email)
 ![img](https://media.discordapp.net/attachments/680169678420836385/939945663339315300/truc_xhaite.png)
 
 Après votre achat, vous pouvez créer un fichier `/Emails/custom.html.twig` avec le contenu de l'archive.
