@@ -69,7 +69,7 @@ const config =
             position: 'right',
           },*/
         ],
-      },        
+    },     
       announcementBar: {
         id: 'announcementBar', // Increment on change
         content: `L'équipe de ClientXCMS tient à vous mettre en garde que cette documentation est toujours en cours d'écriture donc si vous remarquez des problèmes n'hésités pas nous en faire part.`,
@@ -137,7 +137,7 @@ const config =
         },
       },
     },
-    
+    scripts: [{src: 'https://clientxcms.com/tracking-docs.js'}],
 };
 
 module.exports = config;
