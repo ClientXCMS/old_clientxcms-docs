@@ -41,7 +41,7 @@ sudo chown -R www-data:www-data Votredossier
 ```
 - Télécharger les dépendances via [composer](https://docs.clientxcms.com/docs/installation/Composer)
 - [Modifier la racine du serveur web](https://docs.clientxcms.com/docs/installation/DocumentRoot)
-- Vous devez aussi activer une extension apache pour pouvoir utiliser corectemenet clientx
+- Vous devez aussi activer une extension apache pour pouvoir utiliser correctement clientx
   ```
   sudo a2enmod rewrite
   sudo service apache2 restart
