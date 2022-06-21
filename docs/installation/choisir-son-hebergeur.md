@@ -26,7 +26,7 @@ Pour être ajouté à cette liste il faut remplir certaines conditions :
 
 - Utilisation ClientXCMS pour votre hébergeur
 - Avoir le module Plesk/cPanel d'installé
-- Avoir 10 clients Web
+- Avoir 25 clients Web
 - Etre compatibles avec les [prérequis](./requis.md)
 
 Si votre société remplie ces conditions, vous pouvez nous demander de la rajouter via notre formulaire de [contact](mailto:contact@clientxcms.com)
