@@ -29,7 +29,8 @@ Pour être ajouté à cette liste il faut remplir certaines conditions :
 - Avoir 25 clients Web
 - Etre compatibles avec les [prérequis](./requis.md)
 
-Si votre société remplie ces conditions, vous pouvez nous demander de la rajouter via notre formulaire de [contact](mailto:contact@clientxcms.com)
+Si votre société remplie ces conditions, vous pouvez nous contacter via notre [mail](mailto:contact@clientxcms.com).
 
 ### Hébergeur non recommandé
-- Ionos
+- [Ionos](https://ionos.fr)
+- [Swizcloud](https://swizcloud.fr)
