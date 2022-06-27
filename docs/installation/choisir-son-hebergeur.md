@@ -33,4 +33,3 @@ Si votre société remplie ces conditions, vous pouvez nous contacter via notre 
 
 ### Hébergeur non recommandé
 - [Ionos](https://ionos.fr)
-- [Swizcloud](https://swizcloud.fr)
