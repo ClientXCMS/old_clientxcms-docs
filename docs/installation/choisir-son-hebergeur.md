@@ -15,7 +15,7 @@ Ces hébergeurs certifient qu'il est possible d'installer ClientXCMS sur leurs H
 - [SeaPerf](https://seaperf.com)
 - [Equi Hosting](https://equi-hosting.fr)
 - [Green-Heberg](https://green-heberg.fr/)*
-- [RW-Hosting](https:/rw-hosting.fr)*
+- [RW-Hosting](https://rw-hosting.fr)*
 - [Cloudfive.fr](https://cloudfive.fr/)*
 
 * **Hébergeur de référence**
