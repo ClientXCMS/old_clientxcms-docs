@@ -22,10 +22,11 @@ Les vues sont écrites en Twig cela ressemble fortement à de l'HTML avec des co
 | # Dossier où seront stockées les vues du thème
 ├── Themes
 ├─── VotreTheme
-├───── Account
-├───── Announcements
-├───── Auth
-├───── ...
+├───── Views
+├─────── Account
+├─────── Announcements
+├─────── Auth
+├─────── ...
 |
 | # Dossier où seront stockées les assets du thème
 ├── public

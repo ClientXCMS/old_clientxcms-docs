@@ -2,9 +2,9 @@
 sidebar_position: 6
 ---
 
-# Template d'e-mail
+# Templates d'e-mail
 
-Cette page explique comment installer les template que vous avez [acheter](#).
+Cette page explique comment installer les templates que vous avez [acheter](#).
 
 Pour installer ce template vous devez:
 

@@ -6,6 +6,9 @@ sidebar_position: 2
 ![img](https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png)
 
 Le module PayPal permet de accepter les paiements via PayPal de vos clients.
+:::info
+Cette fonctionnalité require le module "PayPal", il est gratuit et disponible au téléchargement depuis la page des modules.
+:::
 ## Mode live vs Mode Sandbox
 Le mode live de paypal permet d'accepter de vrais paiements (Utilisé en production).
 Le mode sandbox permet d'émettre des paiements de tests sans dépenser de l'argent réel (Utilisé en développement ou pour tester)
@@ -36,21 +39,16 @@ Vous pouvez également cliquer sur le bouton violet situé en haut à droite dan
 ![img](https://media.discordapp.net/attachments/926274245225504779/954711209582673970/unknown.png)
 Vous pourrez tester la connexion PayPal à ClientXCMS. Si la connexion est bien faite il persistera les informations
 
-Si vous avez des problème de connexion veuillez contacter notre support.
+Si vous avez des problèmes de connexion veuillez contacter notre support.
 
 ## Transaction
 Toutes les transactions PayPal avec les détails du paiement sont disponibles sur la page  `Espace Administration` > `Facturation` > `PayPal`
 Il est également possible de rechercher un paiement par l'id du paiement.
 ![img](https://media.discordapp.net/attachments/926274245225504779/954707212192858162/unknown.png?width=1440&height=285)
 ### Page de paiement
-![img](https://media.discordapp.net/attachments/926274245225504779/954712993671831552/unknown.png)
 
 Le client sélectionne le type de paiement PayPal. ClientXCMS va le redirige vers le Checkout paypal pour payer puis est redirigé vers votre site pour valider la commande.
 Après ceci, la transaction sera mise comme payée et les services seront livré.
-### Taxe sur les paiements
-
-Vous pouvez rajouter des taxes spéficiqque pour les paiements via PayPal pour ceci, rendez-vous dans `Espace Administration` > ` Paramètres` > `Payments taxes`
-![img](https://media.discordapp.net/attachments/926274245225504779/954713525102714880/unknown.png)
 ### Transaction d'un client
-La liste des transactions Dedipass est disponible sur la page d'édition d'un utilisateur `Espace Administration` > `Utilisateur` > `Edition` > `Services/Transactions lié(e)`
+La liste des transactions PayPal est disponible sur la page d'édition d'un utilisateur `Espace Administration` > `Utilisateur` > `Edition` > `Services/Transactions lié(e)`
 ![img](https://media.discordapp.net/attachments/926274245225504779/954712356057935943/unknown.png)

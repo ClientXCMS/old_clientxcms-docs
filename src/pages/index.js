@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <Layout
       title={`Documentation de ClientXCMS `}
-      description="Description will go into a meta tag in <head />">
+      description="Bienvenue dans la documentation de CLIENTXCMS">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
