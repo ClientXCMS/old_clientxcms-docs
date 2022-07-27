@@ -25,17 +25,17 @@ Pour y accéder : `Espace Administration` > `Boutique` > `Produits`
 ![img](https://media.discordapp.net/attachments/475073153509490689/957678648746446898/unknown.png)
 **Nom du produit**(texte) : Nom de vente qui sera affiché aux clients
 
-**Groupe**(select) : Groupe associé - Ne peut pas être dans aucun groupe [(Si vide créez en un ici)](./group#création)
+**Groupe**(select) : Groupe associé - Ne peut pas être dans aucun groupe [(Si vide créez en un ici)](./groupes#Création)
 
-**Order**(texte) : Ordre d'apparition - [Gérer nativement par la Réorganisation des produits](./group#réorganisation-des-produits)
+**Order**(texte) : Ordre d'apparition - [Gérer nativement par la Réorganisation des produits](./groupes#Réorganisation-des-produits)
 
-**Type**(select) : Type de produit - [(Si vide activez un module d'approvisionnement ici)](../modules#activation-dun-module)
+**Type**(select) : Type de produit - [(Si vide activez un module d'approvisionnement ici)](../modules#Activation-dun-module)
 
 **Type de paiement**(select) : Type de paiement pour le produit
 
 **Description**(texte) : Texte avec la description du produit
 
-**Caché**(checkbox) : Permet de cacher le produit ou non. [se référer ici pour plus d'informations](./product#produit-caché)
+**Caché**(checkbox) : Permet de cacher le produit ou non. [se référer ici pour plus d'informations](./produit#Produit-caché)
 
 
 ### Types de paiement disponibles

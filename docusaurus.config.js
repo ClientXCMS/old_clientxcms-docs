@@ -54,7 +54,7 @@ const config =
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'introduction',
             position: 'left',
             label: 'Documentation',
           },
@@ -64,30 +64,22 @@ const config =
             label: 'Retour au site',
             position: 'right',
           },
-
           /*{
             type: 'localeDropdown',
             position: 'right',
           },*/
         ],
+    },     
+      announcementBar: {
+        id: 'announcementBar', // Increment on change
+        content: `L'équipe de ClientXCMS tient à vous mettre en garde que cette documentation est toujours en cours d'écriture donc si vous remarquez des problèmes n'hésités pas nous en faire part.`,
+        backgroundColor: '#828eb7',
+        textColor: '#000000',
+        isCloseable: false,
       },
-
-      /*announcementBar: {
-        id: 'announcementBar-1', // Increment on change
-        content: `content`,
-      },*/
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Documentation',
-                to: '/docs/intro',
-              },
-            ],
-          },
           {
             title: 'Communautés',
             items: [
@@ -114,11 +106,18 @@ const config =
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/clientxcms/docs',
+                href: 'https://github.com/ClientXCMS/clientxcms-docs',
               },
             ],
           },
         ],
+        logo: {
+          alt: 'Logo',
+          src: 'img/ClientXLight.png',
+          href: 'https://clientxcms.com/',
+          width: 160,
+          height: 51,
+        },
         copyright: `Copyright © ${new Date().getFullYear()} ClientXCMS.`,
       },
       prism: {
@@ -133,8 +132,12 @@ const config =
         fr: {
           htmlLang: 'fr-FR',
         },
+        en: {
+          htmlLang: 'en-GB',
+        },
       },
     },
+    scripts: [{src: 'https://clientxcms.com/tracking-docs.js'}],
 };
 
 module.exports = config;

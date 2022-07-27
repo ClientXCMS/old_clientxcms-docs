@@ -4,6 +4,12 @@
 # Production
 /build
 
+#.zip
+*zip
+
+#trad
+/i18n
+
 # Generated files
 .docusaurus
 .cache-loader

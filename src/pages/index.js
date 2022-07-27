@@ -16,15 +16,10 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/store/product#création">
+            to="/docs/store/produit#création">
             Configurez vos offres - 5min ⏱️
           </Link>
         </div>
-          <div className={clsx(styles.alert)}>
-            * L'équipe de ClientXCMS tient à vous mettre en garde que cette documentation est toujours en cours d'écriture;
-            <br></br> 
-            donc si vous remarquez des problèmes n'hésités pas nous en faire part.
-          </div>
       </div>
     </header>
   );
