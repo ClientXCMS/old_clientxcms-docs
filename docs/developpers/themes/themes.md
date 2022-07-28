@@ -159,7 +159,8 @@ avec ce code :
 use Themes\Fake\FakeTheme;
 
 return [
-    'class' => FakeTheme::class
+    'class' => FakeTheme::class,
+    //'boostrapv5' => true, // Recommandé si vous adaptez un thème boostrap v5
 ];
 ```
 ### Détection du thème
@@ -167,14 +168,85 @@ Après ceci votre thème sera détecté par le système et sera affiché dans la
 ![img](https://media.discordapp.net/attachments/475073153509490689/957781759263658045/unknown.png)
 
 Il vous suffira de le sélectionner et de sauvegarder.
-
 ### Layout
 ### Layout Auth
 ### Navigations
+#### Afficher un menu
+Les menus sont constitués d'items (element) que chaque module rajoute et le système récupère chaque items et les affiches à la suite 
+
+Exemple, cette barre de navigation, est définie comme un menu de ClientXCMS
+
+![img](https://media.discordapp.net/attachments/926274245225504779/1001917936518303805/unknown.png)
+
+![img](https://media.discordapp.net/attachments/926274245225504779/1001918199295643768/unknown.png?width=960&height=66)
+
+mais également ces widgets sont des menus, car chaque widget est représenté séparément dans le code 
+Pour modifier ce widget suivez ceci : 
+1. Créer unn fichier `/Themes/Fake/navigations/home.twig`
+2. Insérez ce contenu
+
+```
+   {% for item in items %}
+    <div class="col-xl-{{ item.col ? item.col : 3 }} col-sm-12 col-lg-{{ item.col ? item.col : 3 * 2 }} col-12">
+        <div class="card card-statistic-1">
+            <div class="card-icon bg-{{ item.color }}">
+                <i class="{{ item.icon }}"></i>
+            </div>
+            <div class="card-wrap">
+                <div class="card-header">
+                    <h4>{{ item.value }}</h4>
+                </div>
+                <div class="card-body">
+                    {{ trans(item.name) }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+```
+3. Ici, Pour les 4 widgets il va faire une boucle et avec les variables changer la couleur et les valeurs que ClientXCMS donnne
+
 ### Fichier
 ### Fonction et filtres
+## Fonctions
+les fonctions s'utile sous format : "{{ path('home') }}'" dans un fichier twig
+
+### Quelques fonctions de base
+Functions       | Paramètres              | Description |
+|------------        | ------------             |------------ |
+| path           | routeName:string, params:array, absolue:false | Génére une URL |
+| is_subpath | routeName:string, params:array | Vérifie si l'url courant contiens l'url de la route demandé |
+| is_path | routeName:string, params:array | Vérifie si l'url courant est égale l'url de la route demandé |
+| current_route |  | Récupère la route courante (en object) |
+| current_user |  | Récupère l'utilisateur courant (en object) |
+| to_recurring | recurring:string | Renvoie le recurring (en object) |
+| basket_count |  | Renvoie le nbr d'élément dans le panier |
+| basket_row | product:Product | Renvoie la ligne d'élément dans le panier |
+| basket_data | product:Product | Renvoie la ligne d'élément dans le panier |
 ### Récupérer l'utilisateur connecté
 
-### Page 404
+Pour récupérer simplement l'utilisateur connecté il suffit de faire dans la vue :
 
+```twig
+{{ current_user().firstname }}
+```
+
+Pour vérifier si l'utilisateur est connecté : 
+
+```
+{% if current_user() %}
+Bonjour  {{ current_user().name }} ! 
+{% else %}
+L'utilisateur n'est pas conecté
+{% endif %}
+```
+#### Coté admin
+Pour récupérer l'admin connecté il suffit de faire
+```twig
+{{ current_admin().firstname }}
+```
+Dans notre cas, il va afficher le nom de l'utilisateur courant, si l'utilisateur n'est pas connecté il affichera un texte.
+### Page 404
 Vous pouvez personnaliser la page 404 de votre thème en créant un fichier `/Themes/Fake/e404.twig` avec le contenu que vous voulez.
+Variables : 
+- **%uri%** : URL non trouvé
