@@ -34,7 +34,7 @@ Votre clé d'api client vous sera donnée qu'une seule fois, après elle sera tr
 ### Clé application
 Clé d'api client (Account) disponible sur votre Pterodactyl `/admin/api/new`
 
-![img](https://media.discordapp.net/attachments/475073153509490689/957611684523049000/unknown.png)
+![img](https://media.discordapp.net/attachments/475073153509490689/1012089288688672838/unknown.png)
 **Permissions** : Comme dans la capture
 
 **Description** : CLIENTXCMSAPI
@@ -51,6 +51,11 @@ Vous pouvez modifier directement la configuration d'un produit dans la colonne "
 ## Panel de gestion client
 
 ## Erreurs/Problèmes connus
-### Serveur caché
+
 ### Code HTTP 200
-Échec de la création du serveur, code d'erreur reçu
+Échec de la création du serveur, code d'erreur reçu : 200
+Il suffit de modifier votre serveur et mettre le champ sécurité à enabled.
+### Ip du serveur qui n'est pas affichée
+![img](https://media.discordapp.net/attachments/475073153509490689/1012087901112238170/unknown.png)
+Ce problème vient du fait que vous n'avez pas autorisé la permission "Allocations" à "READ"
+Pour les anciennes installations nous conseillons de recréer une clé "Application" d'API en précisant cette permission

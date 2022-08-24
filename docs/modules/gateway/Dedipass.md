@@ -6,7 +6,9 @@ sidebar_position: 1
 ![img](http://dedipass.com/images/logo-white.png)
 
 Dedipass est un service de micropaiement via appel surtaxé, SMS, Audiotel.
-
+:::info
+Cette fonctionnalité requires le module "Paysafecard", il est gratuit et disponible au téléchargement depuis la page des modules.
+:::
 ## Installation
 Après vous êtes inscrit ou connecter, créez un **Service** de type **Virtual currency** et cliquez sur next. Complétez les champs demandés avec ces informations : 
 ![img](https://media.discordapp.net/attachments/926274245225504779/954699793060462662/unknown.png)

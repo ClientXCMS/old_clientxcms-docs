@@ -5,11 +5,11 @@ sidebar_position: 2
 # Plesk
 
 Le module Plesk permet de fournir des offres Plesk à vos clients. Le module supporte les revendeurs web et hébergement simple. Il fonctionne avec les plans Plesk qui facilite grandement sa configuration puisqu'il suffit de lié un produit à un plan Plesk.
-:::success A savoir
+:::success À savoir
 Ce module est compatible avec les versions 11, 11.5, 12, 12.5 , Onyx, et Obsidian de Plesk.
 :::
 :::info
-Pour utiliser les fonctionnalités du module, il faut que l'extension PHP **XML** soit activeé sur votre hébergement. Pour l'installer : 
+Pour utiliser les fonctionnalités du module, il faut que l'extension PHP **XML** soit activée sur votre hébergement. Pour l'installer : 
 ```bash
 apt install php-xml
 ```
@@ -20,6 +20,7 @@ Pour utiliser les fonctionnalités suivantes, il faut que le module Plesk soit a
 ### Fonctionnalités supportées 
 - Automatisez la création et l'approvisionnement des comptes
 - Gestion des hébergements depuis l'espace client
+- Envoie des identifiants de connexion par E-mail
 - Connexion automatique au Plesk
 - Réinitialiser les mots de passe et gérer les comptes
 - Automatisez les suspensions et les résiliations
