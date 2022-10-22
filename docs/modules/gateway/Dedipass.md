@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Dedipass est un service de micropaiement via appel surtaxé, SMS, Audiotel.
 :::info
-Cette fonctionnalité requires le module "Paysafecard", il est gratuit et disponible au téléchargement depuis la page des modules.
+Cette fonctionnalité require les modules "Dedipass" et "Fond", ils sont gratuits et disponibles au téléchargement depuis la page des modules [cliquez ici pour l'activer](../#activation-dun-module).
 :::
 ## Installation
 Après vous êtes inscrit ou connecter, créez un **Service** de type **Virtual currency** et cliquez sur next. Complétez les champs demandés avec ces informations : 
@@ -16,6 +16,10 @@ Après vous êtes inscrit ou connecter, créez un **Service** de type **Virtual 
 - Sélectionnez "Callback IPN"
 - Le callback URL vous mettez fakehosting.com/api/dedipass
 - Remplacez fakehosting.com par votre domaine d'installation de ClientXCMS.
+
+Puis, dans les paramètres  `Espace Administration` > `Paramètres` > `Dedipass`. Insérez vos clés d'api données par Dedipass puis sauvegarder.
+![img](https://media.discordapp.net/attachments/1033142197102592131/1033142225862922270/unknown.png)
+
 ## Transaction
 Toutes les transactions Dedipass avec les détails du paiement sont disponibles sur la page  `Espace Administration` > `Facturation` > `Dedipass`
 Il est également possible de rechercher un paiement par son code de paiement.

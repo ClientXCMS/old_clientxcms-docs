@@ -28,7 +28,11 @@ Plus d'informations [ici](https://twig.symfony.com/doc/3.x/templates.html)
 ```
 ### Ternaire
 ```twig
-current_user() ? "Vous êtes actuellment connecté" : "Veuillez vous connecter ! "
+{{ current_user() ? "Vous êtes actuellment connecté" : "Veuillez vous connecter ! " }}
+```
+### Afficher une valeur
+```twig
+{{ current_user().email }}
 ```
 Vous pouvez personnaliser avec des variables qui prennent la valeur des informations de l'utilisateur actuellement connecté.
 

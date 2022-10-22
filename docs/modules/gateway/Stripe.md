@@ -17,13 +17,13 @@ Le mode live de stripe permet d'accepter de vrais paiements (Utilisé en product
 Le mode test permet d'émettre des paiements de tests sans dépenser de l'argent réel (Utilisé en développement ou pour tester)
 Vous pouvez choisir ce mode en haut à droite "Mode test"
 ## Récupérer ses clés
-Une fois connecté, Rendez-vous sur [https://dashboard.stripe.com/apikeys](sur le Dashboard API stripe) et cliquez sur le bouton "Crée une clé secrète"
+Une fois connecté, Rendez-vous sur [sur le Dashboard API stripe](https://dashboard.stripe.com/apikeys) et cliquez sur le bouton "Crée une clé secrète"
 ![img](https://media.discordapp.net/attachments/926274245225504779/1001908055421767790/unknown.png)
 ![img](https://media.discordapp.net/attachments/926274245225504779/1001907713862807702/unknown.png)
 
 Puis validez et récupérez vos deux clés, une publique (publishable key) et une secrète (secrete key)
 ## Webhook Stripe
-Rendez-vous sur [https://dashboard.stripe.com/webhooks](sur le Dashboard Webhooks stripe) et cliquez sur le bouton "ajouter un endpoint"
+Rendez-vous sur [sur le Dashboard Webhook stripe](https://dashboard.stripe.com/webhooks) et cliquez sur le bouton "ajouter un endpoint"
 ![img](https://media.discordapp.net/attachments/926274245225504779/1001913804587815013/unknown.png)
 ![img](https://media.discordapp.net/attachments/926274245225504779/1001913973270118440/unknown.png?width=611&height=467)
 
@@ -31,7 +31,7 @@ Rendez-vous sur [https://dashboard.stripe.com/webhooks](sur le Dashboard Webhook
 - **Description** : Mon super hébergeur (facultative)
 - **Ecouter** : évenements sur votre compte
 - **Version** : 2019-09-09
-- **évènements** : Sélectionnez tout, ClientnXCMS fera le tris
+- **évènements** : Sélectionnez tout, ClientXCMS fera le tris
 
 Puis cliquez sur ajouter un endpoint
 Il vous fournira une clé secrète commençant par **whsec**

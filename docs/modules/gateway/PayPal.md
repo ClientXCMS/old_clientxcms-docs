@@ -7,7 +7,7 @@ sidebar_position: 2
 
 Le module PayPal permet de accepter les paiements via PayPal de vos clients.
 :::info
-Cette fonctionnalité require le module "PayPal", il est gratuit et disponible au téléchargement depuis la page des modules.
+Cette fonctionnalité require le module "PayPal", il est gratuit et disponible au téléchargement depuis la page des modules [cliquez ici pour l'activer](../#activation-dun-module).
 :::
 ## Mode live vs Mode Sandbox
 Le mode live de paypal permet d'accepter de vrais paiements (Utilisé en production).

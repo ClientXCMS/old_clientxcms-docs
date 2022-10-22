@@ -5,10 +5,10 @@ sidebar_position: 6
 # Base de données
 
 ## Introduction 
-Pour stocker les données de vos clients et celles nécessaires au bon fonctionnement du CMS, CLIENTX utilise le système relationnel MySQL. Une base de données est obligatoire (vierge ou non) pour contenir les tables nécessaires au bon fonctionnement du CMS. Le système PDO (PHP Data Objets) est utilisé pour intéragir avec la base. Il faut donc que l'extension MySQL ainsi que PDO soient installés sur votre hébergement WEB.
+Pour stocker les données de vos clients et celles nécessaires au bon fonctionnement du CMS, CLIENTXCMS utilise le système relationnel MySQL. Une base de données est obligatoire (vierge ou non) pour contenir les tables nécessaires au bon fonctionnement du CMS. Le système PDO (PHP Data Objets) est utilisé pour intéragir avec la base. Il faut donc que l'extension MySQL ainsi que PDO soient installés sur votre hébergement WEB.
 
 ## Connexion
-Les informations de connection à la base sont demandées dans le ```.env```. Ce fichier ne doit pas être versionné. Voici un exemple
+Les informations de connection à la base sont demandées dans le ```.env```. Ce fichier ne doit pas être versionné par git. Voici un exemple
 ```
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -25,9 +25,13 @@ Pour vérifier que la connexion entre CLIENTXCMS et MySQL est bien opérationnel
 En cas d'échec, la page vous renvoie le message d'érreur :
 `Erreur de connexion à la base de données`.
 
-Pour plus de détails, modifiez dans le ```.env``` l'environment la clé `APP_ENV` à `dev`.
+Pour plus de détails, modifiez dans le fichier ```.env```  la clé `APP_ENV` à `dev`.
+:::danger
 Attention, les identifiants peuvent apparaitre sur la page. Mais ça peut vous aider à résoudre le problème.
+:::
 
+## .env.copy introuvable
+Vous pouvez le recréer facilement avec l'exemple disponible [ici](https://clientxcms.com/api/env.copy)
 ## Migration
 
 Pour gérer les migrations de la base de données (pour le développement ou la mise en production). ClientXCMS utilise [phinx.org](https://phinx.org/). Vous pouvez vous référer à leur documentation pour approfondir son fonctionnement.
