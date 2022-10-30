@@ -13,7 +13,7 @@ const config =
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://cdn.clientxcms.com/ressources/Themes/CLIENTXCMS/images/favicon.ico',
   organizationName: 'clientxcms', // Usually your GitHub org/user name.
   projectName: 'clienetxcms-docs', // Usually your repo name.
 
@@ -49,7 +49,7 @@ const config =
         title: 'CLIENTXCMS Docs',
         logo: {
           alt: 'CLIENTXCMS Logo',
-          src: 'img/Favicon.png',
+          src: 'https://cdn.clientxcms.com/ressources/Themes/CLIENTXCMS/images/logo-blue.png',
         },
         items: [
           {
@@ -113,7 +113,7 @@ const config =
         ],
         logo: {
           alt: 'Logo',
-          src: 'img/ClientXLight.png',
+          src: 'https://cdn.clientxcms.com/ressources/Themes/CLIENTXCMS/images/Fichier-24_2x.webp',
           href: 'https://clientxcms.com/',
           width: 160,
           height: 51,
