@@ -54,7 +54,7 @@ Une interface visuelle est disponible sur  `Espace d'administration` > `Base de 
 
 - Seed <br/>
 
-    Cette commande permet de remplir votre base avec des données pré-définies ou générer dynamiquement via la librairie [faker](https://github.com/fzaninotto/Faker)
+    Cette commande permet de remplir votre base avec des données prédéfinies ou générer dynamiquement via la librairie [faker](https://github.com/fzaninotto/Faker)
     ```
     ./vendor/bin/phinx seed:run
     ```

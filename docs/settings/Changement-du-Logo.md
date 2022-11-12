@@ -10,7 +10,7 @@ Vous pouvez ajouter le logo de votre hébergeur sur votre `CMS`.
 
 Pour cela il vous suffit d'aller dans `L'administration > Système > Paramètres > Général`.
 
-Et vous pouvez directement glisser votre logo dans l'emplacement prévu a cet effet.
+Et vous pouvez directement glisser votre logo dans l'emplacement prévu à cet effet.
 
 ![img](https://cdn.discordapp.com/attachments/939840146507989003/968534237928128512/unknown.png)
 
@@ -21,7 +21,7 @@ Vous pouvez changer le Favicon de votre hébergeur sur votre `CMS`.
 
 Pour cela il vous suffit d'aller dans `L'administration > Système > Paramètres > SEO`.
 
-Et vous pouvez directement glisser votre Favicon dans l'emplacement prévu a cet effet.
+Et vous pouvez directement glisser votre Favicon dans l'emplacement prévu à cet effet.
 
 
 ![img](https://cdn.discordapp.com/attachments/939840146507989003/968534371260854302/unknown.png)

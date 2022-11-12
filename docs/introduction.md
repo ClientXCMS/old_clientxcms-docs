@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Introduction
 
-ClientXCMS est un projet open-source qui permet de gérer les services, factures, clients, devis, ou demande de vos clients. Il permet de créer des sociétés d'hébergement très rapidement à moindre frais.
-## Service supportés
+ClientXCMS est un projet open-source qui permet de gérer les services, factures, clients, devis ou demande de vos clients. Il permet de créer des sociétés d'hébergement très rapidement à moindre frais.
+## Services supportés
 
-Nous avons nativement développés les modules de création de services ou de moyens de paiement reconnues.
+Nous avons nativement développés les modules de création de services ou de moyens de paiement reconnus.
 
 #### Certains de nos principaux services pris en charge incluent :
 - [Plesk](https://clientxcms.com/app/Plesk)

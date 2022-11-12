@@ -5,6 +5,9 @@ sidebar_position: 1
 # Proxmox
 Proxmox est un panel très répandu pour gérer des machines virtuel très rapidement et simplement. Ce module permet de créer les CT/VM de vos clients avec les performances choisis.
 
+:::info Modules
+Pour utiliser les fonctionnalités suivantes, il faut que le module Proxmox soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../)
+:::
 | Création 	| Suspension 	| Expiration 	| Unsuspend 	| Importation 	| Options 	|
 |----------	|------------	|------------	|-----------	|-------------	|---------	|
 |     ✅    	|      ✅     	|      ✅     	|     ✅     	|      ✅      	|    ✅    	|
@@ -38,7 +41,7 @@ Vous pouvez voir la liste de vos configurations Proxmox depuis `Espace Administr
 Vous pouvez modifier directement la configuration d'un produit dans la colonne "Actions" en cliquant sur le bouton bleu.
 
 ## Système d'adresse IP
-Pour créer les VM/CT ClientXCMS doit savoir quelles adresses IPs faut utiliser pour connecter au reste d'internet.
+Pour créer les VM/CT ClientXCMS doit savoir quelles adresses IPs il faut utiliser pour connecter au reste d'internet.
 Pour les administrer, rendez-vous sur `Espace Administration` > `Proxmox` > `Configuration des IP`, vous pourrez également savoir quelle adresse est déjà utilisée, supprimer, modifier ou dupliquer une adresse.
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033422401763024976/unknown.png?width=1440&height=393)
 

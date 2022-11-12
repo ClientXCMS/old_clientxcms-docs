@@ -11,7 +11,7 @@ sidebar_position: 3
 **Domaine**(domaine) : Domaine qui sera utilisé pour créer les liens dans les emails. Valeur par défaut : Domaine d'installation
 
 **Salutation**(texte) : Message de salutation sur chaque e-mail.
-Valeur par default : Bonjour `{{ current_user().name }},`
+Valeur par default : Bonjour `{{ current_user(user_id).name }},`
 
 **Greeting**(texte) : Message cordial sous chaque email.
 Valeur par default : Cordialement `{{ config('app.name'}}` 
@@ -29,7 +29,7 @@ Pour le Greeting et les Salutations il est possible d'utiliser les informations 
 ## Gestion d'envoi d'email
 Vous pouvez gérer l'envoie de vos emails depuis votre `Espace Administration` > `Envoi d'email` disponible depuis le menu de navigation.
 ![img](https://media.discordapp.net/attachments/475073153509490689/957065809396641883/unknown.png)
-Vous pouvez voir la date de l'envoi de l'e-mail, son destinataire ou son sujet. Le premier boutons permet de renvoyer manuellement l'e-mail s'il n'est pas encore envoyé.
+Vous pouvez voir la date de l'envoi de l'e-mail, son destinataire ou son sujet. Le premier bouton permet de renvoyer manuellement l'e-mail s'il n'est pas encore envoyé.
 Le second bouton permet de visionner dans un nouvel onglet le contenu de l'email comme envoyé dans la boite de messagerie.
 
 ### Envoi d'email à un client
@@ -45,7 +45,7 @@ Vous pouvez envoyer des emails personnalisés pour chaque utilisateur inscrit. P
 En cas d'échec d'envoi de l'email, l'email est sauvegardé en base de données pour l'envoyé plus tard.
 
 ### Via sendmail
-Par défaut, ClientXCMS envoie par sendmail. Il est recommandé d'utiliser des serveurs SMTP pour un envoi d'e-mail plus sécurisé et éviter que les e-mails soit directement mis dans les spams des messageries.
+Par défaut, ClientXCMS envoie par sendmail. Il est recommandé d'utiliser des serveurs SMTP pour un envoi d'e-mail plus sécurisé et éviter que les e-mails soient directement mis dans les spams des messageries.
 ### Via serveurs SMTP
 **Mot de passe SMTP**(mot de passe) : Mot de passe du serveur SMTP
 
@@ -66,7 +66,7 @@ Il vous alerta si l'email est bien partie ou s'il y a des problèmes à l'envoie
 ## Personnalisation
 
 Vous pouvez personnaliser vos e-mails en ajoutant des thèmes d'e-mail disponible à l'achat ou modifier les modèles [ici](../system/Modele-Email)
-![img](https://media.discordapp.net/attachments/680169678420836385/939945663339315300/truc_xhaite.png)
+![img](https://media.discordapp.net/attachments/475073153509490689/1037870848670973962/unknown.png)
 
 Après votre achat, vous pouvez créer un fichier `/Emails/custom.html.twig` avec le contenu de l'archive.
 Vous pourrez après tester ce que les changements visuels des e-mails ont eux lui.

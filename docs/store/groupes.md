@@ -28,7 +28,7 @@ Vous pouvez réorganiser l'offre d'affichage des groupes dans le menu. Faite gli
 
 **Gros titre**(texte) : Texte qui sera affiché dans la page groupe pour vendre vos produits.
 
-**Caché**(checkbox) : Permet de cacher le groupe ou non. [se référer ici pour plus d'informations](./groups#Groupe-caché)
+**Caché**(checkbox) : Permet de cacher le groupe ou non. [se référer ici pour plus d'informations](./groupes#Groupe-caché)
 
 ## Edition
 

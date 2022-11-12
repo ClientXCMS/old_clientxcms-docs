@@ -76,7 +76,7 @@ cd /etc/nginx/conf.d/
 ```bash
 nano manager.example.com.conf
 ```
-#### Exemple
+#### Exemple de fichier de configuration
 ```bash
 server {
     listen 80;
