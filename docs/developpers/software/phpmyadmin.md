@@ -6,7 +6,7 @@ sidebar_position: 1
 
 phpMyAdmin est un outil logiciel gratuit écrit en PHP, destiné à gérer l'administration de MySQL sur le Web. phpMyAdmin prend en charge un large éventail d'opérations sur MySQL et MariaDB. Les opérations fréquemment utilisées (gestion des bases de données, des tables, des colonnes, des relations, des index, des utilisateurs, des autorisations, etc.) peuvent être effectuées via l'interface utilisateur, tandis que vous avez toujours la possibilité d'exécuter directement n'importe quelle instruction SQL.
 
-Il est souvent utilisé pour des hébergements de serveurs de jeux avec le panel [pterodactyl](../../modules/pterodactyl).
+Il est souvent utilisé pour des hébergements de serveurs de jeux avec le panel [pterodactyl](../../modules/game/Pterodactyl).
 
 Cette page est destinée à l'installation de ce logiciel
 
