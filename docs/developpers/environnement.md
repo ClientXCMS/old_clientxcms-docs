@@ -16,7 +16,7 @@ Si ce fichier n'est pas affiché sur filezilla, WinSCP essayez de le créer avec
 ### Mode développement vers production
 Dans le fichier d'environnement, mettez la clé `APP_DEBUG` à `false` et `APP_ENV` à `prod`
 ### Mode production vers développement
-Dans le fichier d'environnement, mettez la clé `APP_DEBUG` à `true` et `APP_ENV` à `prod`
+Dans le fichier d'environnement, mettez la clé `APP_DEBUG` à `true` et `APP_ENV` à `dev`
 
 ## Vider le cache de l'application
 Pour ceci, allez dans `Espace d'administration` > `Paramètres` et cliquez sur le bouton rouge pour vider le cache de l'application

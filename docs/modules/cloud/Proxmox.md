@@ -15,7 +15,8 @@ Pour utiliser les fonctionnalités suivantes, il faut que le module Proxmox soit
 ## Support
 - LXC
 - KVM
-- OpenVZ - Non supporté (déprécié par proxmox)
+- NoVNC
+- xtermjs
 
 :::info Modules
 Pour utiliser les fonctionnalités suivantes, il faut que le module Proxmox soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../#activation-dun-module)
@@ -45,6 +46,18 @@ Pour créer les VM/CT ClientXCMS doit savoir quelles adresses IPs il faut utilis
 Pour les administrer, rendez-vous sur `Espace Administration` > `Proxmox` > `Configuration des IP`, vous pourrez également savoir quelle adresse est déjà utilisée, supprimer, modifier ou dupliquer une adresse.
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033422401763024976/unknown.png?width=1440&height=393)
 
+## Système d'oses
+Pour des meilleures performances et visuel, vous pouvez ajouter des OS Proxmox qui seront disponibles à l'installation des VM/CT.
+Ce système à deux buts : Possibilité de modifier un OS qu'une seule fois et cela prendra effet sur toutes les configurations produit ayant cet OS. Et permet d'ajouter un nom plus simple pour vos clients (Exemple Debian 11 au lieu de local:iso/debian-11.5.0-amd64-netinst.iso)
+Pour administrer les oses, rendez-vous sur `Espace Administration` > `Proxmox` > `Oses`, vous pourrez supprimer, modifier ou en ajouter.
+![img](https://media.discordapp.net/attachments/475073153509490689/1045480568747462686/image.png?width=1440&height=382)
+
+## Système de templates
+Pour des meilleures performances et visuel, vous pouvez ajouter des Templates Proxmox qui seront disponibles à l'installation des VM/CT.
+Ce système à deux buts : Possibilité de modifier une template qu'une seule fois et cela prendra effet sur toutes les configurations produit ayant cette template. Et permet d'ajouter un nom plus simple pour vos clients (Exemple Debian 11 au lieu de local:iso/debian-11.5.0-amd64-netinst.iso)
+Pour administrer les templates, rendez-vous sur `Espace Administration` > `Proxmox` > `Templates`, vous pourrez supprimer, modifier ou en ajouter.
+![img](https://media.discordapp.net/attachments/475073153509490689/1045481242793103452/image.png?width=1440&height=331)
+
 ### Création
 Ajouter une IP depuis `Espace Administration` > `Proxmox` > `Configuration des IP` > `Nouveau`
 
@@ -52,6 +65,7 @@ Ajouter une IP depuis `Espace Administration` > `Proxmox` > `Configuration des I
 - **DHCP Mode** : Permet de connecter la VM/CT en DHCP
 - **Auto Adresse MAC** : Génère automatiquement l'adresse mac
 - **Parefeu** : Active le pare feu
+
 ### Importer un block d'IP
 Importer rapidement des blocks d'ip depuis la page de création
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033425424534999192/unknown.png)
@@ -67,7 +81,7 @@ Sélectionnez votre produit Proxmox et l'utilisateur, cochez "**Ajouter service 
 Après ceci vous pourrez définir le mot de passe root, l'os et un nom d'hôte personnalisé
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033403768252932156/unknown.png)
 
-Puis cliquez sur "Créer"
+Puis cliquez sur "Créer".
 
 Pour plus d'informations sur la création manuelle d'un service [cliquez ici](../../store/services#création-de-service)
 ## Importation
@@ -80,7 +94,6 @@ Après ceci vous pourrez choisir la node et l'identifiant de la VM à importer s
 Puis cliquez sur "Créer".
 La machine est désormais gérable depuis CLIENTXCMS.
 Pour plus d'informations sur l'importation d'un service [cliquez ici](../../store/services#importation-de-service)
-
 
 ## Panel de gestion
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033310938922754078/unknown.png?width=1440&height=617)

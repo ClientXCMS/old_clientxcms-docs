@@ -10,7 +10,7 @@ Vous avez la possibilité d'ajouter des menus personnalisés a votre Espace Clie
 
 ![img](https://i.gyazo.com/e20357ab9807ff3f11fd150191f85c2a.png)
 
-Dans cet espace vous pouvez:
+Dans cet espace vous pouvez :
 - Ajouter un **nom** a ce Menu
 - Indiquer un **badge** (la case peut être laissée vide)
 - Inserer une **redirection** pour y accèder

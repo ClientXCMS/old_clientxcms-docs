@@ -16,6 +16,6 @@ Cliquez ensuite sur Nouveau et remplissez le **Nom**, l'**icone** *(optionnel)* 
 
 ### Consulter la foire aux questions
 
-Pour se faire, rendez-vous sur le site puis dans le menu `FAQ`
+Pour ce faire, rendez-vous sur le site puis dans le menu `FAQ`
 
 ![img](https://i.gyazo.com/d9c365f09822cf8d617cc2ab509a31dc.png)
