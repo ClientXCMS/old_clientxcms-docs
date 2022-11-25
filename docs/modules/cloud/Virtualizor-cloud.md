@@ -63,7 +63,7 @@ Après ceci vous pourrez choisir le VPS à importer sur CLIENTXCMS
 ![img](https://media.discordapp.net/attachments/475073153509490689/1041095492865638460/image.png?width=1440&height=437)
 
 ## Option Supportés
-- Espace disque additionnels
-- Mémoire additionnels
+- Espace disque additionnel
+- Mémoire additionnel
 - Adresse IP additionnels
 - Cœurs additionnels

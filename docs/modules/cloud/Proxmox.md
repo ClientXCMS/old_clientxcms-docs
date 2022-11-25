@@ -97,3 +97,37 @@ Pour plus d'informations sur l'importation d'un service [cliquez ici](../../stor
 
 ## Panel de gestion
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033310938922754078/unknown.png?width=1440&height=617)
+
+## NoVNC
+Le NoVNC n'esséciste un utilisateur spécifique sur votre Proxmox, pour activer cette fonctionnalité, rendez-vous sur votre `panel Proxmox` puis, connecter-vous avec votre compte Administrateurs.
+Dans votre `datacenter`, section `Permissions` ensuite `users`, ajoutez un utilisateur avec comme nom d'utilisateur `novnc` en Realm PAM avec un mot de passé sécurisé.
+![img](https://media.discordapp.net/attachments/475073153509490689/1045648570184912896/image.png)
+
+Puis, allez dans la section `Role` pour créer un rôle pour avoir accès à la console.
+
+![img](https://media.discordapp.net/attachments/475073153509490689/1045651682631106631/image.png)
+
+Après ceci, allez dans la section `Permissions` et cliquez sur `Add` > `User permissions`.
+
+![img](https://media.discordapp.net/attachments/475073153509490689/1045652720280936508/image.png)
+
+Pour terminer, allez dans votre hébergement et modifiez votre fichier `.env` en y rajouter ces 2 deux lignes (ou modifier si elles y sont déjà)
+```
+
+PROXMOX_NOVNC_PASSWORD1="novnc"
+PROXMOX_NOVNC_USERNAME1="novnc"
+```
+En mettant les identifiants de connexion de l'utilisateur novnc.
+
+:::info
+le "1" est l'identifiant du serveur CLIENTXCMS relié à votre Proxmox pour savoir quel est l'identifiant de votre serveur il se trouve dans `Espace Administration` > `Serveurs`
+![img](https://media.discordapp.net/attachments/475073153509490689/1045653896820965376/image.png)
+:::
+
+
+## Option Supportés
+- Espace disque additionnel
+- Mémoire additionnel
+- Cœurs additionnels
+- swap additionnel
+- sockets additionnel
