@@ -87,14 +87,14 @@ Vous pouvez sélectionner plusieurs eggs et vos clients pourront choisir l'œuf 
 
 Pour créer un serveur Wisp dans CLIENTXCMS, rendez-vous sur `Espace Administration` > `Services` > `Tout` > `Nouveau`.
 
-Sélectionnez votre produit Proxmox et l'utilisateur, cochez "**Ajouter service automatiquement**". Puis vous cliquez sur suivant.
+Sélectionnez votre produit Wisp et l'utilisateur, cochez "**Ajouter service automatiquement**". Puis vous cliquez sur suivant.
 Puis cliquez sur "Créer"
 
 Pour plus d'informations sur la création manuelle d'un service [cliquez ici](../../store/services#création-de-service)
 ## Importation
 Pour importer un serveur qui est déjà sur votre Wisp sur CLIENTXCMS, rendez-vous sur `Espace Administration` > `Services` > `Tout` > `Nouveau`.
 
-Sélectionnez votre produit Proxmox et l'utilisateur, cochez "**Ajouter manuellement le service**". Puis cliquez sur suivant
+Sélectionnez votre produit Wisp et l'utilisateur, cochez "**Ajouter manuellement le service**". Puis cliquez sur suivant
 
 
 Après ceci vous pourrez choisir le serveur à importer sur CLIENTXCMS
