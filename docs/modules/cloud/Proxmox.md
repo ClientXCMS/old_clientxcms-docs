@@ -131,3 +131,9 @@ le "1" est l'identifiant du serveur CLIENTXCMS relié à votre Proxmox pour savo
 - Cœurs additionnels
 - swap additionnel
 - sockets additionnel
+
+## Ne pas envoyer des identifiants par mail
+
+Par défault, CLIENTXCMS envoie les identifiants à votre client, mais vous pouvez le faire en modifiant le modèle d'email Proxmox en retirer les variables `%username%` et `%password%`.
+Pour ceci, allez  `Espace Administration` > `Modèles d'email` > `Proxmox` en supprimant ceci : 
+![img](https://media.discordapp.net/attachments/475073153509490689/1046014651831435294/image.png)
