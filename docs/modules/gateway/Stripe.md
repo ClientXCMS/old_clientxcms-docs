@@ -31,7 +31,7 @@ Rendez-vous sur [sur le Dashboard Webhook stripe](https://dashboard.stripe.com/w
 - **Description** : Mon super hébergeur (facultative)
 - **Ecouter** : évenements sur votre compte
 - **Version** : 2019-09-09
-- **évènements** : Sélectionnez tout, ClientXCMS fera le tris
+- **évènements** : Sélectionnez tout, ClientXCMS fera le tri
 
 Puis cliquez sur ajouter un endpoint
 Il vous fournira une clé secrète commençant par **whsec**
@@ -48,7 +48,10 @@ Vous pouvez également cliquer sur le bouton violet situé en haut à droite dan
 Vous pourrez tester la connexion Stripe à ClientXCMS. Si la connexion est bien faite il persistera les informations
 
 Si vous avez des problèmes de connexion veuillez contacter notre support.
+### Ajouter des méthodes de paiement
 
+Pour ajouter des solutions de paiement comme `bancontact`. Il faut se rendre [ici](https://dashboard.stripe.com/settings/payment_methods) pour l'activer depuis Stripe puis aller sur la page `Espace Administration` > `Paramètres` > `Stripe` et sélectionner le type.
+![img](https://media.discordapp.net/attachments/475073153509490689/1046538287537467513/unknown.png)
 ## Transaction
 Toutes les transactions Stripe avec les détails du paiement sont disponibles sur la page  `Espace Administration` > `Facturation` > `Stripe`
 Il est également possible de rechercher un paiement par l'id du paiement.
@@ -56,7 +59,7 @@ Il est également possible de rechercher un paiement par l'id du paiement.
 ### Page de paiement
 
 Le client sélectionne le type de paiement Stripe. ClientXCMS va le redirige vers le Checkout stripe pour payer puis est redirigé vers votre site pour valider la commande.
-Après ceci, la transaction sera mise comme payée et les services seront livré.
+Après ceci, la transaction sera mise comme payée et les services seront livrés.
 ### Transaction d'un client
 La liste des transactions Stripe est disponible sur la page d'édition d'un utilisateur `Espace Administration` > `Utilisateur` > `Edition` > `Services/Transactions lié(e)`
 ![img](https://media.discordapp.net/attachments/926274245225504779/954712356057935943/unknown.png)

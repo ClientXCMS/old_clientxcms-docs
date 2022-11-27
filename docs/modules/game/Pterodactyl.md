@@ -91,7 +91,7 @@ Vous pouvez sélectionner plusieurs eggs et vos clients pourront choisir l'œuf 
 Pour créer un serveur Pterodactyl dans CLIENTXCMS, rendez-vous sur `Espace Administration` > `Services` > `Tout` > `Nouveau`.
 
 Sélectionnez votre produit Proxmox et l'utilisateur, cochez "**Ajouter service automatiquement**". Puis vous cliquez sur suivant.
-Puis cliquez sur "Créer"
+Ensuite cliquez sur "Créer".
 
 Pour plus d'informations sur la création manuelle d'un service [cliquez ici](../../store/services#création-de-service)
 ## Importation
@@ -113,10 +113,10 @@ Pour plus d'informations sur l'importation d'un service [cliquez ici](../../stor
 ### Erreurs/Problèmes connus
 
 #### Code HTTP 200
-Échec de la création du serveur, code d'erreur reçu : 200
+Échec de la création du serveur, code d'erreur reçu : 200.
 Il suffit de modifier votre serveur et mettre le champ sécurité à enabled.
 
-#### Ip du serveur qui n'est pas affichée
+#### Ip du serveur qui n'est pas affiché
 ![img](https://media.discordapp.net/attachments/475073153509490689/1012087901112238170/unknown.png)
 
 Ce problème vient du fait que vous n'avez pas autorisé la permission "Allocations" à "READ"
