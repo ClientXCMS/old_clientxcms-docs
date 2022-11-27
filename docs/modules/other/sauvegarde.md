@@ -46,3 +46,8 @@ Vérifiez bien les permissions d'écriture de PHP sur ce dossier pour pas provoq
 - Ajouter [un utilisateur de tests pour pouvoir se connecter](https://console.cloud.google.com/apis/credentials/consent)
 ![img](https://media.discordapp.net/attachments/475073153509490689/1041115246024196096/Capture2.PNG)
   - Allez dans `Panel Administration` > `Système` > `Paramètres` et connectez-vous avec le lien de connexion. Le processus habituel devrait se dérouler, après ceci il vous affichera ce message de validation : Done!
+### Bugs connus
+![img](https://media.discordapp.net/attachments/794698865253154826/1046538560381128714/image.png)
+
+Il suffit de mettre à jour vos dépendances PHP via [composer](../../installation/Composer.md)
+
