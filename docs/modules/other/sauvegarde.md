@@ -25,7 +25,7 @@ Vous pouvez créer une sauvegarde de l'instant présent de votre base de donnée
 *Heures entre deux sauvegardes* (nombre) : Heures entre deux sauvegardes. Valeur par défaut : 12
 ### Stockage fichier
 Les sauvegardes sont stockées dans le dossier `/Backups` à la racine de votre serveur.
-:::Info
+:::info
 Vérifiez bien les permissions d'écriture de PHP sur ce dossier pour pas provoquer des erreurs de permissions.
 :::
 ### Stockage Google drive
@@ -35,6 +35,7 @@ Vérifiez bien les permissions d'écriture de PHP sur ce dossier pour pas provoq
 
 - Créer un dossier sur votre Google drive
 - Récupérer l'identifiant de votre dossier
+
 ![img](https://media.discordapp.net/attachments/475073153509490689/1041128320852578495/Capture6.PNG)
 
 - Activez [l'API Drive](https://console.cloud.google.com/apis/library/drive.googleapis.com)
@@ -50,4 +51,3 @@ Vérifiez bien les permissions d'écriture de PHP sur ce dossier pour pas provoq
 ![img](https://media.discordapp.net/attachments/794698865253154826/1046538560381128714/image.png)
 
 Il suffit de mettre à jour vos dépendances PHP via [composer](../../installation/Composer.md)
-

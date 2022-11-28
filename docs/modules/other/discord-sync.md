@@ -12,14 +12,14 @@ sidebar_position: 13
 3. Récupérer le **Secret Id** et **Client Id**
 4. Ajouter une URL de redirection `https://votrehebergeur.fr/discord/redirect`
 
-## Traditionnel 
+## Installation 
 **ClientXCMS** vous propose d'ajouter un bot sur votre serveur Discord qui ajoutera directement un rôle à vos clients.
 
 Pour ce faire, rendez-vous sur votre site dans la rubrique `Paramètres` de votre Espace Administratif.
 
 Suivez les étapes de connexion ci-dessous :
 
-1. Invitez le bot sur votre serveur Discord en cliquant [ici](https://clientxcms.com/ref/discordlinkbot)
+1. Invitez le bot sur votre serveur Discord en cliquant [ici](https://clientxcms.com/ref/discordlinkbot) ou suivez l'étape [d'installation du bot personnalisé](./#installation-du-bot-personnalisé)
 
 2. Une fois le bot invité, inscrivez la commande inscrite à l'étape numéro 2 sur `votresite.fr/admin/settings` puis `Discord Link`
 
@@ -65,17 +65,21 @@ Permissions : Manage Roles
 ```
 BOT_TOKEN=XXX
 APPLICATION_ID=XX
-CTXTOKEN=XXXXX
-CTXDOMAIN=clientxcms.com
 ```
-
-
-Le CTXTOKEN et le CTXDOMAIN sont récupérables depuis la commande : 
-
-![img](https://media.discordapp.net/attachments/475073153509490689/1045476236790612029/image.png)
 
 APPLICATION_ID est votre identifiant Application Discord : 
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/1045482182929547334/image.png)
 
 6. Lancez le bot `npm start` ou : `node --experimental-modules --es-module-specifier-resolution=node .\index.js`
+### Installation sur un hébergement Pterodactyl
+
+Pour modifier le script de démarrage, allez dans votre `panel Administration Pterodactyl`, sélectionnez votre serveur et dans la section "Startup" modifiez la **Startup Command** : 
+``
+if [ -f /home/container/package.json ]; then /usr/local/bin/npm install; fi;if [ -f /home/container/package.json ]; then /usr/local/bin/npm start; fi;
+``
+Puis sauvegarder et lancer votre bot.
+![img](https://media.discordapp.net/attachments/475073153509490689/1046583152270913658/image.png?width=1440&height=261)
+
+## Captures d'écrans
+![img](https://media.discordapp.net/attachments/794698865253154826/1014540512037965886/33.png)
