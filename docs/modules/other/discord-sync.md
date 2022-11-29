@@ -71,7 +71,7 @@ APPLICATION_ID est votre identifiant Application Discord :
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/1045482182929547334/image.png)
 
-6. Lancez le bot `npm start` ou : `node --experimental-modules --es-module-specifier-resolution=node .\index.js`
+6. Lancez le bot `npm start` ou : `node --experimental-modules --es-module-specifier-resolution=node .\index.js` sur window
 ### Installation sur un hébergement Pterodactyl
 
 Pour modifier le script de démarrage, allez dans votre `panel Administration Pterodactyl`, sélectionnez votre serveur et dans la section "Startup" modifiez la **Startup Command** : 

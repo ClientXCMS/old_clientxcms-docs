@@ -8,16 +8,15 @@ sidebar_position: 4
 
 Pour télécharger CLIENTXCMS : 
 1. Connectez-vous sur votre espace client
-2. Sur votre tableau de bord, cliquez sur "Téléchargement"
-3. Choisisiez le téléchargement commençant par "CLIENTXCMS". Ce sera la dernière version de sortie
-
+2. Sur votre tableau de bord, cliquez sur "Licences"
+3. Cliquez sur "Installer" puis télécharger l'archive
+![img](https://media.discordapp.net/attachments/475073153509490689/1047231791196536922/image.png)
 ### Téléchargement de version antérieur
 
-Pour télécharger une version antérieure de CLIENTXCMS, ouvrez une demande pour télécharger la version demandées.
+Pour télécharger une version antérieure de CLIENTXCMS, ouvrez une demande pour télécharger la version demandée.
 
 ### Création de base de données
-CLIENTXCMS utilise MySQL® pour sauvegarder les données. Vous pouvez en créer une lors de installation ou après. 
-[Plus d'informations](https://clientxcms.com/docs/fr/database)
+CLIENTXCMS utilise MySQL® pour sauvegarder les données. Vous pouvez en créer une lors d'une installation ou après.
 
 - [Création de base de données avec cPanel ](https://docs.cpanel.net/cpanel/databases/mysql-database-wizard/)
 - [Création de base de données avec Plesk](https://docs.plesk.com/en-US/17.0/customer-guide/advanced-website-databases.69535/)
