@@ -82,7 +82,7 @@ Cette option permet de décider si le produit ne doit pas être disponible à l'
 
 **Rouge** : Non caché, le produit est affiché et commandable.
 
-**Vert** : Caché, le groupe est pas affiché et non commandable.
+**Vert** : Caché, le groupe n'est pas affiché et non commandable.
 ## Autres 
 ### Lien pour ajouter un produit
 
@@ -90,12 +90,12 @@ Lors de l'édition d'un produit vous pouvez avoir les deux liens pour ajouter le
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033298298850787368/unknown.png)
 
 `https://votreDomaine.fr/basket/add/[id]` - Ajoute le produit au panier
+
 `https://votreDomaine.fr/store/[id]/checkout` - Affiche le Checkout pour commander le produit
 
 ### Configuration d'options
 
 Vous pouvez ajouter des options de configurations qui sera pris en compte par le module d'approvisionnement lors de la livraison du service. Pour ceci, rendez-vous sur la page `Espace administration` > `Boutique` > `Options additionnels`
-![img](https://media.discordapp.net/attachments/1028299741534113792/1029481717775474738/unknown.png?width=1440&height=577)
 ### Produits Vente additionnelle
 
 Augmentez vos ventes grâce à CLIENTXCMS en faisant de la vente additionnelle (cross selling).

@@ -25,3 +25,8 @@ Et vous pouvez directement glisser votre Favicon dans l'emplacement prévu à ce
 
 
 ![img](https://cdn.discordapp.com/attachments/939840146507989003/968534371260854302/unknown.png)
+
+## Erreur connue
+### Uploaded file could not be moved to public/uploads/app_logo.png
+Ce problème vient des permissions de l'hébergement. CLIENTXCMS n'arrive pas à déplacer votre fichier vers le dossier `/public/uploads`.
+Il faut donc modifier les permissions de ce dossier

@@ -23,6 +23,7 @@ Exemple : `fake@clientxcms.com, protonmail.com`
 **Autorise la réinitialisation de mot de passe aux utilisateurs**(boolean) : Permet d'autoriser le processus de réinitialisation des mots de passes utilisateurs. Valeur par défaut : activé
 ## Authentification à deux facteurs
 **Minutes entre deux vérifications 2FA (Administrateur seulement)**(nombre) : Permet de demander un code 2FA à l'administrateur toute les X minutes. Gardez 0 pour garder la valeur de la session PHP. Valeur par défaut : 0
+
 **2FA Activé requis pour accéder à un compte administrateur**(boolean) : Permet de forcer la 2FA pour tout les administrateurs Valeur par défaut : Désactivé
 
 ## Recaptcha
@@ -55,4 +56,4 @@ Après vous êtes inscrit ou connecté à votre [dashboard Hcaptcha](https://das
 Une fois votre site enregistré, les clefs API apparaîtront. Vous sélectionnerez "Configurer la protection Hcaptcha" puis pour terminer, remplir les champs dans vos paramètres
 ![img](https://media.discordapp.net/attachments/475073153509490689/957059536232022068/unknown.png)
 ### None
-Vous pouvez désactiver tout Captcha en sélectionnant Non" dans les champs validation via
+Vous pouvez désactiver tout Captcha en sélectionnant "None" dans les champs validation via

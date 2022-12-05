@@ -32,7 +32,7 @@ Pour installer CLIENTXCMS, vous pouvez suivre ce processus :
 - Extract de l'archive dans un dossier sur votre ordinateur
 - Transférer les fichiers sur votre serveur web (Plesk ou VPS)
   <br/>
-  -Si vous etes sur un VPS assurer vous de bien donner les droits a votre serveur web (Apache ou Nginx) au dossier dajns lequel vous avez installer les fichier du cms. 
+  -Si vous etes sur un VPS assurer vous de bien donner les droits à votre serveur web (Apache ou Nginx) au dossier dajns lequel vous avez installer les fichier du cms. 
   <br/>
   Utiliser la commande : 
 ```twig

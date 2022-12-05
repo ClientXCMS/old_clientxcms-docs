@@ -45,10 +45,10 @@ Cette option permet de décider si le groupe ne doit pas être disponible à l'a
 
 **Rouge** : Non caché, le groupe est affiché.
 
-**Vert** : Caché, le groupe est pas affiché.
+**Vert** : Caché, le groupe n'est pas affiché.
 
 ## Suppression
 Pour supprimer un groupe, il faut que le groupe soit vide de tout produit. 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957626621760782396/unknown.png)
 
-Si la condition est remplie, un bouton sera disponible "Supprimer ce groupe". Une confirmation vous serra demandé après ceci, il supprime le groupe.
+Si la condition est remplie, un bouton sera disponible "Supprimer ce groupe". Une confirmation vous serra demandée après ceci, il supprime le groupe.
