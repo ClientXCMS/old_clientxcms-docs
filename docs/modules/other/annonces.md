@@ -6,6 +6,9 @@ sidebar_position: 6
 
 Le module permet d'informer et de publier vos annonces afin que vos clients et les visiteurs soient aux courants des nouveautés sur votre infrastructure.
 
+:::info Modules
+Pour utiliser les fonctionnalités suivantes, il faut que le module Announce soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../modules.md)
+:::
 ### Rédiger une annonce
 
 Dans l'Espace Administration, dirigez vous sur l'onglet `Annonces` et cliquez sur `Créer`

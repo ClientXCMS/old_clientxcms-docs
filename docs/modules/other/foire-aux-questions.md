@@ -1,12 +1,17 @@
 ---
 sidebar_position: 8
 ---
+Module permettant de créer sa propre FAQ pour répondre aux questions récurrentes de vos clients.
+
 
 # Foire aux questions
 
+:::info Modules
+Pour utiliser les fonctionnalités suivantes, il faut que le module foire aux questions soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../modules.md)
+:::
 ### Rédaction des questions
 
-Vous avez la possibilité de rediger vos propres questions en vous rendant dans la catégorie `FAQ` de votre Espace Administration.
+Vous avez la possibilité de rédiger vos propres questions en vous rendant dans la catégorie `FAQ` de votre Espace Administration.
 
 ![img](https://i.gyazo.com/152559db67e31ca4f93dc33b7ff987d2.png)
 
