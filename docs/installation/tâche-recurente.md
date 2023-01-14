@@ -35,8 +35,8 @@ Avec cette ligne, les tâches s'effectueront toutes les minutes. Mais, vous pouv
 - Connectez-vous à votre interface plesk
 - Allez dans `Outils & Paramètres` > `Tâches planifiées` > `Ajouter une tâche`
 - Sélectionnez le type de tâche "Execute un script PHP"
-- Choisissez le fichiez `/Cron/index.php` (aucun argument n'est requis)
-- Utilisez la version de php 7.4.X (attention cela peut poser des problèmes si la version est inférieure)
+- Choisissez-le fichiez `/Cron/index.php` (aucun argument n'est requis)
+- Utilisez la version de php 8.1 (attention cela peut poser des problèmes si la version est inférieure)
 - Dans "Run", sélectionnez `Cron style` et `*/1 * * * *`
 
 ![img](https://media.discordapp.net/attachments/598633976768364544/860287152838672394/unknown.png)
@@ -44,6 +44,12 @@ Avec cette ligne, les tâches s'effectueront toutes les minutes. Mais, vous pouv
 :::info **remarque**
 
 Certains hébergeurs peuvent désactiver les tâches récurrentes, renseignez-vous si votre hébergeur propose cette fonctionnalité.
-S'il le propose pas demander leur de les activer. 
+S'il ne le propose pas demander leur de les activer. 
 
 :::
+
+## Configuration sur cPanel
+- Connectez-vous à votre interface cPanel
+- Allez dans `Avancé` > `Tâche cron`
+- Définissez cette commande `/usr/local/bin/php /home/hosting/public_html/clients.delzyionheberg.com/Cron/index.php` (à modifier aux besoins)
+![img](https://media.discordapp.net/attachments/475073153509490689/1063569594490573000/image.png)

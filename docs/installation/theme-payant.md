@@ -6,13 +6,9 @@ sidebar_position: 10
 
 **CLIENTXCMS** Propose des thèmes payant qui crée un site vitrine en même temps que votre espace client. Après avoir acheté un thème, suivez cette page pour l'installer en quelques minutes.
 
-## Téléchargement de l'archive & Upload de fichier
-Connectez-vous sur votre espace client *clientxcms.com* et télécharger l'archive dans la section "Téléchargement"
-![img](https://media.discordapp.net/attachments/475073153509490689/1040988629373304852/image.png)
+## Téléchargement de l'archive
 
-L'archive contient 2 dossiers : `public` et `Theme` 
-
-Le dossier `public` doit être upload dans le dossier `/public/Themes` pour que cela fasse `/public/Themes/Resi` et le dossier `Theme` doit être upload dans le dossier `/Themes/` de votre installation de CLIENTXCMS pour refaire `/Themes/Resi`
+Vous pouvez télécharger le thème depuis l'espace administrateur
 
 
 ## Migrations
