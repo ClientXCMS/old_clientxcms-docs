@@ -11,13 +11,7 @@ Vous retrouverez tous les modèles disponibles et donc modifiable. Des variables
 
 # Modèles d'email personnalisé
 Nous proposons différents modèles d'email [à l'achat](https://clientxcms.com/store/email-templates).
-Pour installer votre achat, suivez ceci : 
-
-- Téléchargez l'archive sur l'espace client clientxcms.com (Section Téléchargement)
-- Connectez-vous en SFTP/FTP à votre serveur
-- Importer le fichier .twig qui est dans l'archive
-- Renommez le de cette façon : custom.html.twig
-- Videz le cache de votre CMS depuis `Espace administration` > `Système`  > `Paramètres` > `Vider le cache de l'application`
+Pour installer votre achat, [suivez ceci](../system/themes#modèle-demail)
 
 
 Vous pouvez verifier que le modèle est bien installé en vérifiant le résultat depuis : `Espace administration` > `Système`  > `Modèles d'emails` 

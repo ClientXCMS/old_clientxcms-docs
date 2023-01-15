@@ -1,10 +1,12 @@
 ---
 sidebar_position: 8
 ---
+
+# Foire aux questions
+
 Module permettant de créer sa propre FAQ pour répondre aux questions récurrentes de vos clients.
 
 
-# Foire aux questions
 
 :::info Modules
 Pour utiliser les fonctionnalités suivantes, il faut que le module foire aux questions soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../modules.md)

@@ -3,7 +3,9 @@ sidebar_position: 13
 ---
 
 # Discord sync
-
+:::info
+Pour une installation du bot communautaire il faut suivre le deux premières sections
+:::
 ## Création de l'application sur discord
 1. Connectez-vous sur [votre compte discord](https://discord.com/developers/applications) pour accéder à l'espace développeur pour créer une application
 ![img](https://media.discordapp.net/attachments/475073153509490689/1045465691375030302/image.png)

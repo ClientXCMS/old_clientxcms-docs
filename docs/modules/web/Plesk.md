@@ -63,6 +63,14 @@ Vous pouvez modifier directement la configuration d'un produit dans la colonne "
 
 ## Importation
 Vous pouvez importer un hébergement ou un revendeur qui est sur votre serveur plesk en tant que service CLIENTXCMS. Pour ceci, allez dans `Espace Administration` > `Services` > `Nouveau`
+Sélectionnez votre produit Plesk et l'utilisateur, cochez "**Ajouter manuellement le service**". Puis cliquez sur suivant
+
+
+Après ceci vous pourrez choisir l'hébergement/revendeur à importer sur CLIENTXCMS
+![img](https://media.discordapp.net/attachments/475073153509490689/1064214847190990928/image.png)
+## Migration sur un autre Plesk
+En cas de changement de serveur Plesk, Avec l'outil Plesk migrator, les identifiants d'hébergements de plesk sont pas forcement les mêmes. Pour ceci vous pouvez changer les identifiants vers les nouveaux identifiants detectés par CLIENTXCMS de votre nouveau ser.
+Pour ceci, allez dans `Espace Administration` > `Utilitaires` > `Plesk` > `Migrate`.
 
 ### Panel de gestion
 ![img](https://media.discordapp.net/attachments/926274245225504779/962913723046047804/unknown.png)

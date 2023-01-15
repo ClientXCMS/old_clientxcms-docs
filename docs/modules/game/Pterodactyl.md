@@ -97,7 +97,7 @@ Pour plus d'informations sur la création manuelle d'un service [cliquez ici](..
 ## Importation
 Pour importer un serveur qui est déjà sur votre Pterodactyl sur CLIENTXCMS, rendez-vous sur `Espace Administration` > `Services` > `Tout` > `Nouveau`.
 
-Sélectionnez votre produit Proxmox et l'utilisateur, cochez "**Ajouter manuellement le service**". Puis cliquez sur suivant
+Sélectionnez votre produit Pterodactyl et l'utilisateur, cochez "**Ajouter manuellement le service**". Puis cliquez sur suivant
 
 
 Après ceci vous pourrez choisir le serveur à importer sur CLIENTXCMS
