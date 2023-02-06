@@ -22,7 +22,7 @@ Et remplissez le formulaire
 
 ### Authentification
 
-Créez un serveur ClientXCMS dans `Espace d'administration ` > `Système` > `Serveurs` > `Nouveau` en sélectionnant le type de serveur en "Virtualizor".
+Créez un serveur ClientXCMS dans `Espace d'administration ` > `Système` > `Serveurs` > `Nouveau` en sélectionnant le type de serveur en "VirtualizorCloud".
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/1041082255164051517/image.png)
 
@@ -62,8 +62,8 @@ Après ceci vous pourrez choisir le VPS à importer sur CLIENTXCMS
 ## Panel de gestion
 ![img](https://media.discordapp.net/attachments/475073153509490689/1041095492865638460/image.png?width=1440&height=437)
 
-## Option Supportés
+## Option Supportées
 - Espace disque additionnel
 - Mémoire additionnel
-- Adresse IP additionnels
-- Cœurs additionnels
+- Adresse IP additionnel
+- Cœur additionnel

@@ -69,12 +69,14 @@ Une seconde page va apparaître où vous aller pouvoir définir les informations
 **Commentaire**(text) : Commentaire de la commande
 
 Sur la gauche, vous pourrez mettre les données de la commande demandée par le module d'approvisionnement. Cette partie peut être cachée si le module demande rien.
-Puis cliquez sur créer, vous serez redirigé vers la transaction qui vient d'être crée.
+Puis cliquez sur créer, vous serez redirigé vers la transaction qui vient d'être créé.
 ## Détails d'un service
 Dans cette section, vous pouvez modifier les détails du service et voir les informations du service comme le serveur où le service est hébergé, le type de paiement ou la date de créations.
 
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033301949744939059/unknown.png?width=427&height=676)
-
+### Amélioration
+Les services peuvent être améliorés par l'administration ou le client les produits sont determinés par le groupe de produit et si le groupe de produit autorise l'amélioration d'offre.
+![img](https://media.discordapp.net/attachments/829844680539111486/1071558258717900840/image.png)
 ### Facturation
 
 **Date d'expiration**(datetime) : Expiration du service 
@@ -155,12 +157,12 @@ Contexte :
 - On va prendre la date d'expiration est le 20 du mois.
 - La configuration du nombre de jours est à +3 jours après la suspension
 
-Une facture va être généré le 17 du mois (Expiration - configuration). Si celle-ci est payée dans les TROIS jours, le service va continuer sans interruption.
+Une facture va être générée le 17 du mois (Expiration - configuration). Si celle-ci est payée dans les TROIS jours, le service va continuer sans interruption.
 Sinon le 20 du mois le service va être automatiquement suspendu pour TROIS jours, un mail sera envoyé au client pour payer la facture. 
-Si TROIS jours après la facture est toujours pas payée, le service va être supprimé, l'état va être définis sur Expiré eet il pourra plus être renouvelé. 
+Si TROIS jours après la facture n'est toujours pas payée, le service va être supprimé, l'état va être définis sur Expiré eet il pourra plus être renouvelé. 
 ## Paramètres
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033409113704636416/unknown.png)
-Les paramètres des services se trouve sur `Espace Administration` > `Paramètres` > `Store`.
+Les paramètres des services se trouvent sur `Espace Administration` > `Paramètres` > `Store`.
 Modifier les valeurs puis cliquer sur sauvegarder.
 
 ## Widget tableau de bord
@@ -174,7 +176,7 @@ Vous pouvez savoir dans quelles transactions un produit se trouve et l'afficher 
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033410511099928638/unknown.png)
 
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1033411718983991391/unknown.png?width=1440&height=279)
-Vous pourrais accéder à toutes les transactions qui est lié au produit sélectionné.
+Il pourra accéder à toutes les transactions qui est lié au produit sélectionné.
 
 ## Service d'un client
 La liste des services d'un client est disponible sur la page d'édition d'un utilisateur `Espace Administration` > `Utilisateurs` > `Edition` > `Services/Transactions lié(e)`

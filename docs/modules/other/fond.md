@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 ---
+# Fond
 Permettez à vos clients de transférer de l'argent vers un autre compte ou créditer leur compte client pour acheter vos produits
 
 

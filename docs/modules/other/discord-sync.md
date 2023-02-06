@@ -6,14 +6,25 @@ sidebar_position: 13
 :::info
 Pour une installation du bot communautaire il faut suivre le deux premières sections
 :::
+
+:::warning
+Les Client Id et Secret Id ne sont pas vos identifiants discord.
+:::
 ## Création de l'application sur discord
 1. Connectez-vous sur [votre compte discord](https://discord.com/developers/applications) pour accéder à l'espace développeur pour créer une application
 ![img](https://media.discordapp.net/attachments/475073153509490689/1045465691375030302/image.png)
 2. Allez dans la section Oauth2 
 ![img](https://media.discordapp.net/attachments/475073153509490689/1045467385064329236/discord_link.PNG)
-3. Récupérer le **Secret Id** et **Client Id**
+3. Récupérer le **Secret Id** et **Client Id** de votre application
+
 4. Ajouter une URL de redirection `https://votrehebergeur.fr/discord/redirect`
 
+:::info
+Cette page permet d'effectuer la synchronisation du compte discord au compte ClientXCMS 
+:::
+
+5. Synchronise votre compte depuis l'espace client et tester !
+6. 
 ## Installation 
 **ClientXCMS** vous propose d'ajouter un bot sur votre serveur Discord qui ajoutera directement un rôle à vos clients.
 
@@ -32,7 +43,11 @@ Suivez les étapes de connexion ci-dessous :
 5. Rendez-vous sur vos `Paramètres` ClientXCMS pour insérer votre **Secret id** et **Client Id** de votre application discord
 
 6. Allez sur votre serveur discord avec un compte ayant les permissions ADMINISTRATEUR et executez la commande qui est dans les paramètres du module : 
-La commande devrait ressembler à ceci `/ctxlink https://votrhebergeur.fr UnToken @votrRole`
+La commande devrait ressembler à ceci `/ctxlink https://votrhebergeur.fr jeton @votreRole`
+
+:::info
+Le jeton n'est pas votre clé de licence, c'est un jeton donné depuis Administration > settings > Discord sync 
+:::
 7. Une fois connecté il vous renverra ce message :
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/1045483245812334592/image.png)
@@ -49,7 +64,7 @@ Vous pouvez personnaliser au mieux votre bot en changeant l'avatar, la descripti
    ![img](https://media.discordapp.net/attachments/475073153509490689/1045472150817079327/image.png?width=1440&height=461)
 3. Valider et récupérer votre jeton
 4. Ajouter votre bot avec les outils [discordapi](https://discordapi.com/permissions.html)
-Permissions : Manage Roles
+Permissions : Manage Roles, Manage channel, Send Message
 5. Ajouter les Intents dans la section Bot
 ![img](https://media.discordapp.net/attachments/475073153509490689/1045474127613546567/image.png)
 
@@ -60,13 +75,13 @@ Permissions : Manage Roles
 3. Installer les dépendances NPM
 4. Copier le fichier `.env.copy` dans un fichier `.env`
 
-5. Remplissez le fichier .env
-
-![img](https://media.discordapp.net/attachments/475073153509490689/1045475001857491025/image.png)
+5. Remplissez le fichier .env comme ceci
 
 ```
 BOT_TOKEN=XXX
 APPLICATION_ID=XX
+GUID_ID=XX
+CTXTOKEN=XX
 ```
 
 APPLICATION_ID est votre identifiant Application Discord : 
