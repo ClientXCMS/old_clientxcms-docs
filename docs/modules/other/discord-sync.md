@@ -80,7 +80,7 @@ Permissions : Manage Roles, Manage channel, Send Message
 ```
 BOT_TOKEN=XXX
 APPLICATION_ID=XX
-GUID_ID=XX
+GUILD_ID=XX
 CTXTOKEN=XX
 ```
 
@@ -97,6 +97,13 @@ if [ -f /home/container/package.json ]; then /usr/local/bin/npm install; fi;if [
 ``
 Puis sauvegarder et lancer votre bot.
 ![img](https://media.discordapp.net/attachments/475073153509490689/1046583152270913658/image.png?width=1440&height=261)
+### Modifications de la detection des tickets
+Pour modifier la detection de création de salon "ticket". Rendez-vous le fichier "index.js" avec la méthode `isTicketChannel` (l37)
+```js
 
+function isTicketChannel(channel) {
+    return channel.name.startsWith('ticket-');
+}
+```
 ## Captures d'écrans
 ![img](https://media.discordapp.net/attachments/794698865253154826/1014540512037965886/33.png)
