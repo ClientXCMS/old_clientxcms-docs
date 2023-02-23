@@ -96,10 +96,13 @@ Lors de l'édition d'un produit vous pouvez avoir les deux liens pour ajouter le
 ### Configuration d'options
 
 Vous pouvez ajouter des options de configurations qui sera pris en compte par le module d'approvisionnement lors de la livraison du service. Pour ceci, rendez-vous sur la page `Espace administration` > `Boutique` > `Options additionnels`
+### Packs de produits
+Vous pouvez vendre plusieurs services dans un pack. Par exemple un hébergement web et un serveur pterodactyl dans un même produit. L'expiration des services sera synchronisée à partir du pack
+
 ### Produits Vente additionnelle
 
 Augmentez vos ventes grâce à CLIENTXCMS en faisant de la vente additionnelle (cross selling).
 Vous pouvez proposer et vendre des produits complémentaires ou un produit supérieur au produit initialement acquis ou visé par l'acheteur. Ces produits seront affichés après que le prospect aura ajouté votre produit à son panier sous cette forme : 
-![img](https://media.discordapp.net/attachments/882576437075394650/1012292936278478879/31.png?width=1253&height=676)
+![img](https://media.discordapp.net/attachments/882576437075394650/1012292936278478879/31.png)
 
 Il est conseillé de mettre trois produits maximums pour chaque produit. Sélectionnez les produits sur la page d'édition ou de création d'un produit dans le champ "Produits cross selling"   

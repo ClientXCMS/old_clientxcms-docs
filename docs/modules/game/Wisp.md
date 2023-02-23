@@ -62,6 +62,7 @@ Vous pouvez modifier directement la configuration d'un produit dans la colonne "
 - **Nom du serveur**: Nom du serveur**
 - **Bases de données à attribuer au serveur**: Nombre de bases de données
 - **Sauvegardes de données à attribuer au serveur**: Nombre de sauvegardes
+- **Allocation à attributer au serveur**: Nombre d'allocation (port à donner)
 
 :::info Conseil de pro
 Vous pouvez convertir directement de GB en MO ou inversement rapidement via le convertisseur.

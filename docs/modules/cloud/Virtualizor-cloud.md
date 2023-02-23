@@ -35,6 +35,8 @@ Créez un serveur ClientXCMS dans `Espace d'administration ` > `Système` > `Ser
 En cas de succès de la connexion, il vous répondra "Success"
 En cas d'échec, il vous le notifiera par une erreur.
 ## Configuration de l'offre
+![img](https://media.discordapp.net/attachments/475073153509490689/1074758594051965009/image.png)
+
 ## Liste des configurations
 
 Vous pouvez voir la liste de vos configurations VirtualizorCloud depuis `Espace Administration` > `Utilitaires` > `VirtualizorCloud`.
