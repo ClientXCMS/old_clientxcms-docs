@@ -15,7 +15,7 @@ const config =
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://cdn.clientxcms.com/ressources/Themes/CLIENTXCMS/images/favicon.ico',
   organizationName: 'clientxcms', // Usually your GitHub org/user name.
-  projectName: 'clienetxcms-docs', // Usually your repo name.
+  projectName: 'clientxcms-docs', // Usually your repo name.
 
   presets: [
     [
@@ -49,7 +49,7 @@ const config =
         title: 'CLIENTXCMS Docs',
         logo: {
           alt: 'CLIENTXCMS Logo',
-          src: 'https://cdn.clientxcms.com/ressources/Themes/CLIENTXCMS/images/logo-blue.png',
+          src: 'https://cdn.clientxcms.com/ressources/Themes/CLIENTXCMS/images/logo-for-docs.png',
         },
         items: [
           {
