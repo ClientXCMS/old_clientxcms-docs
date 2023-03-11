@@ -34,41 +34,13 @@ En cas d'installation sur un sous domaine :
 Adaptez-le avec vos propres dossiers déjà existants.
 
 ## Depuis un serveur web
-### Apache
-Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
-```bash
-cd /etc/apache2/sites-available/
-```
-```bash
-nano manager.example.com.conf
-```
-#### Exemple de fichier de configuration
-```bash
 
-<VirtualHost *:80>
-    ServerAdmin admin@example.com
-    ServerName manager.example.com
-    ServerAlias www.manager.example.com
-    DocumentRoot /var/www/manager.example.com/public
-     
-    <Directory /var/www/manager.example.com/public/>
-            Options Indexes FollowSymLinks MultiViews
-            AllowOverride All
-            Order allow,deny
-            allow from all
-            Require all granted
-    </Directory>
-     
-    LogLevel debug
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
-```
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-Enfin, relancez votre serveur apache pour que vos modifications soient prises en compte.
+<Tabs>
+<TabItem value="Nginx" label="Nginx">
 
-```sudo service apache2 restart```
-### Nginx 
 Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
 ```bash
 cd /etc/nginx/conf.d/
@@ -108,7 +80,61 @@ server {
     }
 }
 ```
+Maintenant il faut activer le vhost mainenant
+
+```sudo ln -s /etc/nginx/sites-available/manager.example.com.conf /etc/nginx/sites-enabled/```
 
 Enfin, relancez votre serveur nginx pour que vos modifications soient prises en compte.
 
 ```sudo service nginx restart```
+
+
+</TabItem>
+
+<TabItem value="apache" label="Apache">
+
+Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
+```bash
+cd /etc/apache2/sites-available/
+```
+```bash
+nano manager.example.com.conf
+```
+#### Exemple de fichier de configuration
+```bash
+
+<VirtualHost *:80>
+    ServerAdmin admin@example.com
+    ServerName manager.example.com
+    ServerAlias www.manager.example.com
+    DocumentRoot /var/www/manager.example.com/public
+     
+        <Directory />
+                Options FollowSymLinks
+                AllowOverride All
+        </Directory>
+        <Directory /var/www/manager.example.com/public>
+                Options FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all
+        </Directory>
+
+     
+    LogLevel debug
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+Activer votre vhost
+
+```sudo a2ensite manager.example.com.conf```
+
+Enfin, relancez votre serveur apache pour que vos modifications soient prises en compte.
+
+```sudo service apache2 restart```
+
+</TabItem>
+
+</Tabs>
