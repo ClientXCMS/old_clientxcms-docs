@@ -136,4 +136,62 @@ le "1" est l'identifiant du serveur CLIENTXCMS relié à votre Proxmox pour savo
 
 Par défault, CLIENTXCMS envoie les identifiants à votre client, mais vous pouvez le faire en modifiant le modèle d'email Proxmox en retirer les variables `%username%` et `%password%`.
 Pour ceci, allez  `Espace Administration` > `Modèles d'email` > `Proxmox` en supprimant ceci : 
+
 ![img](https://media.discordapp.net/attachments/475073153509490689/1046014651831435294/image.png)
+
+
+## Template KVM
+
+Nous vous mettons a disposition gratuitement des template pour VPS KVM de Debian 10 et 11 ainsi que Ubuntu 22.04 et 20.04.
+Pour installer ces templates vous allez avoir besoin de suivre quelques étapes.
+Pour commencer, il faut télécharger le Zip les contenant:
+```
+wget --user-agent="download" https://clientxcms.com/ref/template-kvm-proxmox 
+```
+
+Ensuite, il faut décompresser l'archive:
+
+```
+unzip Template-KVM-Proxmox.zip
+```
+<br/>
+
+:::info
+Il faut bien sûr au préalable avoir installé le paquet zip.
+```
+sudo apt install zip unzip
+```
+:::
+<br/>
+Ensuite, il faut déplacer les fichiers de configuration des templates:
+
+```
+mv /Template-KVM-Proxmox/config-file/* /etc/pve/qemu-server/
+```
+<br/>
+
+Maintenant, que les fichiers de configuration sont bien, ajouter a voter proxmox il faut aussi ajouter les disk.
+Pour cela, il faut connaître la localisation du dossier local.
+Pour cela, je vous conseille de faire :
+```
+cat /etc/pve/storage.cfg
+```
+
+Généralement, le dossier est situé ici : `/var/lib/vz`
+
+Maintenant, que l'on a trouvé le dossier, on peut déplacer les disks dans le bon dossier.
+```
+mv -r /Template-KVM-Proxmox/Disk/* /var/lib/vz/images/
+```
+
+<br/>
+
+L'installation des templates est presque fini maintenant.
+Pour finir, il faut juste configurer l'espace de stockage pour qu'il accepte les templates.
+
+Pour cela, il faut allez dans `Datacenter` > `Storage` > `local` et ajouter dans `content` `Disk Image`:
+
+![img](https://cdn.discordapp.com/attachments/762642627286794260/1085343241748107304/image.png)
+
+<br/>
+Voilà vous venez d'installer les templates sur votre proxmox.
