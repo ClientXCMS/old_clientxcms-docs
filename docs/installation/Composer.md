@@ -67,12 +67,7 @@ Si vous êtes chez Ionos, l'installation est plus compliquée.
 
 Nous vous conseillons de suivre ce [tutoriel](https://www.ionos.com/community/hosting/php/using-php-composer-in-11-ionos-webhosting-packages/) qui vous l'expliquera.
 
-N'oubliez pas d'adapter la commande à votre version de php : si vous utilisez php 7.4 remplacez ```/usr/bin/php7.1-cli``` par ```/usr/bin/php7.4-cli``` et cela dans chaque commande.
+N'oubliez pas d'adapter la commande à votre version de php : si vous utilisez php 8.1 remplacez ```/usr/bin/php8.1-cli``` par ```/usr/bin/php8.1-cli``` et cela dans chaque commande.
 
-Avant chaque commande COMPOSER ajoutez ```/usr/bin/php7.4-cli``` suivi d'un espace devant chaque commande (*adaptez la version de php*)
+Avant chaque commande COMPOSER ajoutez ```/usr/bin/php8.1-cli``` suivi d'un espace devant chaque commande (*adaptez la version de php*)
 
-## Problèmes récurrents
-### Mauvaise version de PHP sur Plesk
-![img](https://media.discordapp.net/attachments/475073153509490689/968565184534839346/unknown.png)
-
-Ce problème vient que votre version de PHP ne soit pas la version 7.4. Pour la modifier : `Plesk` > `Paramètres de PHP` > `Version de PHP` : 7.4

@@ -51,5 +51,5 @@ S'il ne le propose pas demander leur de les activer.
 ## Configuration sur cPanel
 - Connectez-vous à votre interface cPanel
 - Allez dans `Avancé` > `Tâche cron`
-- Définissez cette commande `/usr/local/bin/php /home/hosting/public_html/clients.delzyionheberg.com/Cron/index.php` (à modifier aux besoins)
+- Définissez cette commande `/usr/local/bin/php /home/hosting/public_html/domaine/Cron/index.php` (à modifier aux besoins)
 ![img](https://media.discordapp.net/attachments/475073153509490689/1063569594490573000/image.png)

@@ -14,7 +14,7 @@ sidebar_position: 3
 Valeur par default : Bonjour `{{ current_user(user_id).name }},`
 
 **Greeting**(texte) : Message cordial sous chaque email.
-Valeur par default : Cordialement `{{ config('app.name'}}` 
+Valeur par default : Cordialement `{{ config('app.name') }}` 
 
 Pour le Greeting et les Salutations il est possible d'utiliser les informations de l'utilisateur connecté.
 ```

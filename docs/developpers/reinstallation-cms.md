@@ -4,8 +4,8 @@ sidebar_position: 4
 # Réinstaller CLIENTXCMS
 
 Pour réinstaller CLIENTXCMS, il faut sauvegarder **la base de données ainsi que le fichier d'environnement `.env` pour les remettre sur votre prochain hébergement**.
-Les modules et thèmes peuvent être réinstaller en un clics et peuvent être ignoré appart si vous avez des modifications de faites sur votre CLIENTXCMS.
-Les configurations des produits, services, factures etc ne seront pas perdues, ils sont tous dans la base de données
+Les modules et thèmes peuvent être réinstallé en un clic et peuvent être ignoré appart si vous avez des modifications de faites sur votre CLIENTXCMS.
+Les configurations des produits, services, factures etc ne seront pas perdues, ils sont tous dans la base de données.
 ## Exporter la base de données
 ### Depuis les lignes de commandes
 Connectez-vous sur votre serveur en SSH puis executez cette commande : 
@@ -31,7 +31,7 @@ Récupérer le fichier `.env` depuis votre hébergement initial et garder le bie
 ## Installation sur votre nouvel hébergement
 Pour ceci, suivez [l'installation traditional](../installation/Installation-du-Cms.md) et remettez votre fichier `.env` à la racine de l'hébergement.
 :::success
-Vous devriez également créer un fichier à la racine en l'appelant `installed` en le laissant vode cela permettra à CLIENTXCMS de ne pas proposer d'installer à nouveau. 
+Vous devriez également créer un fichier à la racine en l'appelant `installed` en le laissant vide cela permettra à CLIENTXCMS de ne pas proposer d'installer à nouveau. 
 :::
 ## Importer la base de données
 ### Depuis les lignes de commandes
@@ -54,4 +54,4 @@ Et terminer en récupérant le fichier via SFTP dans le dossier où vous êtes.
 ## Réactivation des modules
 Il vous suffit de télécharger à nouveau les modules que vous voulez, les configurations de produits et paramètres sont récupérer depuis la base de données donc aucune perte.
 
-Votre CLIENTXCMS est réinstallé sur un autre hébergement :)
+Votre CLIENTXCMS est réinstallé sur un autre hébergement.

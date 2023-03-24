@@ -7,12 +7,13 @@ Vous pouvez ajouter des options supplémentaires à vos offres ou demandé des i
 Pour y accéder : `Espace Administration` > `Boutique` > `Options additionnelles`
 ## Modules supportés
 | Module           | Support |
-|------------------|---------|
-| Proxmox          | ✅      |
-| Virtualizor      | --      |
-| VirtualizorCloud | ✅      |
-| Pterodactyl      | ✅      |
-| Wisp             | ✅      |
+|------------------|-------|
+| Proxmox          | ✅     |
+| PteroBox         | ✅     |
+| Virtualizor      | ✅      |
+| VirtualizorCloud | ✅     |
+| Pterodactyl      | ✅     |
+| Wisp             | ✅     |
 
 ## Rendu espace client
 ![img](https://media.discordapp.net/attachments/475073153509490689/1049104331049291816/image.png?width=1440&height=243)

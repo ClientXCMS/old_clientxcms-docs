@@ -131,6 +131,8 @@ le "1" est l'identifiant du serveur CLIENTXCMS relié à votre Proxmox pour savo
 - Cœurs additionnels
 - swap additionnel
 - sockets additionnel
+- adresse IP additionnel
+- Bande passante
 
 ## Ne pas envoyer des identifiants par mail
 
@@ -139,12 +141,23 @@ Pour ceci, allez  `Espace Administration` > `Modèles d'email` > `Proxmox` en su
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/1046014651831435294/image.png)
 
+## Variables
 
+| Variable          | Aide                   |
+|-------------------|------------------------|
+| %owner_email%     | Adresse E-mail         |
+| %owner_username%  | Nom + prénom du client |
+| %owner_firstname% | Prénom du client       |
+| %owner_lastname%  | Nom du client          |
+| %hostname%        | Nom d'hote             |
+| %osid%            | ID de l'os             |
+| %templateid%      | ID de la template      |
+| %rootpass%      | Mot de passe root      |
 ## Template KVM
 
 Nous vous mettons a disposition gratuitement des template pour VPS KVM de Debian 10 et 11 ainsi que Ubuntu 22.04 et 20.04.
 Pour installer ces templates vous allez avoir besoin de suivre quelques étapes.
-Pour commencer, il faut télécharger le Zip les contenant:
+Pour commencer, il faut télécharger le Zip les contenant :
 ```
 wget --user-agent="download" https://clientxcms.com/ref/template-kvm-proxmox 
 ```

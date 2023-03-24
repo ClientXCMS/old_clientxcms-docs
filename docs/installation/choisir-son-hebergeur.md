@@ -9,14 +9,9 @@ Ces hébergeurs certifient qu'il est possible d'installer ClientXCMS sur leurs H
 
 ### Liste des hébergeurs compatibles certifiée
 
-- [HolyCloud](https://holycloud.fr)*
-- [UniHeberg](https://uniheberg.fr)
 - [SeaPerf](https://seaperf.com)
-- [Green-Heberg](https://green-heberg.fr/)
-- [RW-Hosting](https://rw-hosting.fr)
+- [CTXHosting](https://ctxhosting.fr)
 - [Cloudfive.fr](https://cloudfive.fr/)
-
-* **Hébergeur de référence**
 
 ### Etre ajouter à cette liste d'hébergeur compatible
 
