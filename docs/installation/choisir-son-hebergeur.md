@@ -12,6 +12,7 @@ Ces hébergeurs certifient qu'il est possible d'installer ClientXCMS sur leurs H
 - [SeaPerf](https://seaperf.com)
 - [CTXHosting](https://ctxhosting.fr)
 - [Cloudfive.fr](https://cloudfive.fr/)
+- [byh.fr](https://byh.fr/)
 
 ### Etre ajouter à cette liste d'hébergeur compatible
 

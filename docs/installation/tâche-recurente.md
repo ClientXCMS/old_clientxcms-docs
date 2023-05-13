@@ -37,9 +37,9 @@ Avec cette ligne, les tâches s'effectueront toutes les minutes. Mais, vous pouv
 - Sélectionnez le type de tâche "Execute un script PHP"
 - Choisissez-le fichiez `/Cron/index.php` (aucun argument n'est requis)
 - Utilisez la version de php 8.1 (attention cela peut poser des problèmes si la version est inférieure)
-- Dans "Run", sélectionnez `Cron style` et `*/1 * * * *`
+- Dans "Run", sélectionnez `Cron style` et `* * * * *`
 
-![img](https://media.discordapp.net/attachments/598633976768364544/860287152838672394/unknown.png)
+![img](https://media.discordapp.net/attachments/475073153509490689/1097590491660419083/image.png)
 
 :::info **remarque**
 
