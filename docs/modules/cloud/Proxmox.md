@@ -208,3 +208,31 @@ Pour cela, il faut allez dans `Datacenter` > `Storage` > `local` et ajouter dans
 
 <br/>
 Voilà vous venez d'installer les templates sur votre proxmox.
+
+## Gestion de la bande passante
+
+Vous pouvez désormais gérer pour chaque produits que vous avez créer, la bande passante qui lui sera allouée en fonction de plusieurs critères.
+
+De base, la bande passante est configurable selon vos envies. Si vous souhaitez allouer plus de bande passante, voici un tableau que pouvez vous servir:
+
+| Vitesse (Mbps) | Vitesse (GB/s)
+| :------------: | :------------:
+|      125       |      1GB/s     |
+|      375       |      3GB/s     |
+|      750       |      6GB/s     |
+|      1250      |     10GB/s     |
+
+Pour calculer un autre montant en GB/s, faîtes simplement le calcul suivant: (X étant le montant en GB/s en vous voulez) `X * 125`
+
+![M](https://cdn.discordapp.com/attachments/1029831757102596246/1118854969043468318/image.png)
+
+Par exemple, dans la case "Valeur minimum (GB/s)" vous allez indiquer 1.
+
+Dans la case "Step", vous laissez 1.
+
+Puis dans "Valeur maximum (GB/s)" vous allez indiquer 6.
+
+Le prix unitaire lui, sera le montant que coûtera 1mb/s (ce qui signifie que si le client souhaite 750mb/s supplémentaire, ça lui coûtera 750 * le montant que vous indiquez dans la case)
+
+Imaginons que le client souhaite prendre 750mbps supplémentaire (soit 6GB/s), et que le prix est fixé à 3,99€ unité, le calcul sera donc 6 * 3,99. (soit 23,94€)
+
