@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Livraison de service
 
-La fonctionnalité de livraison de service dans ClientXCMS permet d'exécuter des tâches planifiées configurables, appelées CronJobs, utilisant PHP et des événements. Ces tâches planifiées sont utilisées pour effectuer diverses actions, notamment la livraison des services.
+La fonctionnalité de livraison de service dans ClientXCMS permet d'exécuter des [tâches planifiées](https://docs.clientxcms.com/docs/installation/tâche-recurente) configurables, appelées CronJobs, utilisant PHP et des événements. Ces tâches planifiées sont utilisées pour effectuer diverses actions, notamment la livraison des services.
 
 ## Logs des tâches récurantes (dont les logs de livraison)
 1. Accédez à l'espace d'administration de ClientXCMS.
