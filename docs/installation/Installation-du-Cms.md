@@ -85,7 +85,7 @@ Vous pouvez installer ClientXCMS sur votre site internet en utilisant LXC. Voici
 Copiez le code ci-dessous et collez-le sur votre console LXC.
 
 ```bash
-curl https://cdn.clientxcms.com/ressources/script/install-lxc.sh -O && chmod +x install.sh && ./install.sh
+curl https://cdn.clientxcms.com/ressources/script/install-lxc.sh -O && chmod +x install-lxc.sh && ./install-lxc.sh
 ```
 
 Il vous est demandé de suivre respectivement tout ce qui est indiqué sur le script, c'est à dire:
