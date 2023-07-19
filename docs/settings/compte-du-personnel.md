@@ -34,8 +34,8 @@ Le personnel ne pourra plus s'authentifier au compte personnel.
 :::info
 Vous pouvez retrouver vos identifiants dans le fichier .env de votre installation
 :::
-- Générez un mot de passe depuis [https://www.motdepasse.fr/](https://www.motdepasse.fr/)
+- Générez un mot de passe depuis [https://www.motdepasse.xyz](https://www.motdepasse.xyz/)
 
-- Générez le hash du mot de passe depuis [https://www.bcrypt.fr/](https://www.bcrypt.fr/)https://www.bcrypt.fr/
+- Générez le hash du mot de passe depuis [https://www.bcrypt.fr](https://www.bcrypt.fr/)
 - Executez cette requête SQL pour modifier le mot de passe `UPDATE admins SET password = 'HashDuMotdepass'`
 ### Depuis l'email
