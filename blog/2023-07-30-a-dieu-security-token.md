@@ -26,10 +26,10 @@ Qu'est-ce que cela signifie pour vous ?
 Grâce à OAuth2, la synchronisation des modules et des thèmes entre vos différents sites web devient plus fluide et sécurisée.
 
 **Comment profiter de la synchronisation via OAuth2 ?**
-
+![Etape 1](https://media.discordapp.net/attachments/475073153509490689/1135136801137377330/image.png?width=1766&height=1008)
 1. Connectez-vous à votre compte CLIENTXCMS.
 2. Accédez à votre "Espace Licence" et cherchez la section dédiée à OAuth2.
-3. Vous y trouverez vos identifiants OAuth2 voici un exempl :
+3. Vous y trouverez vos identifiants OAuth2 voici un exemple :
    - **Client ID :** 6267874835637
    - **Client Secret :** v1ejuvj1ruhupstkdlguersbfqaul7yc4kfemk4ysl1rmmz0ha51vo42osf9pl0a8xbkiisbewbsfsaonskhagkmsu1jlrb6pggnsrts8lkvfp8z6bypbgvfpmylcdk3
 ![Etape 1](/img/tutorial/step3.png)
