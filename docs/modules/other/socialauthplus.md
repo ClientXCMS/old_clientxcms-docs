@@ -22,7 +22,9 @@ Pour activer le module SocialAuth+ gratuitement, procédez comme suit :
 
 ## Configuration des identifiants OAuth sur ClientXCMS
 
-Une fois le module SocialAuth+ téléchargé, installé et activé depuis la page "Modules" de votre espace d'administration ClientXCMS, allez dans l'onglet ![Image: SocialAuth+ Onglet](https://media.discordapp.net/attachments/693203267009904680/1135683397881172018/image.png?width=141&height=35) de votre espace admin.
+Une fois le module SocialAuth+ téléchargé, installé et activé depuis la page "Modules" de votre espace d'administration ClientXCMS, allez dans l'onglet de votre espace admin.
+
+![Image: SocialAuth+ Onglet](https://media.discordapp.net/attachments/693203267009904680/1135683397881172018/image.png?width=141&height=35)
 
 Sur cette page, vous pourrez gérer les différentes méthodes d'authentification en fonction des plateformes que vous souhaitez intégrer. Pour en configurer une, cliquez sur le bouton "Configurer" en dessous du logo de la plateforme ou sur l'écrou violet de réglage en haut.
 ![Image: SocialAuth+ Config](https://media.discordapp.net/attachments/693203267009904680/1135685185757790270/image.png?width=1439&height=647)
