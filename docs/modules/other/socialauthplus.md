@@ -14,7 +14,7 @@ Le module **SocialAuth+** est disponible __gratuitement__, et activable depuis l
 ## Activation du module
 
 Pour activer le module SocialAuth+ gratuitement, procédez comme suit :
-
+github.com/ClientXCMS/clientxcms-docs/edit/master/docs/modules/other/socialauthplus.md
 1. Connectez-vous à l'espace d'administration de ClientXCMS.
 2. Accédez à la page "Modules" dans le menu principal.
 3. Recherchez le module "SocialAuth+" dans la liste des modules disponibles.
@@ -101,6 +101,7 @@ Sélectionnez toutes les champs et cliquez sur le bouton bleu en dessous "**Mett
 ![Image : Discord Config - Créer l'Application](https://media.discordapp.net/attachments/693203267009904680/1135723504730386442/image.png?width=491&height=407)
 
 **4.** Rendez vous dans la section "**OAuth2**" dans le menu de navigation à gauche.
+
 ![Image : Discord Config - Menu Navigation "OAuth2"](https://media.discordapp.net/attachments/693203267009904680/1135724516279074917/image.png?width=376&height=625)
 ![Image : Discord Config - Interface OAuth2"](https://media.discordapp.net/attachments/693203267009904680/1135725465315856496/image.png?width=1439&height=541)
 
@@ -135,6 +136,7 @@ Sélectionnez toutes les champs et cliquez sur le bouton bleu en dessous "**Mett
 ![Image : GitHub Config - Redirect URI GitHub](https://media.discordapp.net/attachments/693203267009904680/1135732270792196156/image.png?width=825&height=396)
 
 **7.** Encore en dessous, décocher la case "Active" de la section "**Webhook**", car dans pour notre utilisation, nous n'en aurons pas besoin. En décochant cette case, le champs "**Webhook URL**" deviendra optionnel et non obligatoire. Egalement pour la section "**Permissions**", il sera inutile d'accorder des permissions, GitHub met déjà a disposition toutes les informations que ClientXCMS a besoin afin de créer le compte ou de se connecter, ajouter des privilièges requis pour votre application peut repousser certains utilisateurs à s'inscire sur votre site.
+
 ![Image : GitHub Config - Désactiver Webhook et autres paramètres](https://media.discordapp.net/attachments/693203267009904680/1135733062412542012/image.png?width=790&height=531)
 ![Image : GitHub Config - Permissions](https://media.discordapp.net/attachments/693203267009904680/1135738219015700620/image.png?width=790&height=465)
 
@@ -184,6 +186,7 @@ Dans le petit menu déroulant du bouton "**Configurer**", sélectionnez "**Param
 Vous disposerez ensuite des clés "Client ID" et "Client Secret" pour votre application que vous devrez spécifier dans la [configuration OAuth de la plateforme](#exemple-de-configuration-oauth2) sur ClientXCMS.
 
 **10.** Publiez l'application afin de la rendre publique : Dans le menu du panneau de gestion de l'application Facebook, dans la catégorie "**Publier**" cliquez sur le bouton "**Lancer en direct**" pour lancer l'application OAuth2 en mode production afin qu'elle puisse être utilisée par vos utilisateurs.
+
 ![Image : Facebook Config - Publier l'application](https://media.discordapp.net/attachments/693203267009904680/1135755755165851758/image.png?width=237&height=671)
 
 
