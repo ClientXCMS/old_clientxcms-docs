@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# ![Image: Logo SocialAuth+](https://media.discordapp.net/attachments/693203267009904680/1135682274000654438/SocialAuthPlus_Module_ClientXCMS-FreezModLogo.png?width=40&height=40) SocialAuth+
+# SocialAuth+
 
 Le module SocialAuth+ permet de faciliter les connexions avec OAuth2 pour les plateformes suivantes : [Google](#google), [Discord](#discord), [GitHub](#github) et [Facebook](#facebook).
 > Facilitez l'accès à votre plateforme pour vos clients potentiels avec SocialAuth+. Cette solution utilise la technologie OAuth+ pour une connexion rapide et sécurisée. Vos utilisateurs peuvent s'inscrire et se connecter en un clic via leurs comptes, sans craindre de perdre leur mot de passe. Simplifiez leur expérience utilisateur et augmentez votre taux de conversion grâce à ce module d'authentification avancé.
