@@ -8,9 +8,10 @@ Proxmox est un panel très répandu pour gérer des machines virtuel très rapid
 :::info Modules
 Pour utiliser les fonctionnalités suivantes, il faut que le module Proxmox soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../)
 :::
-| Création 	| Suspension 	| Expiration 	| Unsuspend 	| Importation 	| Options 	|
-|----------	|------------	|------------	|-----------	|-------------	|---------	|
-|     ✅    	|      ✅     	|      ✅     	|     ✅     	|      ✅      	|    ✅    	|
+
+| Création 	| Suspension 	| Expiration 	| Unsuspend 	| Importation 	| Options 	|  Amélioration 	|
+|----------	|------------	|------------	|-----------	|-------------	|---------	|---------	|
+|     ✅    	|      ✅     	|      ✅     	|     ✅     	|      ✅      	|    ✅    	|   ✅    	|
 
 ## Support
 - LXC

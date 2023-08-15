@@ -6,9 +6,9 @@ sidebar_position: 2
 
 Le module Plesk permet de fournir des offres Plesk à vos clients. Le module supporte les revendeurs web et hébergement simple. Il fonctionne avec les plans Plesk qui facilite grandement sa configuration puisqu'il suffit de lié un produit à un plan Plesk.
 
-| Création 	| Suspension 	| Expiration 	| Unsuspend 	| Importation 	| Options 	|
-|----------	|------------	|------------	|-----------	|-------------	|---------	|
-|     ✅    	|      ✅     	|      ✅     	|     ✅     	|      ✅      	|    ✅    	|
+| Création 	| Suspension 	| Expiration 	| Unsuspend 	| Importation 	| Options 	|  Amélioration 	|
+|----------	|------------	|------------	|-----------	|-------------	|---------	|---------	|
+|     ✅    	|      ✅     	|      ✅     	|     ✅     	|      ✅      	|    ✅    	|   ✅    	|
 
 :::success À savoir
 Ce module est compatible avec les versions 11, 11.5, 12, 12.5, Onyx, et Obsidian de Plesk.

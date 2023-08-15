@@ -6,10 +6,10 @@ sidebar_position: 1
 Pterodactyl est un panel très répandu pour gérer des serveurs de jeux très rapidement et simplement. Ce module permet de créer les services de vos clients avec les performances choisis.
 Il permet de proposer tous les types d'œuf Pterodactyl possible à la vente.
 
-| Création 	| Suspension 	| Expiration 	| Unsuspend 	| Importation 	| Options 	|
-|----------	|------------	|------------	|-----------	|-------------	|---------	|
-|     ✅    	|      ✅     	|      ✅     	|     ✅     	|      ✅      	|    ✅    	|
 
+| Création 	| Suspension 	| Expiration 	| Unsuspend 	| Importation 	| Options 	|  Amélioration 	|
+|----------	|------------	|------------	|-----------	|-------------	|---------	|---------	|
+|     ✅    	|      ✅     	|      ✅     	|     ✅     	|      ✅      	|    ✅    	|   ✅    	|
 
 :::warning Attention
 Les versions 0.7 de Pterodactyl sont dépréciées et donc plus supportés sur ce module.
