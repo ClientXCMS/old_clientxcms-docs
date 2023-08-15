@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Traductions
 ## Traduire dans une vues
 Pour traduire dans une vue, vous pouvez utiliser le filtre et la fonction `trans` avec en premier paramètre la clé de la traduction et en second paramètres les variables qui peuvent être donner 

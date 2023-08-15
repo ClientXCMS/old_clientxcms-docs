@@ -48,7 +48,15 @@ Vous pouvez voir la liste de vos configurations Wisp depuis `Espace Administrati
 
 ![img](https://media.discordapp.net/attachments/1033467001244495882/1033474760727867423/unknown.png)
 Vous pouvez modifier directement la configuration d'un produit dans la colonne "Actions" en cliquant sur le bouton bleu.
+## Migration depuis le module pterodactyl
+:::info
+La migration est possible une fois que les eggs/nests ont étaient migrées sur votre panel WISP depuis leur propre outils de migration.
+:::
+CLIENTXCMS permet la migration des configurations produits, il suffit d'importer depuis la liste des configurations `Espace Administration` > `Utilisateurs` > `Wisp` en appuyant sur le bouton "Migrer" en haut à droite il vous affichera vos configurations du modules pterodactyl déjà existante.
+Il vous suffira de chosir la nouvelle location WISP et de valider, il changera les types de produits et migrera les configurations en un clique.
 
+
+![img](https://media.discordapp.net/attachments/842821920901693531/1088946643837132890/image.png)
 ## Configuration de l'offre
 ![img](https://media.discordapp.net/attachments/1033467001244495882/1033474444284403743/unknown.png)
 - **Mémoire (MB)**: Mémoire du serveur
@@ -107,7 +115,7 @@ Le serveur est désormais gérable depuis CLIENTXCMS.
 
 Pour plus d'informations sur l'importation d'un service [cliquez ici](../../store/services#importation-de-service)
 ## Panel de gestion
-![img](https://media.discordapp.net/attachments/1033467001244495882/1033475662826197002/unknown.png)
+![img](https://media.discordapp.net/attachments/475073153509490689/1089577952502611978/wisp_a_modifier.png)
 ### Erreurs/Problèmes connus
 
 #### Code HTTP 200

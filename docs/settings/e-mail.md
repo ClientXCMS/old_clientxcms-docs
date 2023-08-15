@@ -24,7 +24,7 @@ Pour le Greeting et les Salutations il est possible d'utiliser les informations 
 
 {{ current_user().lastname }} Nom de famille de l'utilisateur
 ```
-[Plus d'informations ici](../developpers/variables)
+[Plus d'informations ici](../developpers/modules/Utilitaire/Emails/variables.md)
 
 ## Gestion d'envoi d'email
 Vous pouvez gérer l'envoie de vos emails depuis votre `Espace Administration` > `Envoi d'email` disponible depuis le menu de navigation.
@@ -36,7 +36,7 @@ Le second bouton permet de visionner dans un nouvel onglet le contenu de l'email
 Vous pouvez directement envoyer un message personnalisé à un/des client(s) en particulier
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/957067741293072384/unknown.png)
-Vous pouvez utiliser des variables avec les informations de l'utilisateur. [Plus d'informations ici](../developpers/variables)
+Vous pouvez utiliser des variables avec les informations de l'utilisateur. [Plus d'informations ici](../developpers/modules/Utilitaire/Emails/variables.md)
 
 ### Envoi d'email de masses
 Vous pouvez envoyer des emails personnalisés pour chaque utilisateur inscrit. Pour ceci, Sélectionnez "Envoyez à tous les clients". ClientXCMS s'occupera d'envoyer un email à chaque client.

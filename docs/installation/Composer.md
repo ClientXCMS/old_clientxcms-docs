@@ -71,3 +71,7 @@ N'oubliez pas d'adapter la commande à votre version de php : si vous utilisez p
 
 Avant chaque commande COMPOSER ajoutez ```/usr/bin/php8.1-cli``` suivi d'un espace devant chaque commande (*adaptez la version de php*)
 
+
+## Installation de composer sur cPanel
+
+

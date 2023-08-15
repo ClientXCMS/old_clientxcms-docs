@@ -5,7 +5,7 @@ sidebar_position: 6
 # Modèles d'e-mail
 
 **ClientXCMS** permet de modifier le contenu des messages des e-mail comme bon vous semble. Pour le faire, allez dans `Espace Administration` > `Système` >`Modèles d'emails`.
-Vous retrouverez tous les modèles disponibles et donc modifiable. Des variables sont mises à disposition plus d'information [ici](../developpers/variables)
+Vous retrouverez tous les modèles disponibles et donc modifiable. Des variables sont mises à disposition plus d'information [ici](../developpers/modules/Utilitaire/Emails/variables.md)
 ![img](https://media.discordapp.net/attachments/475073153509490689/957083543442427934/unknown.png)
 
 

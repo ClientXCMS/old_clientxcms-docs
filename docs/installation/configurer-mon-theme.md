@@ -13,7 +13,7 @@ ClientXCMS propose par défaut des thèmes payant pour tous déjà préconçu po
 Après avoir installé le thème, vous devez migrer la base de données
 ## Page d'accueil
 ### Sections
-Pour modifier les différentes sections de la page d'accueil allez dans `Themes` > `Sections`
+Pour modifier les différentes sections ou créer des sections de la page d'accueil allez dans `Themes` > `Sections`
 ![img](https://clientxcms.com/Themes/CLIENTXCMS/images/CLIENTXCMS/larium/Larium_sections.png)
 Vous pourrez choisir sur quelle URL la section va être affiché et avec quel contenu HTML (/ permet de la mettre sur la page d'accueil)
 
@@ -24,7 +24,7 @@ Vous pouvez mettre comme URL /store/mongroupe pour ajouter une section à cette 
 Certaine sections génère automatiquement une FAQ ou un feed pour les annonces.
 :::
 ### Sliders
-Pour modifier les différents sliders de la page d'accueil allez dans `Themes` > `Sliders`
+Pour modifier ou créer les différents sliders de la page d'accueil, allez dans `Themes` > `Sliders`
 
 ![img](https://clientxcms.com/Themes/CLIENTXCMS/images/CLIENTXCMS/larium/Larium_sliders.png)
 

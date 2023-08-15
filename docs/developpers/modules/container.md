@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Container
 L'interface `ContainerInterface` est une interface standard en PHP qui définit les méthodes pour gérer les dépendances et la résolution de classes dans un conteneur d'injection de dépendances. CLIENTXCMS utilise une CLIENTXCMS utilise [PHP-DI](https://php-di.org) comme injecteur de dépendances gérer les dépendances et injecter des instances de classes dans les actions, les services, les modules, etc.
 
