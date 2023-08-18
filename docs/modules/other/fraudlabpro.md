@@ -18,3 +18,6 @@ La clé est récupérable depuis le dashboard de FraudLabs. Il faudra la configu
 Vous pouvez valider les transactions depuis l'espace Administration `Espace Administration` > `FraudLabs`. Le premier bouton permet de valider la transaction, le second permet d'être rediriger vers l'interface FraudLabs et d'avoir plus d'information
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1142032504392536116/image.png?width=1440&height=263)
 ![img](https://media.discordapp.net/attachments/1033142197102592131/1142080313086984212/fraudlab_pro_general.png?width=1096&height=671)
+### Règles
+Vous pouvez personnaliser les règles depuis l'espace FraudLabs Pro dans la section "Rules"
+![img](https://media.discordapp.net/attachments/1033142197102592131/1142100953596702820/image.png?width=720&height=367)
