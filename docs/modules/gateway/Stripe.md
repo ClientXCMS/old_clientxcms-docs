@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ![img](https://api.clientxcms.com/assets/8d147de5-b42f-4f69-aec1-96a50ff89c27)
 
-Le module Stripe permet d'accepter les paiements via Cartes bleues. Il n'est pas très connu aux yeux des clients mais utilité par des millions de site internet à travers le monde.
+Le module Stripe permet d'accepter les paiements via Cartes bleues, Apple Pay, Google Pay, SEPA etc. Il n'est pas très connu aux yeux des clients mais utilité par des millions de site internet à travers le monde.
 
 :::info
 Cette fonctionnalité require le module "Stripe", il est gratuit et disponible au téléchargement depuis la page des modules.
