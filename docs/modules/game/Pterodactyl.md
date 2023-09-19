@@ -91,7 +91,7 @@ Vous pouvez sélectionner plusieurs eggs et vos clients pourront choisir l'œuf 
 
 Pour créer un serveur Pterodactyl dans CLIENTXCMS, rendez-vous sur `Espace Administration` > `Services` > `Tout` > `Nouveau`.
 
-Sélectionnez votre produit Proxmox et l'utilisateur, cochez "**Ajouter service automatiquement**". Puis vous cliquez sur suivant.
+Sélectionnez votre produit Pterodactyl et l'utilisateur, cochez "**Ajouter service automatiquement**". Puis vous cliquez sur suivant.
 Ensuite cliquez sur "Créer".
 
 Pour plus d'informations sur la création manuelle d'un service [cliquez ici](../../store/services#création-de-service)
