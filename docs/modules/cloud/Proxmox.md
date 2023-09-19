@@ -114,6 +114,7 @@ le "1" est l'identifiant du serveur CLIENTXCMS relié à votre Proxmox pour savo
 :::
 :::info
 Veuillez mettre le schéma obligatoirement dans le domaine (https) et le port .fr:8006 si besoins.
+:::
 
 ## Option Supportés
 - Espace disque additionnel
