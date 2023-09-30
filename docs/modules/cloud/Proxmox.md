@@ -159,21 +159,21 @@ wget --user-agent="download" https://clientxcms.com/ref/template-kvm-proxmox
 Ensuite, il faut décompresser l'archive:
 
 ```
-unzip Template-KVM-Proxmox.zip
+tar -xvf Template-KVM.tar.gz
 ```
 <br/>
 
 :::info
-Il faut bien sûr au préalable avoir installé le paquet zip.
+Il faut bien sûr au préalable avoir installé le paquet tar.
 ```
-sudo apt install zip unzip
+sudo apt install tar untar
 ```
 :::
 <br/>
 Ensuite, il faut déplacer les fichiers de configuration des templates:
 
 ```
-mv /Template-KVM-Proxmox/config-file/* /etc/pve/qemu-server/
+mv /Template-KVM/Config/* /etc/pve/qemu-server/
 ```
 <br/>
 
@@ -188,7 +188,7 @@ Généralement, le dossier est situé ici : `/var/lib/vz`
 
 Maintenant, que l'on a trouvé le dossier, on peut déplacer les disks dans le bon dossier.
 ```
-mv -r /Template-KVM-Proxmox/Disk/* /var/lib/vz/images/
+mv /Template-KVM/Disk/* /var/lib/vz/images/
 ```
 
 <br/>
