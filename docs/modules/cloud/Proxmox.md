@@ -18,10 +18,6 @@ Pour utiliser les fonctionnalités suivantes, il faut que le module Proxmox soit
 - KVM
 - NoVNC
 - xtermjs
-
-:::info Modules
-Pour utiliser les fonctionnalités suivantes, il faut que le module Proxmox soit activé sur votre ClientXCMS. [cliquez ici pour l'activer](../#activation-dun-module)
-:::
 ## Authentification
 Créez un serveur ClientXCMS dans `Espace d'administration ` > `Système` > `Serveurs` > `Nouveau` en sélectionnant le type de serveur en "Proxmox".
 
