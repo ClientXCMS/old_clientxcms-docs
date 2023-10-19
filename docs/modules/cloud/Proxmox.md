@@ -149,7 +149,7 @@ Nous vous mettons a disposition gratuitement des template pour VPS KVM de Debian
 Pour installer ces templates vous allez avoir besoin de suivre quelques étapes.
 Pour commencer, il faut télécharger le Zip les contenant :
 ```
-wget --user-agent="download" https://clientxcms.com/ref/template-kvm-proxmox 
+wget --user-agent="download" https://clientxcms.com/ref/template-kvm-proxmox -O Template-KVM.tar.gz
 ```
 
 Ensuite, il faut décompresser l'archive:
@@ -169,7 +169,7 @@ sudo apt install tar untar
 Ensuite, il faut déplacer les fichiers de configuration des templates:
 
 ```
-mv /Template-KVM/Config/* /etc/pve/qemu-server/
+mv Template-KVM/Config/* /etc/pve/qemu-server/
 ```
 <br/>
 
@@ -184,7 +184,7 @@ Généralement, le dossier est situé ici : `/var/lib/vz`
 
 Maintenant, que l'on a trouvé le dossier, on peut déplacer les disks dans le bon dossier.
 ```
-mv /Template-KVM/Disk/* /var/lib/vz/images/
+mv Template-KVM/Disk/* /var/lib/vz/images/
 ```
 
 <br/>
