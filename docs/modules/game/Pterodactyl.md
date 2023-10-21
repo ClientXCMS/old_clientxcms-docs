@@ -78,7 +78,7 @@ Vous pouvez sélectionner plusieurs eggs et vos clients pourront choisir l'œuf 
 
 ### Variables disponibles 
 
-| Variables     | Description        |
+| Variables         | Description                   |
 |-------------------|-------------------------------|
 | %owner_email%     | Email de l'utilisateur        |
 | %owner_username%  | Nom + Prénom de l'utilisateur |
@@ -86,6 +86,7 @@ Vous pouvez sélectionner plusieurs eggs et vos clients pourront choisir l'œuf 
 | %owner_lastname%  | Nom de l'utilisateur          |
 | %product_name%    | Nom du produit                |
 | %order_id%        | Id de la commande             |
+| %service_id%      | Id du service                 |
 
 ## Création manuellement
 

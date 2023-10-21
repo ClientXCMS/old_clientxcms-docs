@@ -189,5 +189,11 @@ Vous disposerez ensuite des clés "Client ID" et "Client Secret" pour votre appl
 
 ![Image : Facebook Config - Publier l'application](https://media.discordapp.net/attachments/693203267009904680/1135755755165851758/image.png?width=237&height=671)
 
+## Problème Erreur 403
+
+Pour régler ce problème, rendez vous sur votre panel de gestion Plesk, puis Web Application Firewall. Dans le mode du pare-feu changez en "Detection only". Il devrait être initialement à "On".
+![img](https://media.discordapp.net/attachments/926274245225504779/1165298446748635347/image.png)
+Re testez la connexion via google.
+
 
 **Félicitations 👏** ! Vous avez maintenant configuré le module SocialAuth+ avec les clés d'authentification OAuth2. Vos clients pourront désormais se connecter et s'incrire plus facilement, plus rapidement et en toute sécurité sur votre espace client !
