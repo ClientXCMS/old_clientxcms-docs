@@ -123,7 +123,7 @@ Veuillez mettre le schéma obligatoirement dans le domaine (https) et le port .f
 
 ## Ne pas envoyer des identifiants par mail
 
-Par défault, CLIENTXCMS envoie les identifiants à votre client, mais vous pouvez le faire en modifiant le modèle d'email Proxmox en retirer les variables `%username%` et `%password%`.
+Par défault, CLIENTXCMS envoie les identifiants à votre client, mais vous pouvez le faire en modifiant le modèle d'email Proxmox en retirer les variables `username` et `password`.
 Pour ceci, allez  `Espace Administration` > `Modèles d'email` > `Proxmox` en supprimant ceci : 
 
 ![img](https://media.discordapp.net/attachments/475073153509490689/1046014651831435294/image.png)
@@ -133,16 +133,16 @@ Un message de validation devrait apparaitre comme validation.
 
 ## Variables
 
-| Variable          | Aide                   |
-|-------------------|------------------------|
-| %owner_email%     | Adresse E-mail         |
-| %owner_username%  | Nom + prénom du client |
-| %owner_firstname% | Prénom du client       |
-| %owner_lastname%  | Nom du client          |
-| %hostname%        | Nom d'hote             |
-| %osid%            | ID de l'os             |
-| %templateid%      | ID de la template      |
-| %rootpass%      | Mot de passe root      |
+| Variable              | Aide                   |
+|-----------------------|------------------------|
+| {{ owner_email }}     | Adresse E-mail         |
+| {{ owner_username }}  | Nom + prénom du client |
+| {{ owner_firstname }} | Prénom du client       |
+| {{ owner_lastname }}  | Nom du client          |
+| {{ hostname }}        | Nom d'hote             |
+| {{ osid }}            | ID de l'os             |
+| {{ templateid }}      | ID de la template      |
+| {{ rootpass }}        | Mot de passe root      |
 ## Template KVM
 
 Nous vous mettons a disposition gratuitement des template pour VPS KVM de Debian 10 et 11 ainsi que Ubuntu 22.04 et 20.04.
