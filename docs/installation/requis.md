@@ -5,12 +5,12 @@ sidebar_position: 2
 # Prérequis
 
 Il est possible d'installer ClientXCMS sur la plupart des hébergements web ainsi que sur un VPS ou un dédié linux.
-On peut aussi l'installer sur un serveur Windows, mais cela n'est pas recommander du a des soucis de compatibilité avec lesquels le support technique ne pourrait pas vous aider. 
+On peut aussi l'installer sur un serveur Windows, mais cela n'est pas recommandé dù à des soucis de compatibilité avec lesquels le support technique ne pourrait pas vous aider. 
 
 
 
 ## Prérequis
-| Prérequis      |                  Minium                   |        Recommandé |
+| Prérequis      |                  Minimum                   |        Recommandé |
 |:---------------|:-----------------------------------------:|------------------:|
 | Version PHP    |                    8.1                    |               8.1 |
 | PDO            |                    PDO                    |               PDO |
