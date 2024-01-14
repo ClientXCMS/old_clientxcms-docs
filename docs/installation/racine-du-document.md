@@ -43,10 +43,7 @@ import TabItem from '@theme/TabItem';
 
 Connectez-vous en SSH à votre machine virtuelle et exécutez ces commandes
 ```bash
-cd /etc/nginx/sites-available/manager.example.com.conf
-```
-```bash
-nano manager.example.com.conf
+nano /etc/nginx/sites-available/manager.example.com.conf
 ```
 #### Exemple de fichier de configuration
 ```bash
