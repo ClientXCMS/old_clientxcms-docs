@@ -173,9 +173,9 @@ mv Template-KVM/Config/* /etc/pve/qemu-server/
 ```
 <br/>
 
-Maintenant, que les fichiers de configuration sont bien, ajouter a voter proxmox il faut aussi ajouter les disk.
+Maintenant, que les fichiers de configuration sont bien mis en place, ajoutez à votre Proxmox les disk de ces templates.
 Pour cela, il faut connaître la localisation du dossier local.
-Pour cela, je vous conseille de faire :
+Pour cela, nous vous conseillons de faire la commande :
 ```
 cat /etc/pve/storage.cfg
 ```
