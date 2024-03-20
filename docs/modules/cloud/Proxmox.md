@@ -194,7 +194,7 @@ Pour finir, il faut juste configurer l'espace de stockage pour qu'il accepte les
 
 Pour cela, il faut allez dans `Datacenter` > `Storage` > `local` et ajouter dans `content` `Disk Image`:
 
-![img](https://cdn.discordapp.com/attachments/762642627286794260/1085343241748107304/image.png)
+![img](https://cdn.discordapp.com/attachments/762642627286794260/1085343241748107304/image.png?ex=660c9429&is=65fa1f29&hm=8123464c1b10e6d774ae7f92bbc69b1bf2e4a7cd94b1538eefc05328e504afd6&)
 
 <br/>
 Voilà vous venez d'installer les templates sur votre proxmox.
