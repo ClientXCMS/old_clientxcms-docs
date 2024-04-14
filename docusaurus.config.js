@@ -70,13 +70,13 @@ const config =
           },*/
         ],
     },     
-      announcementBar: {
-        id: 'announcementBar', // Increment on change
-        content: `L'équipe de ClientXCMS tient à vous mettre en garde que cette documentation est toujours en cours d'écriture donc si vous remarquez des problèmes n'hésités pas nous en faire part.`,
-        backgroundColor: '#828eb7',
-        textColor: '#000000',
-        isCloseable: false,
-      },
+    announcementBar: {
+      id: 'announcementBar', // À incrémenter en cas de modification
+      content: `ClientXCMS V1 n'est plus maintenu. Nous travaillons actuellement sur la version V2. Consultez la nouvelle documentation ici : https://new-docs.clientxcms.com`,
+      backgroundColor: '#828eb7',
+      textColor: '#000000',
+      isCloseable: false,
+    },
       footer: {
         style: 'dark',
         links: [
@@ -92,13 +92,13 @@ const config =
                 href: 'https://clientxcms.com/ref/discord',
               },
               {
-                label: 'Twitter',
+                label: '𝕏',
                 href: 'https://twitter.com/ClientXCMS',
               },
             ],
           },
           {
-            title: 'Liens utils',
+            title: 'Liens utiles',
             items: [
               {
                 label: 'Blog',
